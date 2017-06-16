@@ -4225,3 +4225,197 @@
 2017-06-16T21:15:58+0000 [CowrieTelnetTransport,358,109.236.83.229] Warning: state changed and new state returned
 2017-06-16T21:15:58+0000 [CowrieTelnetTransport,358,109.236.83.229] login attempt: 12326
 2017-06-16T21:15:58+0000 [CowrieTelnetTransport,358,109.236.83.229] login return, expect: [root/12345]
+2017-06-16T21:16:01+0000 [CowrieTelnetTransport,358,109.236.83.229] login attempt [shell/sh] failed
+2017-06-16T21:16:01+0000 [CowrieTelnetTransport,358,109.236.83.229] Warning: state changed and new state returned
+2017-06-16T21:16:01+0000 [CowrieTelnetTransport,359,109.236.83.229] login attempt: 12327
+2017-06-16T21:16:01+0000 [CowrieTelnetTransport,359,109.236.83.229] login return, expect: [root/12345]
+2017-06-16T21:16:04+0000 [CowrieTelnetTransport,359,109.236.83.229] login attempt [admin/admin] failed
+2017-06-16T21:16:04+0000 [CowrieTelnetTransport,359,109.236.83.229] Warning: state changed and new state returned
+2017-06-16T21:16:04+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 101.228.184.50:48682 (10.8.41.81:2222) [session: 2ff7c2e2]
+2017-06-16T21:16:04+0000 [CowrieTelnetTransport,346,109.236.83.181] Connection lost after 146 seconds
+2017-06-16T21:16:04+0000 [CowrieTelnetTransport,347,109.236.83.229] Connection lost after 146 seconds
+2017-06-16T21:16:04+0000 [CowrieTelnetTransport,359,109.236.83.229] login attempt: 12328
+2017-06-16T21:16:04+0000 [CowrieTelnetTransport,359,109.236.83.229] login return, expect: [root/12345]
+2017-06-16T21:16:07+0000 [CowrieTelnetTransport,359,109.236.83.229] login attempt [enable/system] failed
+2017-06-16T21:16:07+0000 [CowrieTelnetTransport,359,109.236.83.229] Warning: state changed and new state returned
+2017-06-16T21:16:08+0000 [CowrieTelnetTransport,359,109.236.83.229] login attempt: 12329
+2017-06-16T21:16:08+0000 [CowrieTelnetTransport,359,109.236.83.229] login return, expect: [root/12345]
+2017-06-16T21:16:10+0000 [CowrieTelnetTransport,359,109.236.83.229] login attempt [shell/sh] failed
+2017-06-16T21:16:10+0000 [CowrieTelnetTransport,359,109.236.83.229] Warning: state changed and new state returned
+2017-06-16T21:16:10+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 109.236.83.184:48694 (10.8.41.81:2223) [session: TT360]
+2017-06-16T21:16:10+0000 [CowrieTelnetTransport,356,216.120.247.147] Connection lost after 56 seconds
+2017-06-16T21:16:14+0000 [CowrieTelnetTransport,360,109.236.83.184] login attempt: 4261
+2017-06-16T21:16:14+0000 [CowrieTelnetTransport,360,109.236.83.184] login return, expect: [default/]
+2017-06-16T21:16:17+0000 [CowrieTelnetTransport,360,109.236.83.184] login attempt [root/] failed
+2017-06-16T21:16:17+0000 [CowrieTelnetTransport,360,109.236.83.184] Warning: state changed and new state returned
+2017-06-16T21:16:17+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:40140 (10.8.41.81:2222) [session: 9c1a2b8e]
+2017-06-16T21:16:17+0000 [CowrieTelnetTransport,360,109.236.83.184] login attempt: 4262
+2017-06-16T21:16:17+0000 [CowrieTelnetTransport,360,109.236.83.184] login return, expect: [default/]
+2017-06-16T21:16:20+0000 [CowrieTelnetTransport,360,109.236.83.184] login attempt [enable/system] failed
+2017-06-16T21:16:20+0000 [CowrieTelnetTransport,360,109.236.83.184] Warning: state changed and new state returned
+2017-06-16T21:16:20+0000 [CowrieTelnetTransport,360,109.236.83.184] login attempt: 4263
+2017-06-16T21:16:20+0000 [CowrieTelnetTransport,360,109.236.83.184] login return, expect: [default/]
+2017-06-16T21:16:23+0000 [CowrieTelnetTransport,360,109.236.83.184] login attempt [shell/sh] failed
+2017-06-16T21:16:23+0000 [CowrieTelnetTransport,360,109.236.83.184] Warning: state changed and new state returned
+2017-06-16T21:16:23+0000 [HoneyPotSSHTransport,395,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T21:16:23+0000 [HoneyPotSSHTransport,395,113.195.145.52] connection lost
+2017-06-16T21:16:23+0000 [HoneyPotSSHTransport,395,113.195.145.52] Connection lost after 6 seconds
+2017-06-16T21:16:23+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 109.236.83.181:55325 (10.8.41.81:2223) [session: TT361]
+2017-06-16T21:16:23+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 95.191.143.100:46803 (10.8.41.81:2223) [session: TT362]
+2017-06-16T21:16:24+0000 [CowrieTelnetTransport,362,95.191.143.100] first time for 95.191.143.100, need: 1
+2017-06-16T21:16:24+0000 [CowrieTelnetTransport,362,95.191.143.100] login attempt: 1
+2017-06-16T21:16:26+0000 [CowrieTelnetTransport,362,95.191.143.100] login attempt [root/admin] succeeded
+2017-06-16T21:16:28+0000 [CowrieTelnetTransport,362,95.191.143.100] Opening TTY Log: log/tty/20170616-211628-None-362i.log
+2017-06-16T21:16:28+0000 [CowrieTelnetTransport,362,95.191.143.100] Warning: state changed and new state returned
+2017-06-16T21:16:28+0000 [CowrieTelnetTransport,349,109.236.83.181] Connection lost after 146 seconds
+2017-06-16T21:16:28+0000 [CowrieTelnetTransport,362,95.191.143.100] CMD: enable
+2017-06-16T21:16:28+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: enable 
+2017-06-16T21:16:28+0000 [CowrieTelnetTransport,362,95.191.143.100] Reading txtcmd from "txtcmds/bin/enable"
+2017-06-16T21:16:28+0000 [CowrieTelnetTransport,362,95.191.143.100] CMD: system
+2017-06-16T21:16:28+0000 [CowrieTelnetTransport,362,95.191.143.100] Command not found: system
+2017-06-16T21:16:28+0000 [CowrieTelnetTransport,362,95.191.143.100] CMD: shell
+2017-06-16T21:16:28+0000 [CowrieTelnetTransport,362,95.191.143.100] Command not found: shell
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] CMD: sh
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: sh 
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: /bin/busybox wget
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: wget
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: /bin/busybox 81c46036wget
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: echo -ne '\x0181c46036\x7f'
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: /bin/busybox printf '\00281c46036\177'
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command not found: /usr/bin/printf '\00481c46036\177'
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: /bin/busybox tftp
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: tftp
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: /bin/busybox 81c46036tftp
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] CMD:  /bin/busybox dd if=/bin/busybox bs=22 count=1 || /bin/busybox cat /bin/busybox
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: /bin/busybox dd if=/bin/busybox bs=22 count=1
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: /bin/busybox cat /bin/busybox
+2017-06-16T21:16:29+0000 [CowrieTelnetTransport,362,95.191.143.100] Command found: cat /bin/busybox
+2017-06-16T21:16:29+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 109.236.83.181:50342 (10.8.41.81:2223) [session: TT363]
+2017-06-16T21:16:31+0000 [CowrieTelnetTransport,361,109.236.83.181] login attempt: 18937
+2017-06-16T21:16:31+0000 [CowrieTelnetTransport,361,109.236.83.181] login return, expect: [default/]
+2017-06-16T21:16:33+0000 [CowrieTelnetTransport,361,109.236.83.181] login attempt [admin/] failed
+2017-06-16T21:16:33+0000 [CowrieTelnetTransport,361,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T21:16:33+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 38.99.254.248:58445 (10.8.41.81:2223) [session: TT364]
+2017-06-16T21:16:34+0000 [CowrieTelnetTransport,364,38.99.254.248] login attempt: 783
+2017-06-16T21:16:34+0000 [CowrieTelnetTransport,364,38.99.254.248] login return, expect: [GET http://check2.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T21:16:36+0000 [CowrieTelnetTransport,364,38.99.254.248] login attempt [GET http://check2.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8] succeeded
+2017-06-16T21:16:38+0000 [CowrieTelnetTransport,364,38.99.254.248] Opening TTY Log: log/tty/20170616-211638-None-364i.log
+2017-06-16T21:16:38+0000 [CowrieTelnetTransport,364,38.99.254.248] Warning: state changed and new state returned
+2017-06-16T21:16:38+0000 [CowrieTelnetTransport,364,38.99.254.248] CMD: Connection: Close
+2017-06-16T21:16:38+0000 [CowrieTelnetTransport,364,38.99.254.248] Command not found: Connection: Close
+2017-06-16T21:16:38+0000 [CowrieTelnetTransport,364,38.99.254.248] CMD: User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0
+2017-06-16T21:16:38+0000 [CowrieTelnetTransport,364,38.99.254.248] Command not found: User-Agent: Mozilla/5.0 Windows NT 10.0
+2017-06-16T21:16:38+0000 [CowrieTelnetTransport,364,38.99.254.248] Command not found: WOW64
+2017-06-16T21:16:38+0000 [CowrieTelnetTransport,364,38.99.254.248] Command not found: rv:45.0 Gecko/20100101 Firefox/45.0
+2017-06-16T21:16:38+0000 [CowrieTelnetTransport,364,38.99.254.248] CMD: Accept-Language: en-US,en;q=0.5
+2017-06-16T21:16:38+0000 [CowrieTelnetTransport,364,38.99.254.248] Command not found: Accept-Language: en-US , en
+2017-06-16T21:16:38+0000 [CowrieTelnetTransport,364,38.99.254.248] Unhandled Error
+	Traceback (most recent call last):
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/python/log.py", line 103, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/python/log.py", line 86, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/python/context.py", line 122, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/python/context.py", line 85, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/internet/posixbase.py", line 597, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/internet/tcp.py", line 208, in doRead
+	    return self._dataReceived(data)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/internet/tcp.py", line 214, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/conch/telnet.py", line 636, in dataReceived
+	    self.applicationDataReceived(b''.join(appDataBuffer))
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/conch/telnet.py", line 988, in applicationDataReceived
+	    self.protocol.dataReceived(data)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/protocols/basic.py", line 571, in dataReceived
+	    why = self.lineReceived(line)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/conch/telnet.py", line 1100, in lineReceived
+	    newState = getattr(self, "telnet_" + oldState)(line)
+	  File "/home/cowrie/cowrie/cowrie/telnet/transport.py", line 142, in telnet_Command
+	    self.transport.protocol.dataReceived(command+'\r')
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/conch/telnet.py", line 1035, in dataReceived
+	    self.protocol.dataReceived(data)
+	  File "/home/cowrie/cowrie/cowrie/insults/insults.py", line 112, in dataReceived
+	    insults.ServerProtocol.dataReceived(self, data)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/conch/insults/insults.py", line 537, in dataReceived
+	    self.terminalProtocol.keystrokeReceived(ch, None)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/conch/recvline.py", line 225, in keystrokeReceived
+	    m()
+	  File "/home/cowrie/cowrie/cowrie/core/protocol.py", line 353, in handle_RETURN
+	    return recvline.RecvLine.handle_RETURN(self)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/conch/recvline.py", line 292, in handle_RETURN
+	    self.lineReceived(line)
+	  File "/home/cowrie/cowrie/cowrie/core/protocol.py", line 187, in lineReceived
+	    self.cmdstack[-1].lineReceived(line)
+	  File "/home/cowrie/cowrie/cowrie/core/honeypot.py", line 246, in lineReceived
+	    self.runCommand()
+	  File "/home/cowrie/cowrie/cowrie/core/honeypot.py", line 351, in runCommand
+	    runOrPrompt()
+	  File "/home/cowrie/cowrie/cowrie/core/honeypot.py", line 257, in runOrPrompt
+	    self.runCommand()
+	  File "/home/cowrie/cowrie/cowrie/core/honeypot.py", line 307, in runCommand
+	    if not cmd['command']:
+	exceptions.KeyError: 'command'
+	
+2017-06-16T21:16:38+0000 [CowrieTelnetTransport,364,38.99.254.248] Closing TTY Log: log/tty/20170616-211638-None-364i.log after 0 seconds
+2017-06-16T21:16:38+0000 [CowrieTelnetTransport,364,38.99.254.248] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <type 'exceptions.KeyError'>: 'command'
+	]
+2017-06-16T21:16:38+0000 [CowrieTelnetTransport,364,38.99.254.248] Connection lost after 5 seconds
+2017-06-16T21:16:39+0000 [CowrieTelnetTransport,361,109.236.83.181] login attempt: 18938
+2017-06-16T21:16:39+0000 [CowrieTelnetTransport,361,109.236.83.181] login return, expect: [default/]
+2017-06-16T21:16:41+0000 [CowrieTelnetTransport,361,109.236.83.181] login attempt [enable/system] failed
+2017-06-16T21:16:41+0000 [CowrieTelnetTransport,361,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T21:16:42+0000 [CowrieTelnetTransport,361,109.236.83.181] login attempt: 18939
+2017-06-16T21:16:42+0000 [CowrieTelnetTransport,361,109.236.83.181] login return, expect: [default/]
+2017-06-16T21:16:44+0000 [CowrieTelnetTransport,361,109.236.83.181] login attempt [shell/sh] failed
+2017-06-16T21:16:44+0000 [CowrieTelnetTransport,361,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T21:16:45+0000 [CowrieTelnetTransport,363,109.236.83.181] login attempt: 18940
+2017-06-16T21:16:45+0000 [CowrieTelnetTransport,363,109.236.83.181] login return, expect: [default/]
+2017-06-16T21:16:48+0000 [CowrieTelnetTransport,363,109.236.83.181] login attempt [root/vizxv] failed
+2017-06-16T21:16:48+0000 [CowrieTelnetTransport,363,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T21:16:48+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:31047 (10.8.41.81:2222) [session: 931c577c]
+2017-06-16T21:16:48+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 129.146.31.194:52170 (10.8.41.81:2222) [session: 8637b63d]
+2017-06-16T21:16:48+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:54580 (10.8.41.81:2222) [session: 56f3f6f2]
+2017-06-16T21:16:48+0000 [HoneyPotSSHTransport,394,101.228.184.50] Remote SSH version: SSH-2.0-libssh2_1.8.1-20170115
+2017-06-16T21:16:48+0000 [HoneyPotSSHTransport,394,101.228.184.50] kex alg, key alg: 'diffie-hellman-group-exchange-sha256' 'ssh-rsa'
+2017-06-16T21:16:48+0000 [HoneyPotSSHTransport,394,101.228.184.50] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T21:16:48+0000 [HoneyPotSSHTransport,394,101.228.184.50] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T21:16:48+0000 [CowrieTelnetTransport,351,109.236.83.181] Connection lost after 140 seconds
+2017-06-16T21:16:48+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 39.155.185.68:34317 (10.8.41.81:2223) [session: TT365]
+2017-06-16T21:16:48+0000 [HoneyPotSSHTransport,396,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T21:16:48+0000 [HoneyPotSSHTransport,396,113.195.145.52] connection lost
+2017-06-16T21:16:48+0000 [HoneyPotSSHTransport,396,113.195.145.52] Connection lost after 0 seconds
+2017-06-16T21:16:48+0000 [CowrieTelnetTransport,363,109.236.83.181] login attempt: 18941
+2017-06-16T21:16:48+0000 [CowrieTelnetTransport,363,109.236.83.181] login return, expect: [default/]
+2017-06-16T21:16:51+0000 [CowrieTelnetTransport,363,109.236.83.181] login attempt [enable/system] failed
+2017-06-16T21:16:51+0000 [CowrieTelnetTransport,363,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T21:16:51+0000 [CowrieTelnetTransport,363,109.236.83.181] login attempt: 18942
+2017-06-16T21:16:51+0000 [CowrieTelnetTransport,363,109.236.83.181] login return, expect: [default/]
+2017-06-16T21:16:54+0000 [CowrieTelnetTransport,363,109.236.83.181] login attempt [shell/sh] failed
+2017-06-16T21:16:54+0000 [CowrieTelnetTransport,363,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T21:16:54+0000 [HoneyPotSSHTransport,394,101.228.184.50] connection lost
+2017-06-16T21:16:54+0000 [HoneyPotSSHTransport,394,101.228.184.50] Connection lost after 49 seconds
+2017-06-16T21:16:54+0000 [HoneyPotSSHTransport,398,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T21:16:54+0000 [HoneyPotSSHTransport,398,113.195.145.52] connection lost
+2017-06-16T21:16:54+0000 [HoneyPotSSHTransport,398,113.195.145.52] Connection lost after 6 seconds
+2017-06-16T21:16:54+0000 [HoneyPotSSHTransport,397,129.146.31.194] connection lost
+2017-06-16T21:16:54+0000 [HoneyPotSSHTransport,397,129.146.31.194] Connection lost after 6 seconds
+2017-06-16T21:16:54+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 109.236.83.181:38942 (10.8.41.81:2223) [session: TT366]
+2017-06-16T21:16:54+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 109.236.83.229:51575 (10.8.41.81:2223) [session: TT367]
+2017-06-16T21:16:54+0000 [CowrieTelnetTransport,352,109.236.83.184] Connection lost after 146 seconds
+2017-06-16T21:16:55+0000 [CowrieTelnetTransport,365,39.155.185.68] login attempt: 2
+2017-06-16T21:16:55+0000 [CowrieTelnetTransport,365,39.155.185.68] login return, expect: [root/1]
+2017-06-16T21:16:58+0000 [CowrieTelnetTransport,365,39.155.185.68] login attempt [root/cat1029] failed
+2017-06-16T21:16:58+0000 [CowrieTelnetTransport,365,39.155.185.68] Warning: state changed and new state returned
+2017-06-16T21:16:58+0000 [CowrieTelnetTransport,365,39.155.185.68] Connection lost after 10 seconds
+2017-06-16T21:17:00+0000 [CowrieTelnetTransport,366,109.236.83.181] login attempt: 18943
+2017-06-16T21:17:00+0000 [CowrieTelnetTransport,366,109.236.83.181] login return, expect: [default/]
