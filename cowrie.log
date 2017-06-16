@@ -5643,3 +5643,80 @@
 2017-06-16T19:20:57+0000 [HoneyPotSSHTransport,27,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
 2017-06-16T19:20:57+0000 [HoneyPotSSHTransport,27,113.195.145.52] connection lost
 2017-06-16T19:20:57+0000 [HoneyPotSSHTransport,27,113.195.145.52] Connection lost after 32 seconds
+2017-06-16T19:21:01+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:17601 (10.8.41.81:2222) [session: bb126074]
+2017-06-16T19:21:01+0000 [HoneyPotSSHTransport,28,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T19:21:01+0000 [HoneyPotSSHTransport,28,113.195.145.52] connection lost
+2017-06-16T19:21:01+0000 [HoneyPotSSHTransport,28,113.195.145.52] Connection lost after 0 seconds
+2017-06-16T19:21:10+0000 [CowrieTelnetTransport,42,216.120.247.147] Connection lost after 57 seconds
+2017-06-16T19:21:31+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 117.208.182.34:4083 (10.8.41.81:2223) [session: TT43]
+2017-06-16T19:21:33+0000 [CowrieTelnetTransport,43,117.208.182.34] first time for 117.208.182.34, need: 1
+2017-06-16T19:21:33+0000 [CowrieTelnetTransport,43,117.208.182.34] login attempt: 1
+2017-06-16T19:21:35+0000 [CowrieTelnetTransport,43,117.208.182.34] login attempt [guest/4321] succeeded
+2017-06-16T19:21:37+0000 [CowrieTelnetTransport,43,117.208.182.34] Opening TTY Log: log/tty/20170616-192137-None-43i.log
+2017-06-16T19:21:37+0000 [CowrieTelnetTransport,43,117.208.182.34] Warning: state changed and new state returned
+2017-06-16T19:21:37+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 85.97.120.106:59191 (10.8.41.81:2223) [session: TT44]
+2017-06-16T19:21:38+0000 [CowrieTelnetTransport,44,85.97.120.106] first time for 85.97.120.106, need: 1
+2017-06-16T19:21:38+0000 [CowrieTelnetTransport,44,85.97.120.106] login attempt: 1
+2017-06-16T19:21:41+0000 [CowrieTelnetTransport,44,85.97.120.106] login attempt [root/jvbzd] succeeded
+2017-06-16T19:21:42+0000 [CowrieTelnetTransport,44,85.97.120.106] Opening TTY Log: log/tty/20170616-192142-None-44i.log
+2017-06-16T19:21:42+0000 [CowrieTelnetTransport,44,85.97.120.106] Warning: state changed and new state returned
+2017-06-16T19:21:42+0000 [CowrieTelnetTransport,43,117.208.182.34] CMD: enable
+2017-06-16T19:21:42+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: enable 
+2017-06-16T19:21:42+0000 [CowrieTelnetTransport,43,117.208.182.34] Reading txtcmd from "txtcmds/bin/enable"
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] CMD: enable
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command found: enable 
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Reading txtcmd from "txtcmds/bin/enable"
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] CMD: shell
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command not found: shell
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] CMD: sh
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command found: sh 
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] CMD: cat /proc/mounts; /bin/busybox BQOUW
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command found: cat /proc/mounts
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command found: /bin/busybox BQOUW
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] CMD: cd /dev/shm; cat .s || cp /bin/echo .s; /bin/busybox BQOUW
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command found: cd /dev/shm
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command found: cat .s
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command found: cp /bin/echo .s
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command found: /bin/busybox BQOUW
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] CMD: nc; wget; /bin/busybox BQOUW
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command not found: nc
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command found: wget 
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command found: /bin/busybox BQOUW
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] CMD: dd bs=52 count=1 if=.s || cat .s
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command not found: dd bs=52 count=1 if=.s
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command found: cat /dev/shm/.s
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] CMD: /bin/busybox BQOUW
+2017-06-16T19:21:43+0000 [CowrieTelnetTransport,44,85.97.120.106] Command found: /bin/busybox BQOUW
+2017-06-16T19:21:44+0000 [CowrieTelnetTransport,43,117.208.182.34] CMD: system
+2017-06-16T19:21:44+0000 [CowrieTelnetTransport,43,117.208.182.34] Command not found: system
+2017-06-16T19:21:44+0000 [CowrieTelnetTransport,43,117.208.182.34] CMD: shell
+2017-06-16T19:21:44+0000 [CowrieTelnetTransport,43,117.208.182.34] Command not found: shell
+2017-06-16T19:21:44+0000 [CowrieTelnetTransport,43,117.208.182.34] CMD: sh
+2017-06-16T19:21:44+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: sh 
+2017-06-16T19:21:45+0000 [CowrieTelnetTransport,43,117.208.182.34] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-06-16T19:21:45+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: /bin/busybox wget
+2017-06-16T19:21:45+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: wget
+2017-06-16T19:21:45+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: /bin/busybox 81c46036wget
+2017-06-16T19:21:45+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-06-16T19:21:45+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: echo -ne '\x0181c46036\x7f'
+2017-06-16T19:21:45+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: /bin/busybox printf '\00281c46036\177'
+2017-06-16T19:21:45+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-06-16T19:21:45+0000 [CowrieTelnetTransport,43,117.208.182.34] Command not found: /usr/bin/printf '\00481c46036\177'
+2017-06-16T19:21:45+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: /bin/busybox tftp
+2017-06-16T19:21:45+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: tftp
+2017-06-16T19:21:45+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: /bin/busybox 81c46036tftp
+2017-06-16T19:21:46+0000 [CowrieTelnetTransport,43,117.208.182.34] CMD:  /bin/busybox dd if=/bin/busybox bs=22 count=1 || /bin/busybox cat /bin/busybox
+2017-06-16T19:21:46+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: /bin/busybox dd if=/bin/busybox bs=22 count=1
+2017-06-16T19:21:46+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: /bin/busybox cat /bin/busybox
+2017-06-16T19:21:46+0000 [CowrieTelnetTransport,43,117.208.182.34] Command found: cat /bin/busybox
+2017-06-16T19:21:58+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 168.197.0.141:4521 (10.8.41.81:2222) [session: 8bfb48fe]
+2017-06-16T19:21:59+0000 [HoneyPotSSHTransport,29,168.197.0.141] Remote SSH version: SSH-2.0-sshlib-0.1
+2017-06-16T19:21:59+0000 [HoneyPotSSHTransport,29,168.197.0.141] kex alg, key alg: 'diffie-hellman-group1-sha1' 'ssh-dss'
+2017-06-16T19:21:59+0000 [HoneyPotSSHTransport,29,168.197.0.141] outgoing: 'aes128-cbc' 'hmac-md5' 'none'
+2017-06-16T19:21:59+0000 [HoneyPotSSHTransport,29,168.197.0.141] incoming: 'aes128-cbc' 'hmac-md5' 'none'
+2017-06-16T19:21:59+0000 [HoneyPotSSHTransport,29,168.197.0.141] NEW KEYS
+2017-06-16T19:22:00+0000 [HoneyPotSSHTransport,29,168.197.0.141] starting service 'ssh-userauth'
+2017-06-16T19:22:00+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,29,168.197.0.141] 'root' trying auth 'password'
+2017-06-16T19:22:00+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,29,168.197.0.141] first time for 168.197.0.141, need: 1
+2017-06-16T19:22:00+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,29,168.197.0.141] login attempt: 1
