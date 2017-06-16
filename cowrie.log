@@ -3433,3 +3433,35 @@
 	reason: 
 2017-06-16T19:02:00+0000 [HoneyPotSSHTransport,4,113.195.145.52] connection lost
 2017-06-16T19:02:00+0000 [HoneyPotSSHTransport,4,113.195.145.52] Connection lost after 6 seconds
+2017-06-16T19:02:03+0000 [CowrieTelnetTransport,3,51.15.68.152] login attempt: 1934
+2017-06-16T19:02:03+0000 [CowrieTelnetTransport,3,51.15.68.152] login return, expect: [root/54321]
+2017-06-16T19:02:05+0000 [CowrieTelnetTransport,3,51.15.68.152] login attempt [root/xc3511] failed
+2017-06-16T19:02:05+0000 [CowrieTelnetTransport,3,51.15.68.152] Warning: state changed and new state returned
+2017-06-16T19:02:06+0000 [CowrieTelnetTransport,4,51.15.68.152] login attempt: 1935
+2017-06-16T19:02:06+0000 [CowrieTelnetTransport,4,51.15.68.152] login return, expect: [root/54321]
+2017-06-16T19:02:08+0000 [CowrieTelnetTransport,4,51.15.68.152] login attempt [user/123456] failed
+2017-06-16T19:02:08+0000 [CowrieTelnetTransport,4,51.15.68.152] Warning: state changed and new state returned
+2017-06-16T19:02:09+0000 [CowrieTelnetTransport,3,51.15.68.152] login attempt: 1936
+2017-06-16T19:02:09+0000 [CowrieTelnetTransport,3,51.15.68.152] login return, expect: [root/54321]
+2017-06-16T19:02:11+0000 [CowrieTelnetTransport,3,51.15.68.152] login attempt [enable/shell] failed
+2017-06-16T19:02:11+0000 [CowrieTelnetTransport,3,51.15.68.152] Warning: state changed and new state returned
+2017-06-16T19:02:11+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 51.15.68.152:43227 (10.8.41.81:2223) [session: TT5]
+2017-06-16T19:02:12+0000 [CowrieTelnetTransport,3,51.15.68.152] login attempt: 1937
+2017-06-16T19:02:12+0000 [CowrieTelnetTransport,3,51.15.68.152] login return, expect: [root/54321]
+2017-06-16T19:02:14+0000 [CowrieTelnetTransport,3,51.15.68.152] login attempt [sh//bin/busybox ECCHI] failed
+2017-06-16T19:02:14+0000 [CowrieTelnetTransport,3,51.15.68.152] Warning: state changed and new state returned
+2017-06-16T19:02:15+0000 [CowrieTelnetTransport,4,51.15.68.152] login attempt: 1938
+2017-06-16T19:02:15+0000 [CowrieTelnetTransport,4,51.15.68.152] login return, expect: [root/54321]
+2017-06-16T19:02:17+0000 [CowrieTelnetTransport,4,51.15.68.152] login attempt [enable/shell] failed
+2017-06-16T19:02:17+0000 [CowrieTelnetTransport,4,51.15.68.152] Warning: state changed and new state returned
+2017-06-16T19:02:18+0000 [CowrieTelnetTransport,4,51.15.68.152] login attempt: 1939
+2017-06-16T19:02:18+0000 [CowrieTelnetTransport,4,51.15.68.152] login return, expect: [root/54321]
+2017-06-16T19:02:20+0000 [CowrieTelnetTransport,4,51.15.68.152] login attempt [sh//bin/busybox ECCHI] failed
+2017-06-16T19:02:20+0000 [CowrieTelnetTransport,4,51.15.68.152] Warning: state changed and new state returned
+2017-06-16T19:02:20+0000 [CowrieTelnetTransport,1,51.15.68.152] Connection lost after 48 seconds
+2017-06-16T19:02:23+0000 [CowrieTelnetTransport,5,51.15.68.152] login attempt: 1940
+2017-06-16T19:02:23+0000 [CowrieTelnetTransport,5,51.15.68.152] login return, expect: [root/54321]
+2017-06-16T19:02:25+0000 [CowrieTelnetTransport,5,51.15.68.152] login attempt [Administrator/] failed
+2017-06-16T19:02:26+0000 [CowrieTelnetTransport,5,51.15.68.152] Warning: state changed and new state returned
+2017-06-16T19:02:26+0000 [CowrieTelnetTransport,5,51.15.68.152] login attempt: 1941
+2017-06-16T19:02:26+0000 [CowrieTelnetTransport,5,51.15.68.152] login return, expect: [root/54321]
