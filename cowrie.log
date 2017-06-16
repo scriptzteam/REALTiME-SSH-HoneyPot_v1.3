@@ -6269,3 +6269,12 @@
 2017-06-16T19:27:54+0000 [CowrieTelnetTransport,50,188.114.9.90] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
 	]
 2017-06-16T19:27:54+0000 [CowrieTelnetTransport,50,188.114.9.90] Connection lost after 131 seconds
+2017-06-16T19:29:55+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 129.146.31.194:37705 (10.8.41.81:2222) [session: b99a99dc]
+2017-06-16T19:29:55+0000 [HoneyPotSSHTransport,37,129.146.31.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-06-16T19:29:55+0000 [HoneyPotSSHTransport,37,129.146.31.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-16T19:29:55+0000 [HoneyPotSSHTransport,37,129.146.31.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:29:55+0000 [HoneyPotSSHTransport,37,129.146.31.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:29:58+0000 [HoneyPotSSHTransport,37,129.146.31.194] NEW KEYS
+2017-06-16T19:29:58+0000 [HoneyPotSSHTransport,37,129.146.31.194] starting service 'ssh-userauth'
+2017-06-16T19:29:58+0000 [HoneyPotSSHTransport,37,129.146.31.194] connection lost
+2017-06-16T19:29:58+0000 [HoneyPotSSHTransport,37,129.146.31.194] Connection lost after 3 seconds
