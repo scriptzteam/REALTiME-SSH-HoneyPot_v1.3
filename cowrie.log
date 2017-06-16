@@ -5205,3 +5205,45 @@
 2017-06-16T21:23:59+0000 [CowrieTelnetTransport,396,109.236.83.181] login return, expect: [default/]
 2017-06-16T21:24:01+0000 [CowrieTelnetTransport,396,109.236.83.181] login attempt [enable/system] failed
 2017-06-16T21:24:01+0000 [CowrieTelnetTransport,396,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T21:24:02+0000 [CowrieTelnetTransport,396,109.236.83.181] login attempt: 18960
+2017-06-16T21:24:02+0000 [CowrieTelnetTransport,396,109.236.83.181] login return, expect: [default/]
+2017-06-16T21:24:04+0000 [CowrieTelnetTransport,396,109.236.83.181] login attempt [shell/sh] failed
+2017-06-16T21:24:04+0000 [CowrieTelnetTransport,396,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T21:24:05+0000 [CowrieTelnetTransport,397,109.236.83.181] login attempt: 18961
+2017-06-16T21:24:05+0000 [CowrieTelnetTransport,397,109.236.83.181] login return, expect: [default/]
+2017-06-16T21:24:07+0000 [CowrieTelnetTransport,397,109.236.83.181] login attempt [root/xc3511] failed
+2017-06-16T21:24:07+0000 [CowrieTelnetTransport,397,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T21:24:07+0000 [HoneyPotSSHTransport,418,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T21:24:07+0000 [HoneyPotSSHTransport,418,113.195.145.52] connection lost
+2017-06-16T21:24:07+0000 [HoneyPotSSHTransport,418,113.195.145.52] Connection lost after 8 seconds
+2017-06-16T21:24:07+0000 [HoneyPotSSHTransport,419,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T21:24:07+0000 [HoneyPotSSHTransport,419,113.195.145.52] connection lost
+2017-06-16T21:24:07+0000 [HoneyPotSSHTransport,419,113.195.145.52] Connection lost after 8 seconds
+2017-06-16T21:24:08+0000 [CowrieTelnetTransport,397,109.236.83.181] login attempt: 18962
+2017-06-16T21:24:08+0000 [CowrieTelnetTransport,397,109.236.83.181] login return, expect: [default/]
+2017-06-16T21:24:10+0000 [CowrieTelnetTransport,397,109.236.83.181] login attempt [enable/system] failed
+2017-06-16T21:24:10+0000 [CowrieTelnetTransport,397,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T21:24:11+0000 [CowrieTelnetTransport,397,109.236.83.181] login attempt: 18963
+2017-06-16T21:24:11+0000 [CowrieTelnetTransport,397,109.236.83.181] login return, expect: [default/]
+2017-06-16T21:24:13+0000 [CowrieTelnetTransport,397,109.236.83.181] login attempt [shell/sh] failed
+2017-06-16T21:24:13+0000 [CowrieTelnetTransport,397,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T21:24:16+0000 [CowrieTelnetTransport,393,14.32.9.44] Connection lost after 61 seconds
+2017-06-16T21:24:16+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 14.32.9.44:39373 (10.8.41.81:2223) [session: TT398]
+2017-06-16T21:24:18+0000 [CowrieTelnetTransport,398,14.32.9.44] login attempt: 20
+2017-06-16T21:24:18+0000 [CowrieTelnetTransport,398,14.32.9.44] login return, expect: [root/juantech]
+2017-06-16T21:24:20+0000 [CowrieTelnetTransport,398,14.32.9.44] login attempt [root/xc3511] failed
+2017-06-16T21:24:20+0000 [CowrieTelnetTransport,398,14.32.9.44] Warning: state changed and new state returned
+2017-06-16T21:24:22+0000 [CowrieTelnetTransport,398,14.32.9.44] login attempt: 21
+2017-06-16T21:24:22+0000 [CowrieTelnetTransport,398,14.32.9.44] login return, expect: [root/juantech]
+2017-06-16T21:24:24+0000 [CowrieTelnetTransport,398,14.32.9.44] login attempt [enable\x00/system\x00] failed
+2017-06-16T21:24:24+0000 [CowrieTelnetTransport,398,14.32.9.44] Warning: state changed and new state returned
+2017-06-16T21:24:26+0000 [CowrieTelnetTransport,398,14.32.9.44] login attempt: 22
+2017-06-16T21:24:26+0000 [CowrieTelnetTransport,398,14.32.9.44] login return, expect: [root/juantech]
+2017-06-16T21:24:29+0000 [CowrieTelnetTransport,398,14.32.9.44] login attempt [shell\x00/sh\x00] failed
+2017-06-16T21:24:29+0000 [CowrieTelnetTransport,398,14.32.9.44] Warning: state changed and new state returned
+2017-06-16T21:24:30+0000 [CowrieTelnetTransport,387,109.236.83.184] Connection lost after 134 seconds
+2017-06-16T21:24:58+0000 [CowrieTelnetTransport,389,109.236.83.181] Connection lost after 139 seconds
+2017-06-16T21:25:00+0000 [CowrieTelnetTransport,398,14.32.9.44] Connection lost after 43 seconds
+2017-06-16T21:25:00+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 14.32.9.44:39643 (10.8.41.81:2223) [session: TT399]
