@@ -5720,3 +5720,93 @@
 2017-06-16T19:22:00+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,29,168.197.0.141] 'root' trying auth 'password'
 2017-06-16T19:22:00+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,29,168.197.0.141] first time for 168.197.0.141, need: 1
 2017-06-16T19:22:00+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,29,168.197.0.141] login attempt: 1
+2017-06-16T19:22:03+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,29,168.197.0.141] login attempt [root/seiko2005] succeeded
+2017-06-16T19:22:04+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,29,168.197.0.141] 'root' authenticated with 'password'
+2017-06-16T19:22:04+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,29,168.197.0.141] starting service 'ssh-connection'
+2017-06-16T19:22:05+0000 [HoneyPotSSHTransport,29,168.197.0.141] avatar root logging out
+2017-06-16T19:22:05+0000 [HoneyPotSSHTransport,29,168.197.0.141] connection lost
+2017-06-16T19:22:05+0000 [HoneyPotSSHTransport,29,168.197.0.141] Connection lost after 6 seconds
+2017-06-16T19:22:06+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 195.22.127.83:53320 (10.8.41.81:2222) [session: d4c7a867]
+2017-06-16T19:22:06+0000 [HoneyPotSSHTransport,30,195.22.127.83] Remote SSH version: SSH-2.0-sshlib-0.2
+2017-06-16T19:22:06+0000 [HoneyPotSSHTransport,30,195.22.127.83] kex alg, key alg: 'diffie-hellman-group1-sha1' 'ssh-dss'
+2017-06-16T19:22:06+0000 [HoneyPotSSHTransport,30,195.22.127.83] outgoing: 'aes128-cbc' 'hmac-md5' 'none'
+2017-06-16T19:22:06+0000 [HoneyPotSSHTransport,30,195.22.127.83] incoming: 'aes128-cbc' 'hmac-md5' 'none'
+2017-06-16T19:22:06+0000 [HoneyPotSSHTransport,30,195.22.127.83] NEW KEYS
+2017-06-16T19:22:07+0000 [HoneyPotSSHTransport,30,195.22.127.83] starting service 'ssh-userauth'
+2017-06-16T19:22:07+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:22:07+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28030
+2017-06-16T19:22:07+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:22:10+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:22:11+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:22:11+0000 [-] unauthorized login: 
+2017-06-16T19:22:11+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:22:12+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28031
+2017-06-16T19:22:12+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:22:14+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:22:15+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:22:15+0000 [-] unauthorized login: 
+2017-06-16T19:22:15+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:22:16+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28032
+2017-06-16T19:22:16+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:22:18+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:22:19+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:22:19+0000 [-] unauthorized login: 
+2017-06-16T19:22:19+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:22:20+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28033
+2017-06-16T19:22:20+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:22:23+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:22:24+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:22:24+0000 [-] unauthorized login: 
+2017-06-16T19:22:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:22:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28034
+2017-06-16T19:22:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:22:27+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:22:27+0000 [CowrieTelnetTransport,41,216.120.247.147] Closing TTY Log: log/tty/20170616-192019-None-41i.log after 127 seconds
+2017-06-16T19:22:27+0000 [CowrieTelnetTransport,41,216.120.247.147] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-16T19:22:27+0000 [CowrieTelnetTransport,41,216.120.247.147] Connection lost after 136 seconds
+2017-06-16T19:22:28+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:22:28+0000 [-] unauthorized login: 
+2017-06-16T19:22:28+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:22:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28035
+2017-06-16T19:22:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:22:31+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:22:32+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:22:32+0000 [-] unauthorized login: 
+2017-06-16T19:22:32+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:22:33+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28036
+2017-06-16T19:22:33+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:22:35+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:22:36+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:22:36+0000 [-] unauthorized login: 
+2017-06-16T19:22:37+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:22:37+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28037
+2017-06-16T19:22:37+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:22:40+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:22:41+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:22:41+0000 [-] unauthorized login: 
+2017-06-16T19:22:41+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:22:41+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28038
+2017-06-16T19:22:41+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:22:44+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:22:45+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:22:45+0000 [-] unauthorized login: 
+2017-06-16T19:22:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:22:46+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28039
+2017-06-16T19:22:46+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:22:49+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:22:50+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:22:50+0000 [-] unauthorized login: 
+2017-06-16T19:22:50+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:22:50+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28040
+2017-06-16T19:22:50+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:22:53+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:22:54+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:22:54+0000 [-] unauthorized login: 
+2017-06-16T19:22:54+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:22:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28041
+2017-06-16T19:22:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:22:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:22:57+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 5.76.199.161:47100 (10.8.41.81:2223) [session: TT45]
+2017-06-16T19:22:58+0000 [CowrieTelnetTransport,45,5.76.199.161] first time for 5.76.199.161, need: 1
+2017-06-16T19:22:58+0000 [CowrieTelnetTransport,45,5.76.199.161] login attempt: 1
