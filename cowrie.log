@@ -3475,3 +3475,30 @@
 2017-06-16T19:02:49+0000 [CowrieTelnetTransport,3,51.15.68.152] Connection lost after 54 seconds
 2017-06-16T19:02:51+0000 [CowrieTelnetTransport,4,51.15.68.152] Connection lost after 53 seconds
 2017-06-16T19:03:02+0000 [CowrieTelnetTransport,5,51.15.68.152] Connection lost after 50 seconds
+2017-06-16T19:03:39+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 94.130.8.46:42735 (10.8.41.81:2222) [session: 4230874b]
+2017-06-16T19:03:39+0000 [HoneyPotSSHTransport,5,94.130.8.46] Remote SSH version: SSH-2.0-Erlang/4.2.2
+2017-06-16T19:03:39+0000 [HoneyPotSSHTransport,5,94.130.8.46] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2017-06-16T19:03:39+0000 [HoneyPotSSHTransport,5,94.130.8.46] outgoing: 'aes256-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:03:39+0000 [HoneyPotSSHTransport,5,94.130.8.46] incoming: 'aes256-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:03:39+0000 [HoneyPotSSHTransport,5,94.130.8.46] NEW KEYS
+2017-06-16T19:03:39+0000 [HoneyPotSSHTransport,5,94.130.8.46] starting service 'ssh-userauth'
+2017-06-16T19:03:39+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,5,94.130.8.46] 'admin' trying auth 'none'
+2017-06-16T19:03:41+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,5,94.130.8.46] 'admin' authenticated with 'none'
+2017-06-16T19:03:41+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,5,94.130.8.46] starting service 'ssh-connection'
+2017-06-16T19:03:41+0000 [HoneyPotSSHTransport,5,94.130.8.46] avatar admin logging out
+2017-06-16T19:03:41+0000 [HoneyPotSSHTransport,5,94.130.8.46] connection lost
+2017-06-16T19:03:41+0000 [HoneyPotSSHTransport,5,94.130.8.46] Connection lost after 1 seconds
+2017-06-16T19:03:48+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 185.165.29.46:41868 (10.8.41.81:2223) [session: TT6]
+2017-06-16T19:03:48+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 185.165.29.46:58088 (10.8.41.81:2223) [session: TT7]
+2017-06-16T19:03:50+0000 [CowrieTelnetTransport,0,51.15.68.152] Closing TTY Log: log/tty/20170616-190139-None-0i.log after 130 seconds
+2017-06-16T19:03:50+0000 [CowrieTelnetTransport,0,51.15.68.152] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-16T19:03:50+0000 [CowrieTelnetTransport,0,51.15.68.152] Connection lost after 139 seconds
+2017-06-16T19:03:52+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 185.165.29.46:59755 (10.8.41.81:2223) [session: TT8]
+2017-06-16T19:03:54+0000 [CowrieTelnetTransport,6,185.165.29.46] login attempt: 1681
+2017-06-16T19:03:54+0000 [CowrieTelnetTransport,6,185.165.29.46] login return, expect: [admin/5up]
+2017-06-16T19:03:56+0000 [CowrieTelnetTransport,6,185.165.29.46] login attempt [root/54321] failed
+2017-06-16T19:03:56+0000 [CowrieTelnetTransport,6,185.165.29.46] Warning: state changed and new state returned
+2017-06-16T19:03:57+0000 [CowrieTelnetTransport,7,185.165.29.46] login attempt: 1682
+2017-06-16T19:03:57+0000 [CowrieTelnetTransport,7,185.165.29.46] login return, expect: [admin/5up]
+2017-06-16T19:03:59+0000 [CowrieTelnetTransport,7,185.165.29.46] login attempt [admin/5up] succeeded
