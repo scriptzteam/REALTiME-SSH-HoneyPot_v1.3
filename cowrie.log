@@ -4022,3 +4022,31 @@
 2017-06-16T20:12:56+0000 [CowrieTelnetTransport,187,112.186.66.20] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
 	]
 2017-06-16T20:12:56+0000 [CowrieTelnetTransport,187,112.186.66.20] Connection lost after 133 seconds
+2017-06-16T20:13:16+0000 [CowrieTelnetTransport,188,109.236.83.229] Connection lost after 135 seconds
+2017-06-16T20:13:22+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:25464 (10.8.41.81:2222) [session: 87048561]
+2017-06-16T20:13:22+0000 [HoneyPotSSHTransport,175,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-16T20:13:22+0000 [HoneyPotSSHTransport,175,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-16T20:13:22+0000 [HoneyPotSSHTransport,175,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T20:13:22+0000 [HoneyPotSSHTransport,175,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T20:13:27+0000 [HoneyPotSSHTransport,175,113.195.145.52] connection lost
+2017-06-16T20:13:27+0000 [HoneyPotSSHTransport,175,113.195.145.52] Connection lost after 5 seconds
+2017-06-16T20:13:32+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 129.146.31.194:42067 (10.8.41.81:2222) [session: b4ad456c]
+2017-06-16T20:13:32+0000 [HoneyPotSSHTransport,176,129.146.31.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-06-16T20:13:32+0000 [HoneyPotSSHTransport,176,129.146.31.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-16T20:13:32+0000 [HoneyPotSSHTransport,176,129.146.31.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T20:13:32+0000 [HoneyPotSSHTransport,176,129.146.31.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T20:13:35+0000 [CowrieTelnetTransport,189,109.236.83.184] Connection lost after 135 seconds
+2017-06-16T20:13:36+0000 [HoneyPotSSHTransport,176,129.146.31.194] NEW KEYS
+2017-06-16T20:13:36+0000 [HoneyPotSSHTransport,176,129.146.31.194] starting service 'ssh-userauth'
+2017-06-16T20:13:36+0000 [HoneyPotSSHTransport,176,129.146.31.194] connection lost
+2017-06-16T20:13:36+0000 [HoneyPotSSHTransport,176,129.146.31.194] Connection lost after 4 seconds
+2017-06-16T20:13:54+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 109.236.83.184:38809 (10.8.41.81:2223) [session: TT197]
+2017-06-16T20:13:54+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 162.244.10.249:54743 (10.8.41.81:2223) [session: TT198]
+2017-06-16T20:13:55+0000 [CowrieTelnetTransport,198,162.244.10.249] login attempt: 965
+2017-06-16T20:13:55+0000 [CowrieTelnetTransport,198,162.244.10.249] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T20:13:57+0000 [CowrieTelnetTransport,198,162.244.10.249] login attempt [GET http://check2.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8] failed
+2017-06-16T20:13:57+0000 [CowrieTelnetTransport,198,162.244.10.249] Warning: state changed and new state returned
+2017-06-16T20:13:58+0000 [CowrieTelnetTransport,198,162.244.10.249] login attempt: 966
+2017-06-16T20:13:58+0000 [CowrieTelnetTransport,198,162.244.10.249] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T20:14:00+0000 [CowrieTelnetTransport,198,162.244.10.249] login attempt [Connection: Close/User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0] failed
+2017-06-16T20:14:00+0000 [CowrieTelnetTransport,198,162.244.10.249] Warning: state changed and new state returned
