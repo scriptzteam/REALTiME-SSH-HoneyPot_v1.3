@@ -2792,3 +2792,71 @@
 2017-06-16T20:06:00+0000 [CowrieTelnetTransport,166,109.236.83.184] Warning: state changed and new state returned
 2017-06-16T20:06:01+0000 [CowrieTelnetTransport,166,109.236.83.184] login attempt: 4146
 2017-06-16T20:06:01+0000 [CowrieTelnetTransport,166,109.236.83.184] login return, expect: [default/]
+2017-06-16T20:06:04+0000 [CowrieTelnetTransport,166,109.236.83.184] login attempt [enable/system] failed
+2017-06-16T20:06:04+0000 [CowrieTelnetTransport,166,109.236.83.184] Warning: state changed and new state returned
+2017-06-16T20:06:04+0000 [CowrieTelnetTransport,166,109.236.83.184] login attempt: 4147
+2017-06-16T20:06:04+0000 [CowrieTelnetTransport,166,109.236.83.184] login return, expect: [default/]
+2017-06-16T20:06:07+0000 [CowrieTelnetTransport,166,109.236.83.184] login attempt [shell/sh] failed
+2017-06-16T20:06:07+0000 [CowrieTelnetTransport,166,109.236.83.184] Warning: state changed and new state returned
+2017-06-16T20:06:07+0000 [CowrieTelnetTransport,168,109.236.83.181] login attempt: 18823
+2017-06-16T20:06:07+0000 [CowrieTelnetTransport,168,109.236.83.181] login return, expect: [default/]
+2017-06-16T20:06:10+0000 [CowrieTelnetTransport,168,109.236.83.181] login attempt [root/xc3511] failed
+2017-06-16T20:06:10+0000 [CowrieTelnetTransport,168,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T20:06:10+0000 [CowrieTelnetTransport,167,109.236.83.184] login attempt: 4148
+2017-06-16T20:06:10+0000 [CowrieTelnetTransport,167,109.236.83.184] login return, expect: [default/]
+2017-06-16T20:06:13+0000 [CowrieTelnetTransport,167,109.236.83.184] login attempt [root/vizxv] failed
+2017-06-16T20:06:13+0000 [CowrieTelnetTransport,167,109.236.83.184] Warning: state changed and new state returned
+2017-06-16T20:06:13+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:59689 (10.8.41.81:2222) [session: 071f6f58]
+2017-06-16T20:06:13+0000 [HoneyPotSSHTransport,154,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T20:06:13+0000 [HoneyPotSSHTransport,154,113.195.145.52] connection lost
+2017-06-16T20:06:13+0000 [HoneyPotSSHTransport,154,113.195.145.52] Connection lost after 0 seconds
+2017-06-16T20:06:14+0000 [CowrieTelnetTransport,167,109.236.83.184] login attempt: 4149
+2017-06-16T20:06:14+0000 [CowrieTelnetTransport,167,109.236.83.184] login return, expect: [default/]
+2017-06-16T20:06:16+0000 [CowrieTelnetTransport,167,109.236.83.184] login attempt [enable/system] failed
+2017-06-16T20:06:16+0000 [CowrieTelnetTransport,167,109.236.83.184] Warning: state changed and new state returned
+2017-06-16T20:06:17+0000 [CowrieTelnetTransport,167,109.236.83.184] login attempt: 4150
+2017-06-16T20:06:17+0000 [CowrieTelnetTransport,167,109.236.83.184] login return, expect: [default/]
+2017-06-16T20:06:19+0000 [CowrieTelnetTransport,167,109.236.83.184] login attempt [shell/sh] failed
+2017-06-16T20:06:19+0000 [CowrieTelnetTransport,167,109.236.83.184] Warning: state changed and new state returned
+2017-06-16T20:06:20+0000 [CowrieTelnetTransport,168,109.236.83.181] login attempt: 18824
+2017-06-16T20:06:20+0000 [CowrieTelnetTransport,168,109.236.83.181] login return, expect: [default/]
+2017-06-16T20:06:22+0000 [CowrieTelnetTransport,168,109.236.83.181] login attempt [enable/system] failed
+2017-06-16T20:06:22+0000 [CowrieTelnetTransport,168,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T20:06:23+0000 [CowrieTelnetTransport,168,109.236.83.181] login attempt: 18825
+2017-06-16T20:06:23+0000 [CowrieTelnetTransport,168,109.236.83.181] login return, expect: [default/]
+2017-06-16T20:06:25+0000 [CowrieTelnetTransport,168,109.236.83.181] login attempt [shell/sh] failed
+2017-06-16T20:06:25+0000 [CowrieTelnetTransport,168,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T20:06:25+0000 [CowrieTelnetTransport,163,216.120.247.147] Connection lost after 71 seconds
+2017-06-16T20:06:30+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:14328 (10.8.41.81:2222) [session: 70b0159d]
+2017-06-16T20:06:30+0000 [HoneyPotSSHTransport,155,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-16T20:06:30+0000 [HoneyPotSSHTransport,155,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-16T20:06:30+0000 [HoneyPotSSHTransport,155,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T20:06:30+0000 [HoneyPotSSHTransport,155,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T20:06:31+0000 [HoneyPotSSHTransport,155,113.195.145.52] NEW KEYS
+2017-06-16T20:06:32+0000 [HoneyPotSSHTransport,155,113.195.145.52] starting service 'ssh-userauth'
+2017-06-16T20:06:32+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,155,113.195.145.52] 'root' trying auth 'none'
+2017-06-16T20:06:34+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,155,113.195.145.52] 'root' authenticated with 'none'
+2017-06-16T20:06:34+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,155,113.195.145.52] starting service 'ssh-connection'
+2017-06-16T20:06:37+0000 [HoneyPotSSHTransport,155,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T20:06:37+0000 [HoneyPotSSHTransport,155,113.195.145.52] avatar root logging out
+2017-06-16T20:06:37+0000 [HoneyPotSSHTransport,155,113.195.145.52] connection lost
+2017-06-16T20:06:37+0000 [HoneyPotSSHTransport,155,113.195.145.52] Connection lost after 7 seconds
+2017-06-16T20:06:40+0000 [CowrieTelnetTransport,158,109.236.83.181] Connection lost after 134 seconds
+2017-06-16T20:06:49+0000 [-] Process ended. Telnet Session disconnected
+2017-06-16T20:06:49+0000 [CowrieTelnetTransport,157,88.250.195.147] Closing TTY Log: log/tty/20170616-200348-None-157i.log after 181 seconds
+2017-06-16T20:06:49+0000 [CowrieTelnetTransport,157,88.250.195.147] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-16T20:06:49+0000 [CowrieTelnetTransport,157,88.250.195.147] Connection lost after 192 seconds
+2017-06-16T20:06:51+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 82.127.116.159:51658 (10.8.41.81:2223) [session: TT169]
+2017-06-16T20:06:56+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:17428 (10.8.41.81:2222) [session: 637ad9cd]
+2017-06-16T20:06:57+0000 [CowrieTelnetTransport,169,82.127.116.159] first time for 82.127.116.159, need: 1
+2017-06-16T20:06:57+0000 [CowrieTelnetTransport,169,82.127.116.159] login attempt: 1
+2017-06-16T20:07:00+0000 [CowrieTelnetTransport,169,82.127.116.159] login attempt [root/1] succeeded
+2017-06-16T20:07:01+0000 [CowrieTelnetTransport,169,82.127.116.159] Opening TTY Log: log/tty/20170616-200701-None-169i.log
+2017-06-16T20:07:01+0000 [CowrieTelnetTransport,169,82.127.116.159] Warning: state changed and new state returned
+2017-06-16T20:07:01+0000 [HoneyPotSSHTransport,156,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T20:07:01+0000 [HoneyPotSSHTransport,156,113.195.145.52] connection lost
+2017-06-16T20:07:01+0000 [HoneyPotSSHTransport,156,113.195.145.52] Connection lost after 4 seconds
