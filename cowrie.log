@@ -538,3 +538,66 @@
 2017-06-16T21:57:59+0000 [HoneyPotSSHTransport,534,113.195.145.52] starting service 'ssh-userauth'
 2017-06-16T21:57:59+0000 [HoneyPotSSHTransport,535,113.195.145.52] NEW KEYS
 2017-06-16T21:58:00+0000 [HoneyPotSSHTransport,535,113.195.145.52] starting service 'ssh-userauth'
+2017-06-16T21:58:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,534,113.195.145.52] 'root' trying auth 'none'
+2017-06-16T21:58:03+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,534,113.195.145.52] 'root' authenticated with 'none'
+2017-06-16T21:58:03+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,534,113.195.145.52] starting service 'ssh-connection'
+2017-06-16T21:58:04+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,535,113.195.145.52] 'root' trying auth 'none'
+2017-06-16T21:58:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,535,113.195.145.52] 'root' authenticated with 'none'
+2017-06-16T21:58:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,535,113.195.145.52] starting service 'ssh-connection'
+2017-06-16T21:58:06+0000 [HoneyPotSSHTransport,535,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T21:58:06+0000 [HoneyPotSSHTransport,535,113.195.145.52] avatar root logging out
+2017-06-16T21:58:06+0000 [HoneyPotSSHTransport,535,113.195.145.52] connection lost
+2017-06-16T21:58:06+0000 [HoneyPotSSHTransport,535,113.195.145.52] Connection lost after 7 seconds
+2017-06-16T21:58:09+0000 [HoneyPotSSHTransport,534,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T21:58:09+0000 [HoneyPotSSHTransport,534,113.195.145.52] avatar root logging out
+2017-06-16T21:58:09+0000 [HoneyPotSSHTransport,534,113.195.145.52] connection lost
+2017-06-16T21:58:09+0000 [HoneyPotSSHTransport,534,113.195.145.52] Connection lost after 13 seconds
+2017-06-16T21:58:26+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 38.99.252.150:55247 (10.8.41.81:2223) [session: TT517]
+2017-06-16T21:58:27+0000 [CowrieTelnetTransport,517,38.99.252.150] login attempt: 1162
+2017-06-16T21:58:27+0000 [CowrieTelnetTransport,517,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T21:58:29+0000 [CowrieTelnetTransport,517,38.99.252.150] login attempt [GET http://check2.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8] failed
+2017-06-16T21:58:29+0000 [CowrieTelnetTransport,517,38.99.252.150] Warning: state changed and new state returned
+2017-06-16T21:58:30+0000 [CowrieTelnetTransport,517,38.99.252.150] login attempt: 1163
+2017-06-16T21:58:30+0000 [CowrieTelnetTransport,517,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T21:58:32+0000 [CowrieTelnetTransport,517,38.99.252.150] login attempt [Connection: Close/User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0] failed
+2017-06-16T21:58:32+0000 [CowrieTelnetTransport,517,38.99.252.150] Warning: state changed and new state returned
+2017-06-16T21:58:33+0000 [CowrieTelnetTransport,517,38.99.252.150] login attempt: 1164
+2017-06-16T21:58:33+0000 [CowrieTelnetTransport,517,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T21:58:35+0000 [CowrieTelnetTransport,517,38.99.252.150] login attempt [Accept-Language: en-US,en;q=0.5/Cache-Control: max-age=0] failed
+2017-06-16T21:58:35+0000 [CowrieTelnetTransport,517,38.99.252.150] Warning: state changed and new state returned
+2017-06-16T21:58:36+0000 [CowrieTelnetTransport,517,38.99.252.150] login attempt: 1165
+2017-06-16T21:58:36+0000 [CowrieTelnetTransport,517,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T21:58:38+0000 [CowrieTelnetTransport,517,38.99.252.150] login attempt [Referer: RefererString/Cookie: param1=CookieString] failed
+2017-06-16T21:58:38+0000 [CowrieTelnetTransport,517,38.99.252.150] Warning: state changed and new state returned
+2017-06-16T21:58:39+0000 [CowrieTelnetTransport,517,38.99.252.150] login attempt: 1166
+2017-06-16T21:58:39+0000 [CowrieTelnetTransport,517,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T21:58:42+0000 [CowrieTelnetTransport,517,38.99.252.150] login attempt [Accept-Encoding: gzip/Host: check2.zennolab.com] failed
+2017-06-16T21:58:42+0000 [CowrieTelnetTransport,517,38.99.252.150] Warning: state changed and new state returned
+2017-06-16T21:58:42+0000 [CowrieTelnetTransport,517,38.99.252.150] Connection lost after 15 seconds
+2017-06-16T21:58:42+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:57959 (10.8.41.81:2222) [session: a427ead1]
+2017-06-16T21:58:42+0000 [HoneyPotSSHTransport,536,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T21:58:42+0000 [HoneyPotSSHTransport,536,113.195.145.52] connection lost
+2017-06-16T21:58:42+0000 [HoneyPotSSHTransport,536,113.195.145.52] Connection lost after 0 seconds
+2017-06-16T21:58:42+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:23329 (10.8.41.81:2222) [session: 3973f955]
+2017-06-16T21:58:42+0000 [HoneyPotSSHTransport,537,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-16T21:58:42+0000 [HoneyPotSSHTransport,537,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-16T21:58:42+0000 [HoneyPotSSHTransport,537,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T21:58:42+0000 [HoneyPotSSHTransport,537,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T21:58:43+0000 [HoneyPotSSHTransport,537,113.195.145.52] NEW KEYS
+2017-06-16T21:58:44+0000 [HoneyPotSSHTransport,537,113.195.145.52] starting service 'ssh-userauth'
+2017-06-16T21:58:44+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,537,113.195.145.52] 'root' trying auth 'none'
+2017-06-16T21:58:46+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,537,113.195.145.52] 'root' authenticated with 'none'
+2017-06-16T21:58:46+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,537,113.195.145.52] starting service 'ssh-connection'
+2017-06-16T21:58:47+0000 [HoneyPotSSHTransport,537,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T21:58:47+0000 [HoneyPotSSHTransport,537,113.195.145.52] avatar root logging out
+2017-06-16T21:58:47+0000 [HoneyPotSSHTransport,537,113.195.145.52] connection lost
+2017-06-16T21:58:47+0000 [HoneyPotSSHTransport,537,113.195.145.52] Connection lost after 4 seconds
+2017-06-16T21:58:57+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:31739 (10.8.41.81:2222) [session: 127faf56]
+2017-06-16T21:59:00+0000 [HoneyPotSSHTransport,538,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-16T21:59:00+0000 [HoneyPotSSHTransport,538,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-16T21:59:00+0000 [HoneyPotSSHTransport,538,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T21:59:00+0000 [HoneyPotSSHTransport,538,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
