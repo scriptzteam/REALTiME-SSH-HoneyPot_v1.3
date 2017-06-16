@@ -2268,3 +2268,51 @@
 2017-06-16T23:37:44+0000 [CowrieTelnetTransport,623,118.163.118.2] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
 	]
 2017-06-16T23:37:44+0000 [CowrieTelnetTransport,623,118.163.118.2] Connection lost after 8 seconds
+2017-06-16T23:38:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] got channel 'direct-tcpip' request
+2017-06-16T23:38:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] direct-tcp connection request to 66.196.118.35:25 from localhost:5556
+2017-06-16T23:38:11+0000 [SSHChannel None (67) on SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] remote eof
+2017-06-16T23:38:11+0000 [SSHChannel None (67) on SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] remote close
+2017-06-16T23:38:11+0000 [SSHChannel None (67) on SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] sending close 67
+2017-06-16T23:38:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] got channel 'direct-tcpip' request
+2017-06-16T23:38:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] direct-tcp connection request to 66.196.118.35:25 from localhost:5556
+2017-06-16T23:38:16+0000 [SSHChannel None (68) on SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] remote eof
+2017-06-16T23:38:16+0000 [SSHChannel None (68) on SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] remote close
+2017-06-16T23:38:16+0000 [SSHChannel None (68) on SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] sending close 68
+2017-06-16T23:38:37+0000 [CowrieTelnetTransport,619,185.188.206.99] Closing TTY Log: log/tty/20170616-233630-None-619i.log after 127 seconds
+2017-06-16T23:38:37+0000 [CowrieTelnetTransport,619,185.188.206.99] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-16T23:38:37+0000 [CowrieTelnetTransport,619,185.188.206.99] Connection lost after 135 seconds
+2017-06-16T23:38:37+0000 [CowrieTelnetTransport,620,185.188.206.99] Closing TTY Log: log/tty/20170616-233635-None-620i.log after 122 seconds
+2017-06-16T23:38:37+0000 [CowrieTelnetTransport,620,185.188.206.99] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-16T23:38:37+0000 [CowrieTelnetTransport,620,185.188.206.99] Connection lost after 134 seconds
+2017-06-16T23:38:39+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 46.167.87.32:61588 (10.8.41.81:2223) [session: TT624]
+2017-06-16T23:38:40+0000 [CowrieTelnetTransport,624,46.167.87.32] login attempt: 121
+2017-06-16T23:38:40+0000 [CowrieTelnetTransport,624,46.167.87.32] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T23:38:43+0000 [CowrieTelnetTransport,624,46.167.87.32] login attempt [GET http://check2.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8] failed
+2017-06-16T23:38:43+0000 [CowrieTelnetTransport,624,46.167.87.32] Warning: state changed and new state returned
+2017-06-16T23:38:43+0000 [CowrieTelnetTransport,624,46.167.87.32] login attempt: 122
+2017-06-16T23:38:43+0000 [CowrieTelnetTransport,624,46.167.87.32] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T23:38:46+0000 [CowrieTelnetTransport,624,46.167.87.32] login attempt [Connection: Close/User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0] failed
+2017-06-16T23:38:46+0000 [CowrieTelnetTransport,624,46.167.87.32] Warning: state changed and new state returned
+2017-06-16T23:38:46+0000 [CowrieTelnetTransport,624,46.167.87.32] login attempt: 123
+2017-06-16T23:38:46+0000 [CowrieTelnetTransport,624,46.167.87.32] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T23:38:49+0000 [CowrieTelnetTransport,624,46.167.87.32] login attempt [Accept-Language: en-US,en;q=0.5/Cache-Control: max-age=0] failed
+2017-06-16T23:38:49+0000 [CowrieTelnetTransport,624,46.167.87.32] Warning: state changed and new state returned
+2017-06-16T23:38:49+0000 [CowrieTelnetTransport,624,46.167.87.32] login attempt: 124
+2017-06-16T23:38:49+0000 [CowrieTelnetTransport,624,46.167.87.32] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T23:38:52+0000 [CowrieTelnetTransport,624,46.167.87.32] login attempt [Referer: RefererString/Cookie: param1=CookieString] failed
+2017-06-16T23:38:52+0000 [CowrieTelnetTransport,624,46.167.87.32] Warning: state changed and new state returned
+2017-06-16T23:38:52+0000 [CowrieTelnetTransport,624,46.167.87.32] login attempt: 125
+2017-06-16T23:38:52+0000 [CowrieTelnetTransport,624,46.167.87.32] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T23:38:55+0000 [CowrieTelnetTransport,624,46.167.87.32] login attempt [Accept-Encoding: gzip/Host: check2.zennolab.com] failed
+2017-06-16T23:38:55+0000 [CowrieTelnetTransport,624,46.167.87.32] Warning: state changed and new state returned
+2017-06-16T23:38:55+0000 [CowrieTelnetTransport,624,46.167.87.32] Connection lost after 15 seconds
+2017-06-16T23:38:55+0000 [CowrieTelnetTransport,621,185.188.206.99] Closing TTY Log: log/tty/20170616-233643-None-621i.log after 131 seconds
+2017-06-16T23:38:55+0000 [CowrieTelnetTransport,621,185.188.206.99] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-16T23:38:55+0000 [CowrieTelnetTransport,621,185.188.206.99] Connection lost after 140 seconds
+2017-06-16T23:38:55+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] got channel 'direct-tcpip' request
+2017-06-16T23:38:55+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] direct-tcp connection request to 74.125.204.26:25 from localhost:5556
+2017-06-16T23:38:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,757,91.195.103.212] got channel 'direct-tcpip' request
+2017-06-16T23:38:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,757,91.195.103.212] direct-tcp connection request to 188.125.69.79:25 from localhost:5556
