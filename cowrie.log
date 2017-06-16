@@ -7388,3 +7388,78 @@
 2017-06-16T19:37:01+0000 [-] 'ubnt' failed auth 'password'
 2017-06-16T19:37:01+0000 [-] unauthorized login: 
 2017-06-16T19:37:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,52,195.22.127.83] 'ubnt' trying auth 'password'
+2017-06-16T19:37:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,52,195.22.127.83] login attempt: 28050
+2017-06-16T19:37:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,52,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:37:04+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,52,195.22.127.83] login attempt [ubnt/ubnt] failed
+2017-06-16T19:37:05+0000 [-] 'ubnt' failed auth 'password'
+2017-06-16T19:37:05+0000 [-] unauthorized login: 
+2017-06-16T19:37:16+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 109.236.83.181:47998 (10.8.41.81:2223) [session: TT66]
+2017-06-16T19:37:19+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:32727 (10.8.41.81:2222) [session: 5fb1b89d]
+2017-06-16T19:37:19+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 101.228.184.50:34178 (10.8.41.81:2222) [session: cdc7cbff]
+2017-06-16T19:37:19+0000 [HoneyPotSSHTransport,55,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-16T19:37:19+0000 [HoneyPotSSHTransport,55,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-16T19:37:19+0000 [HoneyPotSSHTransport,55,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:37:19+0000 [HoneyPotSSHTransport,55,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:37:20+0000 [HoneyPotSSHTransport,56,101.228.184.50] Remote SSH version: SSH-2.0-libssh2_1.8.1-20170115
+2017-06-16T19:37:20+0000 [HoneyPotSSHTransport,56,101.228.184.50] kex alg, key alg: 'diffie-hellman-group-exchange-sha256' 'ssh-rsa'
+2017-06-16T19:37:20+0000 [HoneyPotSSHTransport,56,101.228.184.50] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:37:20+0000 [HoneyPotSSHTransport,56,101.228.184.50] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:37:21+0000 [CowrieTelnetTransport,66,109.236.83.181] login attempt: 18750
+2017-06-16T19:37:21+0000 [CowrieTelnetTransport,66,109.236.83.181] login return, expect: [default/]
+2017-06-16T19:37:24+0000 [CowrieTelnetTransport,66,109.236.83.181] login attempt [root/vizxv] failed
+2017-06-16T19:37:24+0000 [CowrieTelnetTransport,66,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T19:37:24+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 38.99.252.150:53085 (10.8.41.81:2223) [session: TT67]
+2017-06-16T19:37:24+0000 [HoneyPotSSHTransport,55,113.195.145.52] NEW KEYS
+2017-06-16T19:37:24+0000 [CowrieTelnetTransport,67,38.99.252.150] login attempt: 1147
+2017-06-16T19:37:24+0000 [CowrieTelnetTransport,67,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T19:37:27+0000 [CowrieTelnetTransport,67,38.99.252.150] login attempt [GET http://chek.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8] failed
+2017-06-16T19:37:27+0000 [CowrieTelnetTransport,67,38.99.252.150] Warning: state changed and new state returned
+2017-06-16T19:37:28+0000 [CowrieTelnetTransport,67,38.99.252.150] login attempt: 1148
+2017-06-16T19:37:28+0000 [CowrieTelnetTransport,67,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T19:37:30+0000 [CowrieTelnetTransport,67,38.99.252.150] login attempt [Connection: Close/User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0] failed
+2017-06-16T19:37:30+0000 [CowrieTelnetTransport,67,38.99.252.150] Warning: state changed and new state returned
+2017-06-16T19:37:31+0000 [CowrieTelnetTransport,67,38.99.252.150] login attempt: 1149
+2017-06-16T19:37:31+0000 [CowrieTelnetTransport,67,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T19:37:33+0000 [CowrieTelnetTransport,67,38.99.252.150] login attempt [Accept-Language: en-US,en;q=0.5/Cache-Control: max-age=0] failed
+2017-06-16T19:37:33+0000 [CowrieTelnetTransport,67,38.99.252.150] Warning: state changed and new state returned
+2017-06-16T19:37:34+0000 [CowrieTelnetTransport,67,38.99.252.150] login attempt: 1150
+2017-06-16T19:37:34+0000 [CowrieTelnetTransport,67,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T19:37:36+0000 [CowrieTelnetTransport,67,38.99.252.150] login attempt [Referer: RefererString/Cookie: param1=CookieString] failed
+2017-06-16T19:37:36+0000 [CowrieTelnetTransport,67,38.99.252.150] Warning: state changed and new state returned
+2017-06-16T19:37:37+0000 [CowrieTelnetTransport,67,38.99.252.150] login attempt: 1151
+2017-06-16T19:37:37+0000 [CowrieTelnetTransport,67,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-16T19:37:40+0000 [CowrieTelnetTransport,67,38.99.252.150] login attempt [Accept-Encoding: gzip/Host: chek.zennolab.com] failed
+2017-06-16T19:37:40+0000 [CowrieTelnetTransport,67,38.99.252.150] Warning: state changed and new state returned
+2017-06-16T19:37:40+0000 [CowrieTelnetTransport,67,38.99.252.150] Connection lost after 15 seconds
+2017-06-16T19:37:40+0000 [CowrieTelnetTransport,66,109.236.83.181] login attempt: 18751
+2017-06-16T19:37:40+0000 [CowrieTelnetTransport,66,109.236.83.181] login return, expect: [default/]
+2017-06-16T19:37:43+0000 [CowrieTelnetTransport,66,109.236.83.181] login attempt [enable/system] failed
+2017-06-16T19:37:43+0000 [CowrieTelnetTransport,66,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T19:37:43+0000 [CowrieTelnetTransport,66,109.236.83.181] login attempt: 18752
+2017-06-16T19:37:43+0000 [CowrieTelnetTransport,66,109.236.83.181] login return, expect: [default/]
+2017-06-16T19:37:46+0000 [CowrieTelnetTransport,66,109.236.83.181] login attempt [shell/sh] failed
+2017-06-16T19:37:46+0000 [CowrieTelnetTransport,66,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T19:37:46+0000 [HoneyPotSSHTransport,55,113.195.145.52] starting service 'ssh-userauth'
+2017-06-16T19:37:46+0000 [HoneyPotSSHTransport,55,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T19:37:46+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 109.236.83.181:44208 (10.8.41.81:2223) [session: TT68]
+2017-06-16T19:37:46+0000 [HoneyPotSSHTransport,55,113.195.145.52] connection lost
+2017-06-16T19:37:46+0000 [HoneyPotSSHTransport,55,113.195.145.52] Connection lost after 26 seconds
+2017-06-16T19:37:46+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 109.236.83.184:54966 (10.8.41.81:2223) [session: TT69]
+2017-06-16T19:37:46+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:52468 (10.8.41.81:2222) [session: 84058bad]
+2017-06-16T19:37:46+0000 [HoneyPotSSHTransport,56,101.228.184.50] connection lost
+2017-06-16T19:37:46+0000 [HoneyPotSSHTransport,56,101.228.184.50] Connection lost after 26 seconds
+2017-06-16T19:37:51+0000 [CowrieTelnetTransport,68,109.236.83.181] login attempt: 18753
+2017-06-16T19:37:51+0000 [CowrieTelnetTransport,68,109.236.83.181] login return, expect: [default/]
+2017-06-16T19:37:53+0000 [CowrieTelnetTransport,68,109.236.83.181] login attempt [admin/meinsm] failed
+2017-06-16T19:37:53+0000 [CowrieTelnetTransport,68,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T19:37:54+0000 [CowrieTelnetTransport,69,109.236.83.184] login attempt: 4072
+2017-06-16T19:37:54+0000 [CowrieTelnetTransport,69,109.236.83.184] login return, expect: [default/]
+2017-06-16T19:37:56+0000 [CowrieTelnetTransport,69,109.236.83.184] login attempt [mother/fucker] failed
+2017-06-16T19:37:56+0000 [CowrieTelnetTransport,69,109.236.83.184] Warning: state changed and new state returned
+2017-06-16T19:37:57+0000 [CowrieTelnetTransport,68,109.236.83.181] login attempt: 18754
+2017-06-16T19:37:57+0000 [CowrieTelnetTransport,68,109.236.83.181] login return, expect: [default/]
+2017-06-16T19:38:00+0000 [CowrieTelnetTransport,68,109.236.83.181] login attempt [enable/system] failed
+2017-06-16T19:38:00+0000 [CowrieTelnetTransport,68,109.236.83.181] Warning: state changed and new state returned
+2017-06-16T19:38:00+0000 [CowrieTelnetTransport,68,109.236.83.181] login attempt: 18755
+2017-06-16T19:38:00+0000 [CowrieTelnetTransport,68,109.236.83.181] login return, expect: [default/]
