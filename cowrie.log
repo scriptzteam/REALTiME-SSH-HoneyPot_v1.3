@@ -5348,3 +5348,14 @@
 	reason: 
 2017-06-16T19:17:00+0000 [HoneyPotSSHTransport,21,113.195.145.52] connection lost
 2017-06-16T19:17:00+0000 [HoneyPotSSHTransport,21,113.195.145.52] Connection lost after 0 seconds
+2017-06-16T19:17:12+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:30208 (10.8.41.81:2222) [session: 80214733]
+2017-06-16T19:17:21+0000 [HoneyPotSSHTransport,22,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-16T19:17:21+0000 [HoneyPotSSHTransport,22,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-16T19:17:21+0000 [HoneyPotSSHTransport,22,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:17:21+0000 [HoneyPotSSHTransport,22,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:17:21+0000 [HoneyPotSSHTransport,22,113.195.145.52] connection lost
+2017-06-16T19:17:21+0000 [HoneyPotSSHTransport,22,113.195.145.52] Connection lost after 9 seconds
+2017-06-16T19:17:24+0000 [CowrieTelnetTransport,37,216.120.247.147] Closing TTY Log: log/tty/20170616-191519-None-37i.log after 125 seconds
+2017-06-16T19:17:24+0000 [CowrieTelnetTransport,37,216.120.247.147] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-16T19:17:24+0000 [CowrieTelnetTransport,37,216.120.247.147] Connection lost after 133 seconds
