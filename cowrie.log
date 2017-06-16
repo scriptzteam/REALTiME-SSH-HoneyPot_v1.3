@@ -1951,3 +1951,44 @@
 2017-06-16T22:10:59+0000 [HoneyPotSSHTransport,577,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
 2017-06-16T22:11:00+0000 [HoneyPotSSHTransport,577,113.195.145.52] NEW KEYS
 2017-06-16T22:11:01+0000 [HoneyPotSSHTransport,577,113.195.145.52] starting service 'ssh-userauth'
+2017-06-16T22:11:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,577,113.195.145.52] 'root' trying auth 'none'
+2017-06-16T22:11:03+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,577,113.195.145.52] 'root' authenticated with 'none'
+2017-06-16T22:11:03+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,577,113.195.145.52] starting service 'ssh-connection'
+2017-06-16T22:11:06+0000 [HoneyPotSSHTransport,577,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T22:11:06+0000 [HoneyPotSSHTransport,577,113.195.145.52] avatar root logging out
+2017-06-16T22:11:06+0000 [HoneyPotSSHTransport,577,113.195.145.52] connection lost
+2017-06-16T22:11:06+0000 [HoneyPotSSHTransport,577,113.195.145.52] Connection lost after 7 seconds
+2017-06-16T22:11:09+0000 [CowrieTelnetTransport,532,216.120.247.147] Connection lost after 54 seconds
+2017-06-16T22:11:21+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:52216 (10.8.41.81:2222) [session: 2fe01fbe]
+2017-06-16T22:11:25+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:29303 (10.8.41.81:2222) [session: be070221]
+2017-06-16T22:11:25+0000 [HoneyPotSSHTransport,579,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-16T22:11:25+0000 [HoneyPotSSHTransport,579,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-16T22:11:25+0000 [HoneyPotSSHTransport,579,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T22:11:25+0000 [HoneyPotSSHTransport,579,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T22:11:26+0000 [HoneyPotSSHTransport,578,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T22:11:26+0000 [HoneyPotSSHTransport,578,113.195.145.52] connection lost
+2017-06-16T22:11:26+0000 [HoneyPotSSHTransport,578,113.195.145.52] Connection lost after 5 seconds
+2017-06-16T22:11:26+0000 [HoneyPotSSHTransport,579,113.195.145.52] NEW KEYS
+2017-06-16T22:11:27+0000 [HoneyPotSSHTransport,579,113.195.145.52] starting service 'ssh-userauth'
+2017-06-16T22:11:27+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,579,113.195.145.52] 'root' trying auth 'none'
+2017-06-16T22:11:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,579,113.195.145.52] 'root' authenticated with 'none'
+2017-06-16T22:11:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,579,113.195.145.52] starting service 'ssh-connection'
+2017-06-16T22:11:29+0000 [HoneyPotSSHTransport,579,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-16T22:11:29+0000 [HoneyPotSSHTransport,579,113.195.145.52] avatar root logging out
+2017-06-16T22:11:29+0000 [HoneyPotSSHTransport,579,113.195.145.52] connection lost
+2017-06-16T22:11:29+0000 [HoneyPotSSHTransport,579,113.195.145.52] Connection lost after 4 seconds
+2017-06-16T22:11:41+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:22826 (10.8.41.81:2222) [session: d6f50ba2]
+2017-06-16T22:11:44+0000 [HoneyPotSSHTransport,580,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-16T22:11:44+0000 [HoneyPotSSHTransport,580,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-16T22:11:44+0000 [HoneyPotSSHTransport,580,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T22:11:44+0000 [HoneyPotSSHTransport,580,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T22:11:47+0000 [HoneyPotSSHTransport,580,113.195.145.52] connection lost
+2017-06-16T22:11:47+0000 [HoneyPotSSHTransport,580,113.195.145.52] Connection lost after 6 seconds
+2017-06-16T22:12:00+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:57696 (10.8.41.81:2222) [session: 428f0002]
+2017-06-16T22:12:00+0000 [HoneyPotSSHTransport,581,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-16T22:12:00+0000 [HoneyPotSSHTransport,581,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-16T22:12:00+0000 [HoneyPotSSHTransport,581,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T22:12:00+0000 [HoneyPotSSHTransport,581,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
