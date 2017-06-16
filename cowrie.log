@@ -5810,3 +5810,121 @@
 2017-06-16T19:22:57+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 5.76.199.161:47100 (10.8.41.81:2223) [session: TT45]
 2017-06-16T19:22:58+0000 [CowrieTelnetTransport,45,5.76.199.161] first time for 5.76.199.161, need: 1
 2017-06-16T19:22:58+0000 [CowrieTelnetTransport,45,5.76.199.161] login attempt: 1
+2017-06-16T19:23:01+0000 [CowrieTelnetTransport,45,5.76.199.161] login attempt [root/admin] succeeded
+2017-06-16T19:23:02+0000 [CowrieTelnetTransport,45,5.76.199.161] Opening TTY Log: log/tty/20170616-192302-None-45i.log
+2017-06-16T19:23:02+0000 [CowrieTelnetTransport,45,5.76.199.161] Warning: state changed and new state returned
+2017-06-16T19:23:02+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:23:02+0000 [-] unauthorized login: 
+2017-06-16T19:23:02+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:23:03+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28042
+2017-06-16T19:23:03+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:23:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] CMD: enable
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: enable 
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Reading txtcmd from "txtcmds/bin/enable"
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] CMD: system
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command not found: system
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] CMD: shell
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command not found: shell
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] CMD: sh
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: sh 
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: /bin/busybox wget
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: wget
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: /bin/busybox 81c46036wget
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: echo -ne '\x0181c46036\x7f'
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: /bin/busybox printf '\00281c46036\177'
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command not found: /usr/bin/printf '\00481c46036\177'
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: /bin/busybox tftp
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: tftp
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: /bin/busybox 81c46036tftp
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] CMD:  /bin/busybox dd if=/bin/busybox bs=22 count=1 || /bin/busybox cat /bin/busybox
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: /bin/busybox dd if=/bin/busybox bs=22 count=1
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: /bin/busybox cat /bin/busybox
+2017-06-16T19:23:06+0000 [CowrieTelnetTransport,45,5.76.199.161] Command found: cat /bin/busybox
+2017-06-16T19:23:07+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:23:07+0000 [-] unauthorized login: 
+2017-06-16T19:23:07+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:23:08+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28043
+2017-06-16T19:23:08+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:23:10+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:23:10+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 210.99.111.166:54281 (10.8.41.81:2222) [session: d48e9a18]
+2017-06-16T19:23:10+0000 [HoneyPotSSHTransport,31,210.99.111.166] Remote SSH version: SSH-2.0-libssh2_1.7.0
+2017-06-16T19:23:10+0000 [HoneyPotSSHTransport,31,210.99.111.166] kex alg, key alg: 'diffie-hellman-group-exchange-sha256' 'ssh-rsa'
+2017-06-16T19:23:10+0000 [HoneyPotSSHTransport,31,210.99.111.166] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:23:10+0000 [HoneyPotSSHTransport,31,210.99.111.166] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-16T19:23:11+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:23:11+0000 [-] unauthorized login: 
+2017-06-16T19:23:19+0000 [HoneyPotSSHTransport,31,210.99.111.166] NEW KEYS
+2017-06-16T19:23:19+0000 [HoneyPotSSHTransport,31,210.99.111.166] starting service 'ssh-userauth'
+2017-06-16T19:23:19+0000 [HoneyPotSSHTransport,31,210.99.111.166] connection lost
+2017-06-16T19:23:19+0000 [HoneyPotSSHTransport,31,210.99.111.166] Connection lost after 9 seconds
+2017-06-16T19:23:23+0000 [CowrieTelnetTransport,44,85.97.120.106] Closing TTY Log: log/tty/20170616-192142-None-44i.log after 100 seconds
+2017-06-16T19:23:23+0000 [CowrieTelnetTransport,44,85.97.120.106] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-16T19:23:23+0000 [CowrieTelnetTransport,44,85.97.120.106] Connection lost after 106 seconds
+2017-06-16T19:23:28+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] 'root' trying auth 'password'
+2017-06-16T19:23:28+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt: 28044
+2017-06-16T19:23:28+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login return, expect: [support/support]
+2017-06-16T19:23:31+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,30,195.22.127.83] login attempt [root/seiko2005] failed
+2017-06-16T19:23:32+0000 [HoneyPotSSHTransport,30,195.22.127.83] connection lost
+2017-06-16T19:23:32+0000 [HoneyPotSSHTransport,30,195.22.127.83] Connection lost after 85 seconds
+2017-06-16T19:23:32+0000 [-] 'root' failed auth 'password'
+2017-06-16T19:23:32+0000 [-] unauthorized login: 
+2017-06-16T19:23:32+0000 [twisted.internet.defer#critical] Unhandled error in Deferred:
+2017-06-16T19:23:32+0000 [twisted.internet.defer#critical] 
+	Traceback (most recent call last):
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/internet/base.py", line 1252, in mainLoop
+	    self.runUntilCurrent()
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/internet/base.py", line 878, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 459, in callback
+	    self._startRunCallbacks(result)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 567, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/conch/ssh/userauth.py", line 251, in _ebBadAuth
+	    NS(b','.join(self.supportedAuthentications)) + b'\x00')
+	  File "/home/cowrie/cowrie/cowrie-env/local/lib/python2.7/site-packages/twisted/conch/ssh/transport.py", line 637, in sendPacket
+	    self.transport.write(encPacket)
+	exceptions.AttributeError: 'NoneType' object has no attribute 'write'
+	
+2017-06-16T19:23:34+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 90.189.177.159:58564 (10.8.41.81:2223) [session: TT46]
+2017-06-16T19:23:35+0000 [CowrieTelnetTransport,46,90.189.177.159] first time for 90.189.177.159, need: 1
+2017-06-16T19:23:35+0000 [CowrieTelnetTransport,46,90.189.177.159] login attempt: 1
+2017-06-16T19:23:38+0000 [CowrieTelnetTransport,46,90.189.177.159] login attempt [guest/123456] succeeded
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Opening TTY Log: log/tty/20170616-192340-None-46i.log
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Warning: state changed and new state returned
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] CMD: enable
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: enable 
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Reading txtcmd from "txtcmds/bin/enable"
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] CMD: system
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command not found: system
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] CMD: shell
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command not found: shell
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] CMD: sh
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: sh 
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: /bin/busybox wget
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: wget
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: /bin/busybox 81c46036wget
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: echo -ne '\x0181c46036\x7f'
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: /bin/busybox printf '\00281c46036\177'
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command not found: /usr/bin/printf '\00481c46036\177'
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: /bin/busybox tftp
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: tftp
+2017-06-16T19:23:40+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: /bin/busybox 81c46036tftp
+2017-06-16T19:23:41+0000 [CowrieTelnetTransport,46,90.189.177.159] CMD:  /bin/busybox dd if=/bin/busybox bs=22 count=1 || /bin/busybox cat /bin/busybox
+2017-06-16T19:23:41+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: /bin/busybox dd if=/bin/busybox bs=22 count=1
+2017-06-16T19:23:41+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: /bin/busybox cat /bin/busybox
+2017-06-16T19:23:41+0000 [CowrieTelnetTransport,46,90.189.177.159] Command found: cat /bin/busybox
+2017-06-16T19:23:45+0000 [CowrieTelnetTransport,43,117.208.182.34] Closing TTY Log: log/tty/20170616-192137-None-43i.log after 128 seconds
+2017-06-16T19:23:45+0000 [CowrieTelnetTransport,43,117.208.182.34] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-16T19:23:45+0000 [CowrieTelnetTransport,43,117.208.182.34] Connection lost after 134 seconds
