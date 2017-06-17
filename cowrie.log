@@ -2710,3 +2710,35 @@
 2017-06-17T05:23:51+0000 [CowrieTelnetTransport,1227,216.120.247.147] login return, expect: [root/888888]
 2017-06-17T05:23:54+0000 [CowrieTelnetTransport,1227,216.120.247.147] login attempt [sh//bin/busybox ACHIU] failed
 2017-06-17T05:23:54+0000 [CowrieTelnetTransport,1227,216.120.247.147] Warning: state changed and new state returned
+2017-06-17T05:24:16+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 104.40.85.167:40980 (10.8.41.81:2222) [session: b233fe88]
+2017-06-17T05:24:16+0000 [HoneyPotSSHTransport,1609,104.40.85.167] Remote SSH version: SSH-2.0-libssh-0.1
+2017-06-17T05:24:16+0000 [HoneyPotSSHTransport,1609,104.40.85.167] kex alg, key alg: 'diffie-hellman-group1-sha1' 'ssh-rsa'
+2017-06-17T05:24:16+0000 [HoneyPotSSHTransport,1609,104.40.85.167] outgoing: 'aes128-cbc' 'hmac-sha1' 'none'
+2017-06-17T05:24:16+0000 [HoneyPotSSHTransport,1609,104.40.85.167] incoming: 'aes128-cbc' 'hmac-sha1' 'none'
+2017-06-17T05:24:16+0000 [HoneyPotSSHTransport,1609,104.40.85.167] NEW KEYS
+2017-06-17T05:24:17+0000 [HoneyPotSSHTransport,1609,104.40.85.167] starting service 'ssh-userauth'
+2017-06-17T05:24:17+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1609,104.40.85.167] 'root' trying auth 'password'
+2017-06-17T05:24:17+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1609,104.40.85.167] first time for 104.40.85.167, need: 1
+2017-06-17T05:24:17+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1609,104.40.85.167] login attempt: 1
+2017-06-17T05:24:20+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1609,104.40.85.167] login attempt [root/root] succeeded
+2017-06-17T05:24:21+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1609,104.40.85.167] 'root' authenticated with 'password'
+2017-06-17T05:24:21+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1609,104.40.85.167] starting service 'ssh-connection'
+2017-06-17T05:24:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1609,104.40.85.167] got channel 'session' request
+2017-06-17T05:24:21+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1609,104.40.85.167] channel open
+2017-06-17T05:24:22+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1609,104.40.85.167] pty request: 'xterm' (24, 80, 0, 0)
+2017-06-17T05:24:22+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1609,104.40.85.167] Terminal Size: 24 80
+2017-06-17T05:24:22+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1609,104.40.85.167] getting shell
+2017-06-17T05:24:22+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1609,104.40.85.167] Opening TTY Log: log/tty/20170617-052422-b233fe88-0i.log
+2017-06-17T05:24:25+0000 [CowrieTelnetTransport,1227,216.120.247.147] Connection lost after 54 seconds
+2017-06-17T05:24:26+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1609,104.40.85.167] Closing TTY Log: log/tty/20170617-052422-b233fe88-0i.log after 3 seconds
+2017-06-17T05:24:26+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1609,104.40.85.167] honeypot terminal protocol connection lost disconnected
+2017-06-17T05:24:26+0000 [HoneyPotSSHTransport,1609,104.40.85.167] avatar root logging out
+2017-06-17T05:24:26+0000 [HoneyPotSSHTransport,1609,104.40.85.167] connection lost
+2017-06-17T05:24:26+0000 [HoneyPotSSHTransport,1609,104.40.85.167] Connection lost after 9 seconds
+2017-06-17T05:24:47+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 129.146.31.194:39513 (10.8.41.81:2222) [session: 029bf953]
+2017-06-17T05:24:47+0000 [HoneyPotSSHTransport,1610,129.146.31.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-06-17T05:24:47+0000 [HoneyPotSSHTransport,1610,129.146.31.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T05:24:47+0000 [HoneyPotSSHTransport,1610,129.146.31.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T05:24:47+0000 [HoneyPotSSHTransport,1610,129.146.31.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T05:24:49+0000 [HoneyPotSSHTransport,1610,129.146.31.194] connection lost
+2017-06-17T05:24:49+0000 [HoneyPotSSHTransport,1610,129.146.31.194] Connection lost after 2 seconds
