@@ -1028,3 +1028,28 @@
 	reason: 
 2017-06-17T05:03:56+0000 [HoneyPotSSHTransport,1560,113.195.145.52] connection lost
 2017-06-17T05:03:56+0000 [HoneyPotSSHTransport,1560,113.195.145.52] Connection lost after 2 seconds
+2017-06-17T05:04:25+0000 [CowrieTelnetTransport,1215,216.120.247.147] Connection lost after 54 seconds
+2017-06-17T05:04:26+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:14009 (10.8.41.81:2222) [session: 4ad833be]
+2017-06-17T05:04:28+0000 [HoneyPotSSHTransport,1561,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T05:04:28+0000 [HoneyPotSSHTransport,1561,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T05:04:28+0000 [HoneyPotSSHTransport,1561,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T05:04:28+0000 [HoneyPotSSHTransport,1561,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T05:04:33+0000 [HoneyPotSSHTransport,1561,113.195.145.52] connection lost
+2017-06-17T05:04:33+0000 [HoneyPotSSHTransport,1561,113.195.145.52] Connection lost after 6 seconds
+2017-06-17T05:04:38+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] got channel 'direct-tcpip' request
+2017-06-17T05:04:38+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] direct-tcp connection request to 173.194.79.27:25 from localhost:5556
+2017-06-17T05:04:43+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1379,91.230.47.81] got channel 'direct-tcpip' request
+2017-06-17T05:04:43+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1379,91.230.47.81] direct-tcp connection request to 136.243.80.213:80 from localhost:5556
+2017-06-17T05:04:43+0000 [SSHChannel None (53) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1379,91.230.47.81] direct-tcp forward to 136.243.80.213:80 with data 'GET /internals/api/ip?1497675829679631956 HTTP/1.1\r\nHost: ip.adspy.mobi\r\nConnection: keep-alive\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.67 Safari/537.36\r\nAccept-Encoding: gzip, deflate, sdch\r\n\r\n'
+2017-06-17T05:04:43+0000 [SSHChannel None (53) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1379,91.230.47.81] failed to connect: Connection refused
+2017-06-17T05:04:43+0000 [SSHChannel None (53) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1379,91.230.47.81] sending close 53
+2017-06-17T05:04:47+0000 [SSHChannel None (65) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] remote eof
+2017-06-17T05:04:48+0000 [SSHChannel None (65) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] remote close
+2017-06-17T05:04:48+0000 [SSHChannel None (65) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] sending close 65
+2017-06-17T05:04:50+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:39426 (10.8.41.81:2222) [session: 7df3e3d5]
+2017-06-17T05:04:50+0000 [HoneyPotSSHTransport,1562,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T05:04:50+0000 [HoneyPotSSHTransport,1562,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T05:04:50+0000 [HoneyPotSSHTransport,1562,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T05:04:50+0000 [HoneyPotSSHTransport,1562,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T05:04:52+0000 [HoneyPotSSHTransport,1562,113.195.145.52] NEW KEYS
+2017-06-17T05:04:53+0000 [HoneyPotSSHTransport,1562,113.195.145.52] starting service 'ssh-userauth'
