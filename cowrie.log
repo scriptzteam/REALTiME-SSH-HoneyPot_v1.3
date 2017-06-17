@@ -6367,3 +6367,32 @@
 2017-06-17T00:13:55+0000 [SSHChannel None (131) on SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] failed to connect: Connection refused
 2017-06-17T00:13:55+0000 [SSHChannel None (131) on SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] sending close 131
 2017-06-17T00:13:59+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:63475 (10.8.41.81:2222) [session: b644f7f2]
+2017-06-17T00:14:05+0000 [HoneyPotSSHTransport,900,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T00:14:05+0000 [HoneyPotSSHTransport,900,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T00:14:05+0000 [HoneyPotSSHTransport,900,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:14:05+0000 [HoneyPotSSHTransport,900,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:14:05+0000 [HoneyPotSSHTransport,900,113.195.145.52] connection lost
+2017-06-17T00:14:05+0000 [HoneyPotSSHTransport,900,113.195.145.52] Connection lost after 6 seconds
+2017-06-17T00:14:08+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:19663 (10.8.41.81:2222) [session: a775cda0]
+2017-06-17T00:14:14+0000 [HoneyPotSSHTransport,901,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T00:14:14+0000 [HoneyPotSSHTransport,901,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T00:14:14+0000 [HoneyPotSSHTransport,901,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:14:14+0000 [HoneyPotSSHTransport,901,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:14:14+0000 [HoneyPotSSHTransport,901,113.195.145.52] connection lost
+2017-06-17T00:14:14+0000 [HoneyPotSSHTransport,901,113.195.145.52] Connection lost after 6 seconds
+2017-06-17T00:14:30+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:51365 (10.8.41.81:2222) [session: de4f5d3d]
+2017-06-17T00:14:42+0000 [HoneyPotSSHTransport,902,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T00:14:42+0000 [HoneyPotSSHTransport,902,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T00:14:42+0000 [HoneyPotSSHTransport,902,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:14:42+0000 [HoneyPotSSHTransport,902,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:14:42+0000 [HoneyPotSSHTransport,902,113.195.145.52] connection lost
+2017-06-17T00:14:42+0000 [HoneyPotSSHTransport,902,113.195.145.52] Connection lost after 11 seconds
+2017-06-17T00:14:54+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 129.146.31.194:44524 (10.8.41.81:2222) [session: ef107956]
+2017-06-17T00:14:54+0000 [HoneyPotSSHTransport,903,129.146.31.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-06-17T00:14:54+0000 [HoneyPotSSHTransport,903,129.146.31.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T00:14:54+0000 [HoneyPotSSHTransport,903,129.146.31.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:14:54+0000 [HoneyPotSSHTransport,903,129.146.31.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:14:58+0000 [HoneyPotSSHTransport,903,129.146.31.194] NEW KEYS
+2017-06-17T00:14:58+0000 [HoneyPotSSHTransport,903,129.146.31.194] starting service 'ssh-userauth'
+2017-06-17T00:14:58+0000 [HoneyPotSSHTransport,903,129.146.31.194] connection lost
+2017-06-17T00:14:58+0000 [HoneyPotSSHTransport,903,129.146.31.194] Connection lost after 4 seconds
