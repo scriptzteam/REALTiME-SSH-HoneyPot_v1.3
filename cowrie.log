@@ -780,3 +780,33 @@
 2017-06-17T07:31:57+0000 [-] Authentication Timeout reached
 2017-06-17T07:31:57+0000 [HoneyPotSSHTransport,1939,113.195.145.52] connection lost
 2017-06-17T07:31:57+0000 [HoneyPotSSHTransport,1939,113.195.145.52] Connection lost after 120 seconds
+2017-06-17T07:32:10+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] got channel 'direct-tcpip' request
+2017-06-17T07:32:10+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] direct-tcp connection request to 23.5.96.14:443 from localhost:5556
+2017-06-17T07:32:10+0000 [SSHChannel None (45) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] direct-tcp forward to 23.5.96.14:443 with data '\x80z\x01\x03\x01\x00Q\x00\x00\x00 \x00\x009\x00\x008\x00\x005\x00\x00\x16\x00\x00\x13\x00\x00\n\x07\x00\xc0\x00\x003\x00\x002\x00\x00/\x00\x00\x07\x05\x00\x80\x03\x00\x80\x00\x00\x05\x00\x00\x04\x01\x00\x80\x00\x00\x15\x00\x00\x12\x00\x00\t\x06\x00@\x00\x00\x14\x00\x00\x11\x00\x00\x08\x00\x00\x06\x04\x00\x80\x00\x00\x03\x02\x00\x80.\xa6HaMZ\xb2h\xc8 L\x12<\x9a\xe5\x1c|\xaeY\xfb\xa7\x8cD\xe7\xdf\xf3!\x82\xb9pa\x1f'
+2017-06-17T07:32:10+0000 [SSHChannel None (45) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] failed to connect: Connection refused
+2017-06-17T07:32:10+0000 [SSHChannel None (45) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] sending close 45
+2017-06-17T07:32:23+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 193.34.144.236:55672 (10.8.41.81:2223) [session: TT1595]
+2017-06-17T07:32:23+0000 [CowrieTelnetTransport,1595,193.34.144.236] login attempt: 98
+2017-06-17T07:32:23+0000 [CowrieTelnetTransport,1595,193.34.144.236] login return, expect: [CONNECT www.google.com:443 HTTP/1.1/Host: www.google.com:443]
+2017-06-17T07:32:25+0000 [CowrieTelnetTransport,1595,193.34.144.236] login attempt [CONNECT www.google.com:443 HTTP/1.1/Host: www.google.com:443] succeeded
+2017-06-17T07:32:27+0000 [CowrieTelnetTransport,1595,193.34.144.236] Opening TTY Log: log/tty/20170617-073227-None-1595i.log
+2017-06-17T07:32:27+0000 [CowrieTelnetTransport,1595,193.34.144.236] Warning: state changed and new state returned
+2017-06-17T07:32:27+0000 [CowrieTelnetTransport,1595,193.34.144.236] CMD: 
+2017-06-17T07:32:28+0000 [CowrieTelnetTransport,1595,193.34.144.236] Closing TTY Log: log/tty/20170617-073227-None-1595i.log after 0 seconds
+2017-06-17T07:32:28+0000 [CowrieTelnetTransport,1595,193.34.144.236] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+	]
+2017-06-17T07:32:28+0000 [CowrieTelnetTransport,1595,193.34.144.236] Connection lost after 5 seconds
+2017-06-17T07:32:28+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 193.34.144.236:56416 (10.8.41.81:2223) [session: TT1596]
+2017-06-17T07:32:28+0000 [CowrieTelnetTransport,1596,193.34.144.236] Connection lost after 0 seconds
+2017-06-17T07:32:29+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 193.34.144.236:56565 (10.8.41.81:2223) [session: TT1597]
+2017-06-17T07:32:29+0000 [CowrieTelnetTransport,1597,193.34.144.236] Connection lost after 0 seconds
+2017-06-17T07:32:37+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1840,91.195.103.181] got channel 'direct-tcpip' request
+2017-06-17T07:32:37+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1840,91.195.103.181] direct-tcp connection request to 173.230.217.202:443 from localhost:5556
+2017-06-17T07:32:37+0000 [SSHChannel None (23) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1840,91.195.103.181] direct-tcp forward to 173.230.217.202:443 with data "\x16\x03\x03\x00\xe5\x01\x00\x00\xe1\x03\x03YD\xda\xe3\xf9\x15\xdb\xa7\x928y\x16\xd1u\xee\xf2\xf5\x11\xb5\xad04\xbd\xa0\x18\xe4]m/_\xd3\x03 \x0c\xfb\x1e\xe5\x00^3\xe84\x02\xa9\x14\xaa\xe7\x1a\xb2\x8a\x16\xca\xfeADI\xf3u\xfb\x12\xe4\xf8\xf7\xeaA\x00<\xc0,\xc0+\xc00\xc0/\x00\x9f\x00\x9e\xc0$\xc0#\xc0(\xc0'\xc0\n\xc0\t\xc0\x14\xc0\x13\x009\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\n\x00j\x00@\x008\x002\x00\x13\x00\x05\x00\x04\x01\x00\x00\\\x00\x00\x00!\x00\x1f\x00\x00\x1cnative.np.ac.playstation.net\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18\x00\x0b\x00\x02\x01\x00\x00\r\x00\x14\x00\x12\x04\x01\x05\x01\x02\x01\x04\x03\x05\x03\x02\x03\x02\x02\x06\x01\x06\x03\x00#\x00\x00\x00\x17\x00\x00\xff\x01\x00\x01\x00"
+2017-06-17T07:32:37+0000 [SSHChannel None (23) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1840,91.195.103.181] failed to connect: Connection refused
+2017-06-17T07:32:37+0000 [SSHChannel None (23) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1840,91.195.103.181] sending close 23
+2017-06-17T07:33:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] got channel 'direct-tcpip' request
+2017-06-17T07:33:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] direct-tcp connection request to 23.5.96.14:443 from localhost:5556
+2017-06-17T07:33:00+0000 [SSHChannel None (46) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] direct-tcp forward to 23.5.96.14:443 with data '\x80z\x01\x03\x01\x00Q\x00\x00\x00 \x00\x009\x00\x008\x00\x005\x00\x00\x16\x00\x00\x13\x00\x00\n\x07\x00\xc0\x00\x003\x00\x002\x00\x00/\x00\x00\x07\x05\x00\x80\x03\x00\x80\x00\x00\x05\x00\x00\x04\x01\x00\x80\x00\x00\x15\x00\x00\x12\x00\x00\t\x06\x00@\x00\x00\x14\x00\x00\x11\x00\x00\x08\x00\x00\x06\x04\x00\x80\x00\x00\x03\x02\x00\x80\xf8\x94\x9c\xa7\xf6S\xb1\xae2\xa3\xc8\x07\xbf3\x85jJ\x18S\x9e\tS\xbe\xd0\x8fg\xcf5\xa0\xd2\x93['
+2017-06-17T07:33:00+0000 [SSHChannel None (46) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] failed to connect: Connection refused
+2017-06-17T07:33:00+0000 [SSHChannel None (46) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] sending close 46
