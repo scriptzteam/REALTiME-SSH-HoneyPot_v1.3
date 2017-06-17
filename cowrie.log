@@ -3236,3 +3236,115 @@
 2017-06-17T12:27:00+0000 [CowrieTelnetTransport,2075,172.242.163.161] Command found: /bin/busybox OBJPRN
 2017-06-17T12:27:01+0000 [-] 'oracle' failed auth 'password'
 2017-06-17T12:27:01+0000 [-] unauthorized login: 
+2017-06-17T12:27:02+0000 [HoneyPotSSHTransport,2881,221.229.204.177] connection lost
+2017-06-17T12:27:02+0000 [HoneyPotSSHTransport,2881,221.229.204.177] Connection lost after 34 seconds
+2017-06-17T12:27:02+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:64028 (10.8.41.81:2222) [session: 467bee00]
+2017-06-17T12:27:02+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.229.204.177:1817 (10.8.41.81:2222) [session: 3a5640da]
+2017-06-17T12:27:02+0000 [HoneyPotSSHTransport,2883,113.195.145.52] connection lost
+2017-06-17T12:27:02+0000 [HoneyPotSSHTransport,2883,113.195.145.52] Connection lost after 0 seconds
+2017-06-17T12:27:03+0000 [CowrieTelnetTransport,2075,172.242.163.161] Closing TTY Log: log/tty/20170617-122649-None-2075i.log after 13 seconds
+2017-06-17T12:27:03+0000 [CowrieTelnetTransport,2075,172.242.163.161] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-17T12:27:03+0000 [CowrieTelnetTransport,2075,172.242.163.161] Connection lost after 24 seconds
+2017-06-17T12:27:04+0000 [HoneyPotSSHTransport,2884,221.229.204.177] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-06-17T12:27:04+0000 [HoneyPotSSHTransport,2884,221.229.204.177] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T12:27:04+0000 [HoneyPotSSHTransport,2884,221.229.204.177] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:27:04+0000 [HoneyPotSSHTransport,2884,221.229.204.177] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:27:04+0000 [CowrieTelnetTransport,2076,183.131.83.53] Connection lost after 11 seconds
+2017-06-17T12:27:05+0000 [HoneyPotSSHTransport,2884,221.229.204.177] NEW KEYS
+2017-06-17T12:27:05+0000 [HoneyPotSSHTransport,2884,221.229.204.177] starting service 'ssh-userauth'
+2017-06-17T12:27:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] 'oracle' trying auth 'password'
+2017-06-17T12:27:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login attempt: 911
+2017-06-17T12:27:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:27:09+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login attempt [oracle/admin@123] failed
+2017-06-17T12:27:10+0000 [-] 'oracle' failed auth 'password'
+2017-06-17T12:27:10+0000 [-] unauthorized login: 
+2017-06-17T12:27:10+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] 'oracle' trying auth 'password'
+2017-06-17T12:27:10+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login attempt: 912
+2017-06-17T12:27:10+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:27:13+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login attempt [oracle/admin@1] failed
+2017-06-17T12:27:13+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:37016 (10.8.41.81:2222) [session: e0ce4bfb]
+2017-06-17T12:27:13+0000 [HoneyPotSSHTransport,2885,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T12:27:13+0000 [HoneyPotSSHTransport,2885,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T12:27:13+0000 [HoneyPotSSHTransport,2885,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:27:13+0000 [HoneyPotSSHTransport,2885,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:27:14+0000 [-] 'oracle' failed auth 'password'
+2017-06-17T12:27:14+0000 [-] unauthorized login: 
+2017-06-17T12:27:14+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] 'oracle' trying auth 'password'
+2017-06-17T12:27:15+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login attempt: 913
+2017-06-17T12:27:15+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:27:17+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login attempt [oracle/A@123] failed
+2017-06-17T12:27:17+0000 [HoneyPotSSHTransport,2885,113.195.145.52] NEW KEYS
+2017-06-17T12:27:17+0000 [HoneyPotSSHTransport,2885,113.195.145.52] starting service 'ssh-userauth'
+2017-06-17T12:27:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2497,91.195.103.183] got channel 'direct-tcpip' request
+2017-06-17T12:27:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2497,91.195.103.183] direct-tcp connection request to 204.239.42.2:25 from localhost:5556
+2017-06-17T12:27:18+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2885,113.195.145.52] 'root' trying auth 'none'
+2017-06-17T12:27:20+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2885,113.195.145.52] 'root' authenticated with 'none'
+2017-06-17T12:27:20+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2885,113.195.145.52] starting service 'ssh-connection'
+2017-06-17T12:27:20+0000 [-] 'oracle' failed auth 'password'
+2017-06-17T12:27:20+0000 [-] unauthorized login: 
+2017-06-17T12:27:20+0000 [HoneyPotSSHTransport,2885,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T12:27:20+0000 [HoneyPotSSHTransport,2885,113.195.145.52] avatar root logging out
+2017-06-17T12:27:21+0000 [HoneyPotSSHTransport,2885,113.195.145.52] connection lost
+2017-06-17T12:27:21+0000 [HoneyPotSSHTransport,2885,113.195.145.52] Connection lost after 7 seconds
+2017-06-17T12:27:22+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] 'oracle' trying auth 'password'
+2017-06-17T12:27:23+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login attempt: 914
+2017-06-17T12:27:23+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:27:25+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login attempt [oracle/firewall] failed
+2017-06-17T12:27:26+0000 [-] 'oracle' failed auth 'password'
+2017-06-17T12:27:26+0000 [-] unauthorized login: 
+2017-06-17T12:27:30+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] 'oracle' trying auth 'password'
+2017-06-17T12:27:30+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login attempt: 915
+2017-06-17T12:27:30+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:27:33+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2884,221.229.204.177] login attempt [oracle/hello] failed
+2017-06-17T12:27:34+0000 [-] 'oracle' failed auth 'password'
+2017-06-17T12:27:34+0000 [-] unauthorized login: 
+2017-06-17T12:27:34+0000 [HoneyPotSSHTransport,2884,221.229.204.177] connection lost
+2017-06-17T12:27:34+0000 [HoneyPotSSHTransport,2884,221.229.204.177] Connection lost after 32 seconds
+2017-06-17T12:27:35+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.229.204.177:2759 (10.8.41.81:2222) [session: 91f0a0bb]
+2017-06-17T12:27:35+0000 [HoneyPotSSHTransport,2886,221.229.204.177] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-06-17T12:27:35+0000 [HoneyPotSSHTransport,2886,221.229.204.177] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T12:27:35+0000 [HoneyPotSSHTransport,2886,221.229.204.177] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:27:35+0000 [HoneyPotSSHTransport,2886,221.229.204.177] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:27:36+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:54093 (10.8.41.81:2222) [session: 90761bf8]
+2017-06-17T12:27:36+0000 [HoneyPotSSHTransport,2886,221.229.204.177] NEW KEYS
+2017-06-17T12:27:36+0000 [HoneyPotSSHTransport,2887,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T12:27:36+0000 [HoneyPotSSHTransport,2887,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T12:27:36+0000 [HoneyPotSSHTransport,2887,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:27:36+0000 [HoneyPotSSHTransport,2887,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:27:39+0000 [HoneyPotSSHTransport,2886,221.229.204.177] starting service 'ssh-userauth'
+2017-06-17T12:27:40+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] 'oracle' trying auth 'password'
+2017-06-17T12:27:41+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] login attempt: 916
+2017-06-17T12:27:41+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:27:44+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] login attempt [oracle/123321] failed
+2017-06-17T12:27:44+0000 [HoneyPotSSHTransport,2887,113.195.145.52] NEW KEYS
+2017-06-17T12:27:44+0000 [HoneyPotSSHTransport,2887,113.195.145.52] starting service 'ssh-userauth'
+2017-06-17T12:27:44+0000 [HoneyPotSSHTransport,2887,113.195.145.52] connection lost
+2017-06-17T12:27:44+0000 [HoneyPotSSHTransport,2887,113.195.145.52] Connection lost after 8 seconds
+2017-06-17T12:27:45+0000 [-] 'oracle' failed auth 'password'
+2017-06-17T12:27:45+0000 [-] unauthorized login: 
+2017-06-17T12:27:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] 'oracle' trying auth 'password'
+2017-06-17T12:27:46+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] login attempt: 917
+2017-06-17T12:27:46+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:27:48+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] login attempt [oracle/123abc] failed
+2017-06-17T12:27:48+0000 [SSHChannel None (302) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2497,91.195.103.183] direct-tcp forward to 213.40.180.222:25 with data 'QUIT\r\n'
+2017-06-17T12:27:48+0000 [SSHChannel None (302) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2497,91.195.103.183] failed to connect: Connection refused
+2017-06-17T12:27:48+0000 [SSHChannel None (302) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2497,91.195.103.183] sending close 302
+2017-06-17T12:27:48+0000 [SSHChannel None (302) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2497,91.195.103.183] remote eof
+2017-06-17T12:27:48+0000 [SSHChannel None (302) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2497,91.195.103.183] remote close
+2017-06-17T12:27:49+0000 [-] 'oracle' failed auth 'password'
+2017-06-17T12:27:49+0000 [-] unauthorized login: 
+2017-06-17T12:27:50+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] 'oracle' trying auth 'password'
+2017-06-17T12:27:50+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] login attempt: 918
+2017-06-17T12:27:50+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:27:53+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] login attempt [oracle/987654321] failed
+2017-06-17T12:27:54+0000 [-] 'oracle' failed auth 'password'
+2017-06-17T12:27:54+0000 [-] unauthorized login: 
+2017-06-17T12:27:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] got channel 'direct-tcpip' request
+2017-06-17T12:27:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] direct-tcp connection request to 63.250.192.46:25 from localhost:5556
+2017-06-17T12:27:58+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] 'oracle' trying auth 'password'
+2017-06-17T12:27:58+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] login attempt: 919
+2017-06-17T12:27:58+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:28:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2886,221.229.204.177] login attempt [oracle/123qwe] failed
+2017-06-17T12:28:01+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 106.80.39.225:50310 (10.8.41.81:2223) [session: TT2077]
