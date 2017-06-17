@@ -1204,3 +1204,40 @@
 2017-06-17T09:54:37+0000 [SSHChannel None (50) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2238,134.19.187.75] remote close
 2017-06-17T09:54:37+0000 [SSHChannel None (50) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2238,134.19.187.75] sending close 50
 2017-06-17T09:54:43+0000 [CowrieTelnetTransport,1861,121.17.142.204] Connection lost after 59 seconds
+2017-06-17T09:55:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2272,91.195.103.201] got channel 'direct-tcpip' request
+2017-06-17T09:55:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2272,91.195.103.201] direct-tcp connection request to 23.5.96.14:443 from localhost:5556
+2017-06-17T09:55:12+0000 [SSHChannel None (46) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2272,91.195.103.201] direct-tcp forward to 23.5.96.14:443 with data '\x80z\x01\x03\x01\x00Q\x00\x00\x00 \x00\x009\x00\x008\x00\x005\x00\x00\x16\x00\x00\x13\x00\x00\n\x07\x00\xc0\x00\x003\x00\x002\x00\x00/\x00\x00\x07\x05\x00\x80\x03\x00\x80\x00\x00\x05\x00\x00\x04\x01\x00\x80\x00\x00\x15\x00\x00\x12\x00\x00\t\x06\x00@\x00\x00\x14\x00\x00\x11\x00\x00\x08\x00\x00\x06\x04\x00\x80\x00\x00\x03\x02\x00\x80B\x08\x83\x9c<b\xd2\xbb\xa8\xa6\xc8\x86\x8a\x84`\xefndF,/S\xcb{\x97\xf6O\x97\x9dg\xdc('
+2017-06-17T09:55:12+0000 [SSHChannel None (46) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2272,91.195.103.201] failed to connect: Connection refused
+2017-06-17T09:55:12+0000 [SSHChannel None (46) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2272,91.195.103.201] sending close 46
+2017-06-17T09:55:22+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2233,91.195.103.181] got channel 'direct-tcpip' request
+2017-06-17T09:55:22+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2233,91.195.103.181] direct-tcp connection request to 104.76.54.163:443 from localhost:5556
+2017-06-17T09:55:22+0000 [SSHChannel None (57) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2233,91.195.103.181] direct-tcp forward to 104.76.54.163:443 with data "\x16\x03\x03\x00\xc4\x01\x00\x00\xc0\x03\x03YD\xfcX\xdcz\x9c\x1c\xe0\x97\xbc\xdd\x8fWD \x15\xed\xdb\x8e\xaf\xb3Q\xbe%cr\xbe4h2\x92\x00\x004\xc0(\xc0'\xc0\x14\xc0\x13\x00\x9f\x00\x9e\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\xc0,\xc0+\xc0$\xc0#\xc0\n\xc0\t\x00j\x00@\x008\x002\x00\n\x00\x13\x00\x05\x00\x04\x01\x00\x00c\x00\x00\x00*\x00(\x00\x00%auth.api.sonyentertainmentnetwork.com\x00\n\x00\x06\x00\x04\x00\x17\x00\x18\x00\x0b\x00\x02\x01\x00\x00\r\x00\x14\x00\x12\x06\x01\x06\x03\x04\x01\x05\x01\x02\x01\x04\x03\x05\x03\x02\x03\x02\x02\x00#\x00\x00\x00\x17\x00\x00\xff\x01\x00\x01\x00"
+2017-06-17T09:55:22+0000 [SSHChannel None (57) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2233,91.195.103.181] failed to connect: Connection refused
+2017-06-17T09:55:22+0000 [SSHChannel None (57) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2233,91.195.103.181] sending close 57
+2017-06-17T09:55:26+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 42.116.224.203:65311 (10.8.41.81:2222) [session: a73236cd]
+2017-06-17T09:55:27+0000 [HoneyPotSSHTransport,2325,42.116.224.203] Remote SSH version: SSH-2.0-Granados-1.0
+2017-06-17T09:55:27+0000 [HoneyPotSSHTransport,2325,42.116.224.203] kex alg, key alg: 'diffie-hellman-group1-sha1' 'ssh-dss'
+2017-06-17T09:55:27+0000 [HoneyPotSSHTransport,2325,42.116.224.203] outgoing: 'aes128-cbc' 'hmac-sha1' 'none'
+2017-06-17T09:55:27+0000 [HoneyPotSSHTransport,2325,42.116.224.203] incoming: 'aes128-cbc' 'hmac-sha1' 'none'
+2017-06-17T09:55:28+0000 [HoneyPotSSHTransport,2325,42.116.224.203] NEW KEYS
+2017-06-17T09:55:28+0000 [HoneyPotSSHTransport,2325,42.116.224.203] starting service 'ssh-userauth'
+2017-06-17T09:55:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2325,42.116.224.203] 'support' trying auth 'password'
+2017-06-17T09:55:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2325,42.116.224.203] first time for 42.116.224.203, need: 1
+2017-06-17T09:55:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2325,42.116.224.203] login attempt: 1
+2017-06-17T09:55:32+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2325,42.116.224.203] login attempt [support/support] succeeded
+2017-06-17T09:55:33+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2325,42.116.224.203] 'support' authenticated with 'password'
+2017-06-17T09:55:33+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2325,42.116.224.203] starting service 'ssh-connection'
+2017-06-17T09:55:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2325,42.116.224.203] got channel 'direct-tcpip' request
+2017-06-17T09:55:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2325,42.116.224.203] direct-tcp connection request to ipinfo.io:80 from localhost:80
+2017-06-17T09:55:35+0000 [SSHChannel None (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2325,42.116.224.203] direct-tcp forward to ipinfo.io:80 with data 'GET /json HTTP/1.1\r\nHost:ipinfo.io\r\n\r\n'
+2017-06-17T09:55:35+0000 [SSHChannel None (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2325,42.116.224.203] failed to connect: Connection refused
+2017-06-17T09:55:35+0000 [SSHChannel None (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2325,42.116.224.203] sending close 0
+2017-06-17T09:55:35+0000 [HoneyPotSSHTransport,2325,42.116.224.203] Got remote error, code 0
+	reason: 
+2017-06-17T09:55:35+0000 [HoneyPotSSHTransport,2325,42.116.224.203] avatar support logging out
+2017-06-17T09:55:35+0000 [HoneyPotSSHTransport,2325,42.116.224.203] connection lost
+2017-06-17T09:55:35+0000 [HoneyPotSSHTransport,2325,42.116.224.203] Connection lost after 8 seconds
+2017-06-17T09:55:42+0000 [CowrieTelnetTransport,1859,216.120.247.147] Closing TTY Log: log/tty/20170617-095340-None-1859i.log after 122 seconds
+2017-06-17T09:55:42+0000 [CowrieTelnetTransport,1859,216.120.247.147] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-17T09:55:42+0000 [CowrieTelnetTransport,1859,216.120.247.147] Connection lost after 130 seconds
