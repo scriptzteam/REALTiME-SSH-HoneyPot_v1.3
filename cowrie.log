@@ -7610,3 +7610,14 @@
 2017-06-17T04:44:07+0000 [HoneyPotSSHTransport,1507,113.195.145.52] Connection lost after 2 seconds
 2017-06-17T04:44:26+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:36266 (10.8.41.81:2222) [session: 55e4cf24]
 2017-06-17T04:44:36+0000 [CowrieTelnetTransport,1202,216.120.247.147] Connection lost after 78 seconds
+2017-06-17T04:45:29+0000 [CowrieTelnetTransport,1201,216.120.247.147] Closing TTY Log: log/tty/20170617-044328-None-1201i.log after 121 seconds
+2017-06-17T04:45:29+0000 [CowrieTelnetTransport,1201,216.120.247.147] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-17T04:45:29+0000 [CowrieTelnetTransport,1201,216.120.247.147] Connection lost after 132 seconds
+2017-06-17T04:45:59+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 129.146.31.194:47988 (10.8.41.81:2222) [session: f60ea850]
+2017-06-17T04:45:59+0000 [HoneyPotSSHTransport,1509,129.146.31.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-06-17T04:45:59+0000 [HoneyPotSSHTransport,1509,129.146.31.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T04:45:59+0000 [HoneyPotSSHTransport,1509,129.146.31.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T04:45:59+0000 [HoneyPotSSHTransport,1509,129.146.31.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T04:46:01+0000 [HoneyPotSSHTransport,1508,113.195.145.52] connection lost
+2017-06-17T04:46:01+0000 [HoneyPotSSHTransport,1508,113.195.145.52] Connection lost after 95 seconds
