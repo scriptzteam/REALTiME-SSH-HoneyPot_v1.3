@@ -1021,3 +1021,53 @@
 2017-06-17T13:36:00+0000 [HoneyPotSSHTransport,3166,5.196.76.41] NEW KEYS
 2017-06-17T13:36:00+0000 [HoneyPotSSHTransport,3166,5.196.76.41] starting service 'ssh-userauth'
 2017-06-17T13:36:00+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3166,5.196.76.41] 'hduser' trying auth 'none'
+2017-06-17T13:36:02+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3166,5.196.76.41] 'hduser' authenticated with 'none'
+2017-06-17T13:36:02+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3166,5.196.76.41] starting service 'ssh-connection'
+2017-06-17T13:36:02+0000 [HoneyPotSSHTransport,3167,113.195.145.52] connection lost
+2017-06-17T13:36:02+0000 [HoneyPotSSHTransport,3167,113.195.145.52] Connection lost after 2 seconds
+2017-06-17T13:36:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3166,5.196.76.41] got global no-more-sessions@openssh.com request
+2017-06-17T13:36:03+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3122,91.195.103.204] got channel 'direct-tcpip' request
+2017-06-17T13:36:03+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3122,91.195.103.204] direct-tcp connection request to 104.68.100.200:443 from localhost:5556
+2017-06-17T13:36:03+0000 [SSHChannel None (14) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3122,91.195.103.204] direct-tcp forward to 104.68.100.200:443 with data '\x16\x03\x03\x00\xb2\x01\x00\x00\xae\x03\x03YE0\x11\xdf\x01\x88_\x9c\xba\x1f\x99\xcekM7\xd1f\x9d\x84\x88\xb4J\x90T\xe0\x1a"H\xa4q\xfd\x00\x00*\x00<\x00/\x00=\x005\x00\x05\x00\n\xc0\'\xc0\x13\xc0\x14\xc0+\xc0#\xc0,\xc0$\xc0\t\xc0\n\x00@\x002\x00j\x008\x00\x13\x00\x04\x01\x00\x00[\xff\x01\x00\x01\x00\x00\x00\x00*\x00(\x00\x00%auth.api.sonyentertainmentnetwork.com\x00\n\x00\x06\x00\x04\x00\x17\x00\x18\x00\x0b\x00\x02\x01\x00\x00\r\x00\x10\x00\x0e\x04\x01\x05\x01\x02\x01\x04\x03\x05\x03\x02\x03\x02\x02\x00#\x00\x00'
+2017-06-17T13:36:03+0000 [SSHChannel None (14) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3122,91.195.103.204] failed to connect: Connection refused
+2017-06-17T13:36:03+0000 [SSHChannel None (14) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3122,91.195.103.204] sending close 14
+2017-06-17T13:36:04+0000 [HoneyPotSSHTransport,3166,5.196.76.41] Got remote error, code 11
+	reason: disconnected by user
+2017-06-17T13:36:04+0000 [HoneyPotSSHTransport,3166,5.196.76.41] avatar hduser logging out
+2017-06-17T13:36:04+0000 [HoneyPotSSHTransport,3166,5.196.76.41] connection lost
+2017-06-17T13:36:04+0000 [HoneyPotSSHTransport,3166,5.196.76.41] Connection lost after 4 seconds
+2017-06-17T13:36:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] got channel 'direct-tcpip' request
+2017-06-17T13:36:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] direct-tcp connection request to 98.136.216.26:25 from localhost:5556
+2017-06-17T13:36:22+0000 [SSHChannel None (187) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] remote eof
+2017-06-17T13:36:22+0000 [SSHChannel None (187) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] remote close
+2017-06-17T13:36:22+0000 [SSHChannel None (187) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] sending close 187
+2017-06-17T13:36:22+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] got channel 'direct-tcpip' request
+2017-06-17T13:36:22+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] direct-tcp connection request to 98.136.216.26:25 from localhost:5556
+2017-06-17T13:36:27+0000 [SSHChannel None (188) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] remote eof
+2017-06-17T13:36:27+0000 [SSHChannel None (188) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] remote close
+2017-06-17T13:36:27+0000 [SSHChannel None (188) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] sending close 188
+2017-06-17T13:36:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3143,91.195.103.183] got channel 'direct-tcpip' request
+2017-06-17T13:36:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3143,91.195.103.183] direct-tcp connection request to 212.227.15.40:25 from localhost:5556
+2017-06-17T13:36:40+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:25641 (10.8.41.81:2222) [session: 858172f7]
+2017-06-17T13:36:40+0000 [HoneyPotSSHTransport,3168,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T13:36:40+0000 [HoneyPotSSHTransport,3168,113.195.145.52] connection lost
+2017-06-17T13:36:40+0000 [HoneyPotSSHTransport,3168,113.195.145.52] Connection lost after 0 seconds
+2017-06-17T13:36:44+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:42383 (10.8.41.81:2222) [session: 0281eb4a]
+2017-06-17T13:36:44+0000 [HoneyPotSSHTransport,3169,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T13:36:44+0000 [HoneyPotSSHTransport,3169,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T13:36:44+0000 [HoneyPotSSHTransport,3169,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T13:36:44+0000 [HoneyPotSSHTransport,3169,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T13:36:46+0000 [HoneyPotSSHTransport,3169,113.195.145.52] NEW KEYS
+2017-06-17T13:36:46+0000 [HoneyPotSSHTransport,3169,113.195.145.52] starting service 'ssh-userauth'
+2017-06-17T13:36:47+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3169,113.195.145.52] 'root' trying auth 'none'
+2017-06-17T13:36:48+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3169,113.195.145.52] 'root' authenticated with 'none'
+2017-06-17T13:36:48+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3169,113.195.145.52] starting service 'ssh-connection'
+2017-06-17T13:36:50+0000 [SSHChannel None (24) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3143,91.195.103.183] remote eof
+2017-06-17T13:36:50+0000 [SSHChannel None (24) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3143,91.195.103.183] remote close
+2017-06-17T13:36:50+0000 [SSHChannel None (24) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3143,91.195.103.183] sending close 24
+2017-06-17T13:36:51+0000 [HoneyPotSSHTransport,3169,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T13:36:51+0000 [HoneyPotSSHTransport,3169,113.195.145.52] avatar root logging out
+2017-06-17T13:36:51+0000 [HoneyPotSSHTransport,3169,113.195.145.52] connection lost
+2017-06-17T13:36:51+0000 [HoneyPotSSHTransport,3169,113.195.145.52] Connection lost after 7 seconds
