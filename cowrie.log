@@ -5448,3 +5448,27 @@
 2017-06-17T04:20:47+0000 [HoneyPotSSHTransport,1440,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
 2017-06-17T04:20:47+0000 [HoneyPotSSHTransport,1440,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
 2017-06-17T04:20:52+0000 [HoneyPotSSHTransport,1440,113.195.145.52] NEW KEYS
+2017-06-17T04:21:04+0000 [HoneyPotSSHTransport,1440,113.195.145.52] starting service 'ssh-userauth'
+2017-06-17T04:21:04+0000 [HoneyPotSSHTransport,1440,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T04:21:04+0000 [HoneyPotSSHTransport,1440,113.195.145.52] connection lost
+2017-06-17T04:21:04+0000 [HoneyPotSSHTransport,1440,113.195.145.52] Connection lost after 22 seconds
+2017-06-17T04:21:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] got channel 'direct-tcpip' request
+2017-06-17T04:21:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] direct-tcp connection request to 216.32.181.10:25 from localhost:5556
+2017-06-17T04:21:15+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:48874 (10.8.41.81:2222) [session: c12bd2ba]
+2017-06-17T04:21:15+0000 [HoneyPotSSHTransport,1441,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T04:21:15+0000 [HoneyPotSSHTransport,1441,113.195.145.52] connection lost
+2017-06-17T04:21:15+0000 [HoneyPotSSHTransport,1441,113.195.145.52] Connection lost after 0 seconds
+2017-06-17T04:21:16+0000 [SSHChannel None (42) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] remote eof
+2017-06-17T04:21:16+0000 [SSHChannel None (42) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] remote close
+2017-06-17T04:21:16+0000 [SSHChannel None (42) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] sending close 42
+2017-06-17T04:21:41+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 129.146.31.194:45831 (10.8.41.81:2222) [session: 501adf21]
+2017-06-17T04:21:41+0000 [HoneyPotSSHTransport,1442,129.146.31.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-06-17T04:21:41+0000 [HoneyPotSSHTransport,1442,129.146.31.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T04:21:41+0000 [HoneyPotSSHTransport,1442,129.146.31.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T04:21:41+0000 [HoneyPotSSHTransport,1442,129.146.31.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T04:21:45+0000 [HoneyPotSSHTransport,1442,129.146.31.194] NEW KEYS
+2017-06-17T04:21:45+0000 [HoneyPotSSHTransport,1442,129.146.31.194] starting service 'ssh-userauth'
+2017-06-17T04:21:45+0000 [HoneyPotSSHTransport,1442,129.146.31.194] connection lost
+2017-06-17T04:21:45+0000 [HoneyPotSSHTransport,1442,129.146.31.194] Connection lost after 4 seconds
