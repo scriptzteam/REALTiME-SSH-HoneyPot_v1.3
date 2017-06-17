@@ -6052,3 +6052,57 @@
 2017-06-17T06:40:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] direct-tcp connection request to 91.212.75.134:25 from localhost:5556
 2017-06-17T06:41:01+0000 [HoneyPotSSHTransport,1775,113.195.145.52] connection lost
 2017-06-17T06:41:01+0000 [HoneyPotSSHTransport,1775,113.195.145.52] Connection lost after 6 seconds
+2017-06-17T06:41:04+0000 [CowrieTelnetTransport,1496,51.15.68.152] Connection lost after 43 seconds
+2017-06-17T06:41:06+0000 [SSHChannel None (113) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] remote eof
+2017-06-17T06:41:06+0000 [SSHChannel None (113) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] remote close
+2017-06-17T06:41:06+0000 [SSHChannel None (113) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] sending close 113
+2017-06-17T06:41:06+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:16311 (10.8.41.81:2222) [session: d2c7fcb1]
+2017-06-17T06:41:08+0000 [HoneyPotSSHTransport,1777,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T06:41:08+0000 [HoneyPotSSHTransport,1777,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T06:41:08+0000 [HoneyPotSSHTransport,1777,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T06:41:08+0000 [HoneyPotSSHTransport,1777,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T06:41:09+0000 [HoneyPotSSHTransport,1777,113.195.145.52] NEW KEYS
+2017-06-17T06:41:10+0000 [HoneyPotSSHTransport,1777,113.195.145.52] starting service 'ssh-userauth'
+2017-06-17T06:41:11+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1777,113.195.145.52] 'root' trying auth 'none'
+2017-06-17T06:41:13+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1777,113.195.145.52] 'root' authenticated with 'none'
+2017-06-17T06:41:13+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1777,113.195.145.52] starting service 'ssh-connection'
+2017-06-17T06:41:13+0000 [HoneyPotSSHTransport,1777,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T06:41:13+0000 [HoneyPotSSHTransport,1777,113.195.145.52] avatar root logging out
+2017-06-17T06:41:13+0000 [HoneyPotSSHTransport,1777,113.195.145.52] connection lost
+2017-06-17T06:41:13+0000 [HoneyPotSSHTransport,1777,113.195.145.52] Connection lost after 6 seconds
+2017-06-17T06:41:39+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:60757 (10.8.41.81:2222) [session: 8688e598]
+2017-06-17T06:41:39+0000 [HoneyPotSSHTransport,1778,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T06:41:39+0000 [HoneyPotSSHTransport,1778,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T06:41:39+0000 [HoneyPotSSHTransport,1778,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T06:41:39+0000 [HoneyPotSSHTransport,1778,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T06:41:40+0000 [HoneyPotSSHTransport,1778,113.195.145.52] NEW KEYS
+2017-06-17T06:41:41+0000 [HoneyPotSSHTransport,1778,113.195.145.52] starting service 'ssh-userauth'
+2017-06-17T06:41:41+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1778,113.195.145.52] 'root' trying auth 'none'
+2017-06-17T06:41:44+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1778,113.195.145.52] 'root' authenticated with 'none'
+2017-06-17T06:41:44+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1778,113.195.145.52] starting service 'ssh-connection'
+2017-06-17T06:41:44+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:38562 (10.8.41.81:2222) [session: d4f29490]
+2017-06-17T06:41:44+0000 [HoneyPotSSHTransport,1778,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T06:41:44+0000 [HoneyPotSSHTransport,1778,113.195.145.52] avatar root logging out
+2017-06-17T06:41:44+0000 [HoneyPotSSHTransport,1778,113.195.145.52] connection lost
+2017-06-17T06:41:44+0000 [HoneyPotSSHTransport,1778,113.195.145.52] Connection lost after 5 seconds
+2017-06-17T06:41:44+0000 [HoneyPotSSHTransport,1779,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T06:41:44+0000 [HoneyPotSSHTransport,1779,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T06:41:44+0000 [HoneyPotSSHTransport,1779,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T06:41:44+0000 [HoneyPotSSHTransport,1779,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T06:41:48+0000 [HoneyPotSSHTransport,1779,113.195.145.52] NEW KEYS
+2017-06-17T06:41:48+0000 [HoneyPotSSHTransport,1779,113.195.145.52] starting service 'ssh-userauth'
+2017-06-17T06:41:49+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1779,113.195.145.52] 'root' trying auth 'none'
+2017-06-17T06:41:50+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1779,113.195.145.52] 'root' authenticated with 'none'
+2017-06-17T06:41:50+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1779,113.195.145.52] starting service 'ssh-connection'
+2017-06-17T06:41:51+0000 [HoneyPotSSHTransport,1779,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T06:41:51+0000 [HoneyPotSSHTransport,1779,113.195.145.52] avatar root logging out
+2017-06-17T06:41:51+0000 [HoneyPotSSHTransport,1779,113.195.145.52] connection lost
+2017-06-17T06:41:51+0000 [HoneyPotSSHTransport,1779,113.195.145.52] Connection lost after 6 seconds
+2017-06-17T06:41:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] got channel 'direct-tcpip' request
+2017-06-17T06:41:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] direct-tcp connection request to 207.46.163.138:25 from localhost:5556
+2017-06-17T06:41:58+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 38.99.254.248:61835 (10.8.41.81:2223) [session: TT1497]
+2017-06-17T06:41:59+0000 [CowrieTelnetTransport,1497,38.99.254.248] login attempt: 817
+2017-06-17T06:41:59+0000 [CowrieTelnetTransport,1497,38.99.254.248] login return, expect: [GET http://check2.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
