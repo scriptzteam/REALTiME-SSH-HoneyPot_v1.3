@@ -2872,3 +2872,117 @@
 2017-06-17T18:32:58+0000 [HoneyPotSSHTransport,4210,221.229.166.44] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
 2017-06-17T18:32:58+0000 [HoneyPotSSHTransport,4210,221.229.166.44] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
 2017-06-17T18:32:59+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4203,113.195.145.52] 'root' trying auth 'none'
+2017-06-17T18:33:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4203,113.195.145.52] 'root' authenticated with 'none'
+2017-06-17T18:33:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4203,113.195.145.52] starting service 'ssh-connection'
+2017-06-17T18:33:01+0000 [SSHChannel None (59) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3942,91.195.103.216] remote eof
+2017-06-17T18:33:01+0000 [SSHChannel None (59) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3942,91.195.103.216] remote close
+2017-06-17T18:33:01+0000 [SSHChannel None (59) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3942,91.195.103.216] sending close 59
+2017-06-17T18:33:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3942,91.195.103.216] got channel 'direct-tcpip' request
+2017-06-17T18:33:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3942,91.195.103.216] direct-tcp connection request to 98.138.112.33:25 from localhost:5556
+2017-06-17T18:33:02+0000 [HoneyPotSSHTransport,4210,221.229.166.44] NEW KEYS
+2017-06-17T18:33:02+0000 [HoneyPotSSHTransport,4203,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T18:33:02+0000 [HoneyPotSSHTransport,4203,113.195.145.52] avatar root logging out
+2017-06-17T18:33:02+0000 [HoneyPotSSHTransport,4203,113.195.145.52] connection lost
+2017-06-17T18:33:02+0000 [HoneyPotSSHTransport,4203,113.195.145.52] Connection lost after 113 seconds
+2017-06-17T18:33:04+0000 [HoneyPotSSHTransport,4210,221.229.166.44] starting service 'ssh-userauth'
+2017-06-17T18:33:04+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4210,221.229.166.44] 'user' trying auth 'password'
+2017-06-17T18:33:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4210,221.229.166.44] login attempt: 381
+2017-06-17T18:33:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4210,221.229.166.44] login return, expect: [root/root123]
+2017-06-17T18:33:07+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4210,221.229.166.44] login attempt [user/asd123] failed
+2017-06-17T18:33:07+0000 [SSHChannel None (60) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3942,91.195.103.216] remote eof
+2017-06-17T18:33:07+0000 [SSHChannel None (60) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3942,91.195.103.216] remote close
+2017-06-17T18:33:07+0000 [SSHChannel None (60) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3942,91.195.103.216] sending close 60
+2017-06-17T18:33:08+0000 [-] 'user' failed auth 'password'
+2017-06-17T18:33:08+0000 [-] unauthorized login: 
+2017-06-17T18:33:09+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4210,221.229.166.44] 'user' trying auth 'password'
+2017-06-17T18:33:09+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4210,221.229.166.44] login attempt: 382
+2017-06-17T18:33:09+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4210,221.229.166.44] login return, expect: [root/root123]
+2017-06-17T18:33:12+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4210,221.229.166.44] login attempt [user/Abcd1234] failed
+2017-06-17T18:33:12+0000 [SSHChannel None (162) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4064,91.195.103.183] remote eof
+2017-06-17T18:33:12+0000 [SSHChannel None (162) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4064,91.195.103.183] remote close
+2017-06-17T18:33:12+0000 [SSHChannel None (162) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4064,91.195.103.183] sending close 162
+2017-06-17T18:33:13+0000 [CowrieTelnetTransport,3234,216.120.247.147] Closing TTY Log: log/tty/20170617-183101-None-3234i.log after 131 seconds
+2017-06-17T18:33:13+0000 [CowrieTelnetTransport,3234,216.120.247.147] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-17T18:33:13+0000 [CowrieTelnetTransport,3234,216.120.247.147] Connection lost after 140 seconds
+2017-06-17T18:33:13+0000 [-] 'user' failed auth 'password'
+2017-06-17T18:33:13+0000 [-] unauthorized login: 
+2017-06-17T18:33:13+0000 [HoneyPotSSHTransport,4205,113.195.145.52] connection lost
+2017-06-17T18:33:13+0000 [HoneyPotSSHTransport,4205,113.195.145.52] Connection lost after 94 seconds
+2017-06-17T18:33:13+0000 [HoneyPotSSHTransport,4210,221.229.166.44] connection lost
+2017-06-17T18:33:13+0000 [HoneyPotSSHTransport,4210,221.229.166.44] Connection lost after 15 seconds
+2017-06-17T18:33:15+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.229.166.44:2540 (10.8.41.81:2222) [session: 05e8b016]
+2017-06-17T18:33:15+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 193.34.144.236:56018 (10.8.41.81:2223) [session: TT3238]
+2017-06-17T18:33:15+0000 [CowrieTelnetTransport,3238,193.34.144.236] login attempt: 108
+2017-06-17T18:33:15+0000 [CowrieTelnetTransport,3238,193.34.144.236] login return, expect: [CONNECT www.google.com:443 HTTP/1.1/Host: www.google.com:443]
+2017-06-17T18:33:18+0000 [CowrieTelnetTransport,3238,193.34.144.236] login attempt [CONNECT www.google.com:443 HTTP/1.1/Host: www.google.com:443] succeeded
+2017-06-17T18:33:21+0000 [CowrieTelnetTransport,3238,193.34.144.236] Opening TTY Log: log/tty/20170617-183321-None-3238i.log
+2017-06-17T18:33:21+0000 [CowrieTelnetTransport,3238,193.34.144.236] Warning: state changed and new state returned
+2017-06-17T18:33:21+0000 [CowrieTelnetTransport,3238,193.34.144.236] CMD: 
+2017-06-17T18:33:21+0000 [HoneyPotSSHTransport,4211,221.229.166.44] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-06-17T18:33:21+0000 [HoneyPotSSHTransport,4211,221.229.166.44] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T18:33:21+0000 [HoneyPotSSHTransport,4211,221.229.166.44] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T18:33:21+0000 [HoneyPotSSHTransport,4211,221.229.166.44] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T18:33:21+0000 [CowrieTelnetTransport,3238,193.34.144.236] Closing TTY Log: log/tty/20170617-183321-None-3238i.log after 0 seconds
+2017-06-17T18:33:21+0000 [CowrieTelnetTransport,3238,193.34.144.236] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+	]
+2017-06-17T18:33:21+0000 [CowrieTelnetTransport,3238,193.34.144.236] Connection lost after 6 seconds
+2017-06-17T18:33:22+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 193.34.144.236:56827 (10.8.41.81:2223) [session: TT3239]
+2017-06-17T18:33:22+0000 [CowrieTelnetTransport,3239,193.34.144.236] Connection lost after 0 seconds
+2017-06-17T18:33:22+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 193.34.144.236:56945 (10.8.41.81:2223) [session: TT3240]
+2017-06-17T18:33:22+0000 [CowrieTelnetTransport,3240,193.34.144.236] Connection lost after 0 seconds
+2017-06-17T18:33:23+0000 [HoneyPotSSHTransport,4211,221.229.166.44] NEW KEYS
+2017-06-17T18:33:26+0000 [HoneyPotSSHTransport,4211,221.229.166.44] starting service 'ssh-userauth'
+2017-06-17T18:33:28+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4211,221.229.166.44] 'user' trying auth 'password'
+2017-06-17T18:33:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4211,221.229.166.44] login attempt: 383
+2017-06-17T18:33:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4211,221.229.166.44] login return, expect: [root/root123]
+2017-06-17T18:33:32+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4211,221.229.166.44] login attempt [user/Root123456] failed
+2017-06-17T18:33:32+0000 [SSHChannel None (163) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4064,91.195.103.183] remote eof
+2017-06-17T18:33:32+0000 [SSHChannel None (163) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4064,91.195.103.183] remote close
+2017-06-17T18:33:32+0000 [SSHChannel None (163) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4064,91.195.103.183] sending close 163
+2017-06-17T18:33:33+0000 [-] 'user' failed auth 'password'
+2017-06-17T18:33:33+0000 [-] unauthorized login: 
+2017-06-17T18:33:34+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4211,221.229.166.44] 'user' trying auth 'password'
+2017-06-17T18:33:35+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4211,221.229.166.44] login attempt: 384
+2017-06-17T18:33:35+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4211,221.229.166.44] login return, expect: [root/root123]
+2017-06-17T18:33:38+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4211,221.229.166.44] login attempt [user/letmein] failed
+2017-06-17T18:33:38+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 60.174.67.30:37553 (10.8.41.81:2223) [session: TT3241]
+2017-06-17T18:33:39+0000 [-] 'user' failed auth 'password'
+2017-06-17T18:33:39+0000 [-] unauthorized login: 
+2017-06-17T18:33:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4096,91.230.47.81] got channel 'direct-tcpip' request
+2017-06-17T18:33:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4096,91.230.47.81] direct-tcp connection request to 93.115.29.122:80 from localhost:5556
+2017-06-17T18:33:41+0000 [SSHChannel None (40) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4096,91.230.47.81] direct-tcp forward to 93.115.29.122:80 with data 'GET /internals/api/ip?1497724369680116286 HTTP/1.1\r\nHost: ip3.adspy.mobi\r\nConnection: keep-alive\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.67 Safari/537.36\r\nAccept-Encoding: gzip, deflate, sdch\r\n\r\n'
+2017-06-17T18:33:41+0000 [SSHChannel None (40) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4096,91.230.47.81] failed to connect: Connection refused
+2017-06-17T18:33:41+0000 [SSHChannel None (40) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4096,91.230.47.81] sending close 40
+2017-06-17T18:33:43+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:28746 (10.8.41.81:2222) [session: e5d9a9ad]
+2017-06-17T18:33:44+0000 [HoneyPotSSHTransport,4212,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T18:33:44+0000 [HoneyPotSSHTransport,4212,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T18:33:44+0000 [HoneyPotSSHTransport,4212,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T18:33:44+0000 [HoneyPotSSHTransport,4212,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T18:33:44+0000 [CowrieTelnetTransport,3241,60.174.67.30] first time for 60.174.67.30, need: 1
+2017-06-17T18:33:44+0000 [CowrieTelnetTransport,3241,60.174.67.30] login attempt: 1
+2017-06-17T18:33:47+0000 [CowrieTelnetTransport,3241,60.174.67.30] login attempt [root/root] succeeded
+2017-06-17T18:33:49+0000 [CowrieTelnetTransport,3241,60.174.67.30] Opening TTY Log: log/tty/20170617-183349-None-3241i.log
+2017-06-17T18:33:49+0000 [CowrieTelnetTransport,3241,60.174.67.30] Warning: state changed and new state returned
+2017-06-17T18:33:49+0000 [HoneyPotSSHTransport,4212,113.195.145.52] connection lost
+2017-06-17T18:33:49+0000 [HoneyPotSSHTransport,4212,113.195.145.52] Connection lost after 6 seconds
+2017-06-17T18:33:51+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 91.230.47.70:62629 (10.8.41.81:2222) [session: 8f6c87e5]
+2017-06-17T18:33:51+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.229.166.44:1578 (10.8.41.81:2222) [session: 3c0a2798]
+2017-06-17T18:33:51+0000 [HoneyPotSSHTransport,4214,221.229.166.44] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-06-17T18:33:51+0000 [HoneyPotSSHTransport,4214,221.229.166.44] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T18:33:51+0000 [HoneyPotSSHTransport,4214,221.229.166.44] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T18:33:51+0000 [HoneyPotSSHTransport,4214,221.229.166.44] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T18:33:52+0000 [HoneyPotSSHTransport,4213,91.230.47.70] Remote SSH version: SSH-2.0-libssh-0.6.0
+2017-06-17T18:33:52+0000 [HoneyPotSSHTransport,4213,91.230.47.70] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2017-06-17T18:33:52+0000 [HoneyPotSSHTransport,4213,91.230.47.70] outgoing: 'aes256-ctr' 'hmac-sha1' 'none'
+2017-06-17T18:33:52+0000 [HoneyPotSSHTransport,4213,91.230.47.70] incoming: 'aes256-ctr' 'hmac-sha1' 'none'
+2017-06-17T18:33:53+0000 [HoneyPotSSHTransport,4213,91.230.47.70] NEW KEYS
+2017-06-17T18:33:53+0000 [HoneyPotSSHTransport,4213,91.230.47.70] starting service 'ssh-userauth'
+2017-06-17T18:33:53+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4213,91.230.47.70] '1111' trying auth 'password'
+2017-06-17T18:33:53+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4213,91.230.47.70] login attempt: 61
+2017-06-17T18:33:53+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4213,91.230.47.70] login return, expect: [1111/1111]
+2017-06-17T18:33:56+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4213,91.230.47.70] login attempt [1111/1111] succeeded
+2017-06-17T18:33:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4213,91.230.47.70] '1111' authenticated with 'password'
+2017-06-17T18:33:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4213,91.230.47.70] starting service 'ssh-connection'
+2017-06-17T18:34:00+0000 [HoneyPotSSHTransport,4214,221.229.166.44] NEW KEYS
