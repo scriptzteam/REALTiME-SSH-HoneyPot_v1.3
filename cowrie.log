@@ -6967,3 +6967,43 @@
 2017-06-17T05:57:00+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 109.236.83.229:41744 (10.8.41.81:2223) [session: TT1312]
 2017-06-17T05:57:01+0000 [CowrieTelnetTransport,1311,109.236.83.184] login attempt: 4692
 2017-06-17T05:57:01+0000 [CowrieTelnetTransport,1311,109.236.83.184] login return, expect: [default/]
+2017-06-17T05:57:03+0000 [CowrieTelnetTransport,1311,109.236.83.184] login attempt [root/666666] failed
+2017-06-17T05:57:03+0000 [CowrieTelnetTransport,1311,109.236.83.184] Warning: state changed and new state returned
+2017-06-17T05:57:04+0000 [CowrieTelnetTransport,1311,109.236.83.184] login attempt: 4693
+2017-06-17T05:57:04+0000 [CowrieTelnetTransport,1311,109.236.83.184] login return, expect: [default/]
+2017-06-17T05:57:06+0000 [CowrieTelnetTransport,1311,109.236.83.184] login attempt [enable/system] failed
+2017-06-17T05:57:06+0000 [CowrieTelnetTransport,1311,109.236.83.184] Warning: state changed and new state returned
+2017-06-17T05:57:07+0000 [CowrieTelnetTransport,1311,109.236.83.184] login attempt: 4694
+2017-06-17T05:57:07+0000 [CowrieTelnetTransport,1311,109.236.83.184] login return, expect: [default/]
+2017-06-17T05:57:10+0000 [CowrieTelnetTransport,1311,109.236.83.184] login attempt [shell/sh] failed
+2017-06-17T05:57:10+0000 [CowrieTelnetTransport,1311,109.236.83.184] Warning: state changed and new state returned
+2017-06-17T05:57:10+0000 [CowrieTelnetTransport,1312,109.236.83.229] login attempt: 12755
+2017-06-17T05:57:10+0000 [CowrieTelnetTransport,1312,109.236.83.229] login return, expect: [root/12345]
+2017-06-17T05:57:13+0000 [CowrieTelnetTransport,1312,109.236.83.229] login attempt [root/anko] failed
+2017-06-17T05:57:13+0000 [CowrieTelnetTransport,1312,109.236.83.229] Warning: state changed and new state returned
+2017-06-17T05:57:13+0000 [CowrieTelnetTransport,1312,109.236.83.229] login attempt: 12756
+2017-06-17T05:57:13+0000 [CowrieTelnetTransport,1312,109.236.83.229] login return, expect: [root/12345]
+2017-06-17T05:57:16+0000 [CowrieTelnetTransport,1312,109.236.83.229] login attempt [enable/system] failed
+2017-06-17T05:57:16+0000 [CowrieTelnetTransport,1312,109.236.83.229] Warning: state changed and new state returned
+2017-06-17T05:57:17+0000 [CowrieTelnetTransport,1312,109.236.83.229] login attempt: 12757
+2017-06-17T05:57:17+0000 [CowrieTelnetTransport,1312,109.236.83.229] login return, expect: [root/12345]
+2017-06-17T05:57:19+0000 [CowrieTelnetTransport,1312,109.236.83.229] login attempt [shell/sh] failed
+2017-06-17T05:57:19+0000 [CowrieTelnetTransport,1312,109.236.83.229] Warning: state changed and new state returned
+2017-06-17T05:57:27+0000 [CowrieTelnetTransport,1310,109.236.83.184] Closing TTY Log: log/tty/20170617-055646-None-1310i.log after 40 seconds
+2017-06-17T05:57:27+0000 [CowrieTelnetTransport,1310,109.236.83.184] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+	]
+2017-06-17T05:57:27+0000 [CowrieTelnetTransport,1310,109.236.83.184] Connection lost after 49 seconds
+2017-06-17T05:57:31+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 109.236.83.181:59338 (10.8.41.81:2223) [session: TT1313]
+2017-06-17T05:57:35+0000 [CowrieTelnetTransport,1313,109.236.83.181] login attempt: 19378
+2017-06-17T05:57:35+0000 [CowrieTelnetTransport,1313,109.236.83.181] login return, expect: [default/]
+2017-06-17T05:57:38+0000 [CowrieTelnetTransport,1313,109.236.83.181] login attempt [admin/7ujMko0admin] failed
+2017-06-17T05:57:38+0000 [CowrieTelnetTransport,1313,109.236.83.181] Warning: state changed and new state returned
+2017-06-17T05:57:38+0000 [CowrieTelnetTransport,1313,109.236.83.181] login attempt: 19379
+2017-06-17T05:57:38+0000 [CowrieTelnetTransport,1313,109.236.83.181] login return, expect: [default/]
+2017-06-17T05:57:41+0000 [CowrieTelnetTransport,1313,109.236.83.181] login attempt [enable/system] failed
+2017-06-17T05:57:41+0000 [CowrieTelnetTransport,1313,109.236.83.181] Warning: state changed and new state returned
+2017-06-17T05:57:41+0000 [CowrieTelnetTransport,1313,109.236.83.181] login attempt: 19380
+2017-06-17T05:57:41+0000 [CowrieTelnetTransport,1313,109.236.83.181] login return, expect: [default/]
+2017-06-17T05:57:44+0000 [CowrieTelnetTransport,1313,109.236.83.181] login attempt [shell/sh] failed
+2017-06-17T05:57:44+0000 [CowrieTelnetTransport,1313,109.236.83.181] Warning: state changed and new state returned
+2017-06-17T05:57:48+0000 [CowrieTelnetTransport,1304,109.236.83.229] Connection lost after 135 seconds
