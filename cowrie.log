@@ -2766,3 +2766,50 @@
 2017-06-17T05:25:44+0000 [CowrieTelnetTransport,1226,216.120.247.147] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
 	]
 2017-06-17T05:25:44+0000 [CowrieTelnetTransport,1226,216.120.247.147] Connection lost after 134 seconds
+2017-06-17T05:26:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] got channel 'direct-tcpip' request
+2017-06-17T05:26:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] direct-tcp connection request to 213.199.154.202:25 from localhost:5556
+2017-06-17T05:26:15+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 38.99.252.150:60008 (10.8.41.81:2223) [session: TT1228]
+2017-06-17T05:26:16+0000 [CowrieTelnetTransport,1228,38.99.252.150] login attempt: 1207
+2017-06-17T05:26:16+0000 [CowrieTelnetTransport,1228,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-17T05:26:18+0000 [CowrieTelnetTransport,1228,38.99.252.150] login attempt [GET http://chek.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8] failed
+2017-06-17T05:26:18+0000 [CowrieTelnetTransport,1228,38.99.252.150] Warning: state changed and new state returned
+2017-06-17T05:26:20+0000 [CowrieTelnetTransport,1228,38.99.252.150] login attempt: 1208
+2017-06-17T05:26:20+0000 [CowrieTelnetTransport,1228,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-17T05:26:22+0000 [CowrieTelnetTransport,1228,38.99.252.150] login attempt [Connection: Close/User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0] failed
+2017-06-17T05:26:22+0000 [CowrieTelnetTransport,1228,38.99.252.150] Warning: state changed and new state returned
+2017-06-17T05:26:22+0000 [CowrieTelnetTransport,1228,38.99.252.150] login attempt: 1209
+2017-06-17T05:26:22+0000 [CowrieTelnetTransport,1228,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-17T05:26:25+0000 [CowrieTelnetTransport,1228,38.99.252.150] login attempt [Accept-Language: en-US,en;q=0.5/Cache-Control: max-age=0] failed
+2017-06-17T05:26:25+0000 [CowrieTelnetTransport,1228,38.99.252.150] Warning: state changed and new state returned
+2017-06-17T05:26:25+0000 [CowrieTelnetTransport,1228,38.99.252.150] login attempt: 1210
+2017-06-17T05:26:25+0000 [CowrieTelnetTransport,1228,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-17T05:26:28+0000 [CowrieTelnetTransport,1228,38.99.252.150] login attempt [Referer: RefererString/Cookie: param1=CookieString] failed
+2017-06-17T05:26:28+0000 [CowrieTelnetTransport,1228,38.99.252.150] Warning: state changed and new state returned
+2017-06-17T05:26:29+0000 [CowrieTelnetTransport,1228,38.99.252.150] login attempt: 1211
+2017-06-17T05:26:29+0000 [CowrieTelnetTransport,1228,38.99.252.150] login return, expect: [GET http://chekfast.zennolab.com/proxy.php HTTP/1.1/Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+2017-06-17T05:26:31+0000 [CowrieTelnetTransport,1228,38.99.252.150] login attempt [Accept-Encoding: gzip/Host: chek.zennolab.com] failed
+2017-06-17T05:26:31+0000 [CowrieTelnetTransport,1228,38.99.252.150] Warning: state changed and new state returned
+2017-06-17T05:26:31+0000 [CowrieTelnetTransport,1228,38.99.252.150] Connection lost after 16 seconds
+2017-06-17T05:26:31+0000 [SSHChannel None (75) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] remote eof
+2017-06-17T05:26:31+0000 [SSHChannel None (75) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] remote close
+2017-06-17T05:26:31+0000 [SSHChannel None (75) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] sending close 75
+2017-06-17T05:26:48+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 193.34.144.236:56923 (10.8.41.81:2223) [session: TT1229]
+2017-06-17T05:26:49+0000 [CowrieTelnetTransport,1229,193.34.144.236] login attempt: 96
+2017-06-17T05:26:49+0000 [CowrieTelnetTransport,1229,193.34.144.236] login return, expect: [CONNECT www.google.com:443 HTTP/1.1/Host: www.google.com:443]
+2017-06-17T05:26:51+0000 [CowrieTelnetTransport,1229,193.34.144.236] login attempt [CONNECT www.google.com:443 HTTP/1.1/Host: www.google.com:443] succeeded
+2017-06-17T05:26:53+0000 [CowrieTelnetTransport,1229,193.34.144.236] Opening TTY Log: log/tty/20170617-052653-None-1229i.log
+2017-06-17T05:26:53+0000 [CowrieTelnetTransport,1229,193.34.144.236] Warning: state changed and new state returned
+2017-06-17T05:26:53+0000 [CowrieTelnetTransport,1229,193.34.144.236] CMD: 
+2017-06-17T05:26:53+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1295,91.195.103.218] got channel 'direct-tcpip' request
+2017-06-17T05:26:53+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1295,91.195.103.218] direct-tcp connection request to 107.23.51.103:443 from localhost:5556
+2017-06-17T05:26:53+0000 [CowrieTelnetTransport,1229,193.34.144.236] Closing TTY Log: log/tty/20170617-052653-None-1229i.log after 0 seconds
+2017-06-17T05:26:53+0000 [CowrieTelnetTransport,1229,193.34.144.236] honeypot terminal protocol connection lost [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+	]
+2017-06-17T05:26:53+0000 [CowrieTelnetTransport,1229,193.34.144.236] Connection lost after 4 seconds
+2017-06-17T05:26:53+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 193.34.144.236:57510 (10.8.41.81:2223) [session: TT1230]
+2017-06-17T05:26:53+0000 [CowrieTelnetTransport,1230,193.34.144.236] Connection lost after 0 seconds
+2017-06-17T05:26:53+0000 [SSHChannel None (20) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1295,91.195.103.218] direct-tcp forward to 107.23.51.103:443 with data '\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\x0f\xcaO\x93\xef\xd9\xb6\xdezw\x95L\x95\xa4\xba\xb7*\xbe*\xf6\xcf\xbb\x98\x855_\x87\xdbq]\xe7\xd4\x00\x00\xa0\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\xc0"\xc0!\x00\xa3\x00\x9f\x00k\x00j\x009\x008\x00\x88\x00\x87\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0\x12\xc0\x08\xc0\x1c\xc0\x1b\x00\x16\x00\x13\xc0\r\xc0\x03\x00\n\xc0/\xc0+\xc0\'\xc0#\xc0\x13\xc0\t\xc0\x1f\xc0\x1e\x00\xa2\x00\x9e\x00g\x00@\x003\x002\x00\x9a\x00\x99\x00E\x00D\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\x00\x15\x00\x12\x00\t\x00\x14\x00\x11\x00\x08\x00\x06\x00\x03\x00\xff\x01\x00\x013\x00\x00\x00\x10\x00\x0e\x00\x00\x0bpopcash.net\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x004\x002\x00\x0e\x00\r\x00\x19\x00\x0b\x00\x0c\x00\x18\x00\t\x00\n\x00\x16\x00\x17\x00\x08\x00\x06\x00\x07\x00\x14\x00\x15\x00\x04\x00\x05\x00\x12\x00\x13\x00\x01\x00\x02\x00\x03\x00\x0f\x00\x10\x00\x11\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01\x00\x15\x00\xae\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+2017-06-17T05:26:53+0000 [SSHChannel None (20) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1295,91.195.103.218] failed to connect: Connection refused
+2017-06-17T05:26:53+0000 [SSHChannel None (20) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1295,91.195.103.218] sending close 20
+2017-06-17T05:26:53+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 193.34.144.236:57590 (10.8.41.81:2223) [session: TT1231]
+2017-06-17T05:26:54+0000 [CowrieTelnetTransport,1231,193.34.144.236] Connection lost after 0 seconds
