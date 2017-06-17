@@ -5284,3 +5284,38 @@
 2017-06-17T05:47:00+0000 [HoneyPotSSHTransport,1651,113.195.145.52] connection lost
 2017-06-17T05:47:00+0000 [HoneyPotSSHTransport,1651,113.195.145.52] Connection lost after 8 seconds
 2017-06-17T05:47:01+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 109.236.83.229:56433 (10.8.41.81:2223) [session: TT1275]
+2017-06-17T05:47:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1379,91.230.47.81] got channel 'direct-tcpip' request
+2017-06-17T05:47:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1379,91.230.47.81] direct-tcp connection request to 136.243.58.37:80 from localhost:5556
+2017-06-17T05:47:03+0000 [SSHChannel None (90) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1379,91.230.47.81] direct-tcp forward to 136.243.58.37:80 with data 'GET /internals/api/ip?1497678371680869427 HTTP/1.1\r\nHost: ip2.adspy.mobi\r\nConnection: keep-alive\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.67 Safari/537.36\r\nAccept-Encoding: gzip, deflate, sdch\r\n\r\n'
+2017-06-17T05:47:03+0000 [SSHChannel None (90) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1379,91.230.47.81] failed to connect: Connection refused
+2017-06-17T05:47:03+0000 [SSHChannel None (90) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1379,91.230.47.81] sending close 90
+2017-06-17T05:47:05+0000 [CowrieTelnetTransport,1275,109.236.83.229] login attempt: 12721
+2017-06-17T05:47:05+0000 [CowrieTelnetTransport,1275,109.236.83.229] login return, expect: [root/12345]
+2017-06-17T05:47:08+0000 [CowrieTelnetTransport,1275,109.236.83.229] login attempt [root/klv1234] failed
+2017-06-17T05:47:08+0000 [CowrieTelnetTransport,1275,109.236.83.229] Warning: state changed and new state returned
+2017-06-17T05:47:08+0000 [CowrieTelnetTransport,1269,109.236.83.229] Connection lost after 136 seconds
+2017-06-17T05:47:08+0000 [CowrieTelnetTransport,1275,109.236.83.229] login attempt: 12722
+2017-06-17T05:47:08+0000 [CowrieTelnetTransport,1275,109.236.83.229] login return, expect: [root/12345]
+2017-06-17T05:47:11+0000 [CowrieTelnetTransport,1275,109.236.83.229] login attempt [enable/system] failed
+2017-06-17T05:47:11+0000 [CowrieTelnetTransport,1275,109.236.83.229] Warning: state changed and new state returned
+2017-06-17T05:47:12+0000 [CowrieTelnetTransport,1275,109.236.83.229] login attempt: 12723
+2017-06-17T05:47:12+0000 [CowrieTelnetTransport,1275,109.236.83.229] login return, expect: [root/12345]
+2017-06-17T05:47:14+0000 [CowrieTelnetTransport,1275,109.236.83.229] login attempt [shell/sh] failed
+2017-06-17T05:47:14+0000 [CowrieTelnetTransport,1275,109.236.83.229] Warning: state changed and new state returned
+2017-06-17T05:47:25+0000 [CowrieTelnetTransport,1270,109.236.83.181] Connection lost after 133 seconds
+2017-06-17T05:47:28+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] got channel 'direct-tcpip' request
+2017-06-17T05:47:28+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] direct-tcp connection request to 207.46.163.10:25 from localhost:5556
+2017-06-17T05:47:37+0000 [SSHChannel None (85) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] remote eof
+2017-06-17T05:47:37+0000 [SSHChannel None (85) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] remote close
+2017-06-17T05:47:37+0000 [SSHChannel None (85) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] sending close 85
+2017-06-17T05:47:39+0000 [CowrieTelnetTransport,1271,109.236.83.181] Connection lost after 133 seconds
+2017-06-17T05:47:50+0000 [CowrieTelnetTransport,1272,109.236.83.229] Connection lost after 137 seconds
+2017-06-17T05:47:52+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:17242 (10.8.41.81:2222) [session: 00179bb0]
+2017-06-17T05:47:52+0000 [HoneyPotSSHTransport,1652,113.195.145.52] connection lost
+2017-06-17T05:47:52+0000 [HoneyPotSSHTransport,1652,113.195.145.52] Connection lost after 0 seconds
+2017-06-17T05:47:58+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:37837 (10.8.41.81:2222) [session: 9e203928]
+2017-06-17T05:47:59+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 103.243.107.201:64811 (10.8.41.81:2222) [session: 19f7d506]
+2017-06-17T05:48:00+0000 [HoneyPotSSHTransport,1654,103.243.107.201] Remote SSH version: SSH-2.0-Granados-1.0
+2017-06-17T05:48:00+0000 [HoneyPotSSHTransport,1654,103.243.107.201] kex alg, key alg: 'diffie-hellman-group1-sha1' 'ssh-dss'
+2017-06-17T05:48:00+0000 [HoneyPotSSHTransport,1654,103.243.107.201] outgoing: 'aes128-cbc' 'hmac-sha1' 'none'
+2017-06-17T05:48:00+0000 [HoneyPotSSHTransport,1654,103.243.107.201] incoming: 'aes128-cbc' 'hmac-sha1' 'none'
