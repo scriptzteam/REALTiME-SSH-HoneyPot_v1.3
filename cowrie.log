@@ -1068,3 +1068,29 @@
 2017-06-17T07:33:56+0000 [CowrieTelnetTransport,1600,202.7.226.98] Command found: cat /dev/shm/.s
 2017-06-17T07:33:57+0000 [CowrieTelnetTransport,1600,202.7.226.98] CMD: /bin/busybox WYEIJ
 2017-06-17T07:33:57+0000 [CowrieTelnetTransport,1600,202.7.226.98] Command found: /bin/busybox WYEIJ
+2017-06-17T07:34:27+0000 [CowrieTelnetTransport,1599,216.120.247.147] Connection lost after 56 seconds
+2017-06-17T07:34:36+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 163.23.103.129:30473 (10.8.41.81:2222) [session: c76b52ae]
+2017-06-17T07:34:36+0000 [HoneyPotSSHTransport,1942,163.23.103.129] Remote SSH version: SSH-2.0-libssh2_1.7.0
+2017-06-17T07:34:36+0000 [HoneyPotSSHTransport,1942,163.23.103.129] kex alg, key alg: 'diffie-hellman-group-exchange-sha256' 'ssh-rsa'
+2017-06-17T07:34:36+0000 [HoneyPotSSHTransport,1942,163.23.103.129] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T07:34:36+0000 [HoneyPotSSHTransport,1942,163.23.103.129] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T07:34:36+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] got channel 'direct-tcpip' request
+2017-06-17T07:34:36+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] direct-tcp connection request to 23.5.96.14:443 from localhost:5556
+2017-06-17T07:34:37+0000 [SSHChannel None (48) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] direct-tcp forward to 23.5.96.14:443 with data '\x80z\x01\x03\x01\x00Q\x00\x00\x00 \x00\x009\x00\x008\x00\x005\x00\x00\x16\x00\x00\x13\x00\x00\n\x07\x00\xc0\x00\x003\x00\x002\x00\x00/\x00\x00\x07\x05\x00\x80\x03\x00\x80\x00\x00\x05\x00\x00\x04\x01\x00\x80\x00\x00\x15\x00\x00\x12\x00\x00\t\x06\x00@\x00\x00\x14\x00\x00\x11\x00\x00\x08\x00\x00\x06\x04\x00\x80\x00\x00\x03\x02\x00\x80\xe5\xea\x12\xd2\x92{\x11\xb5\xb6eL\xae\xa2$\xaf[\x0f\x05\xf8\x19k\xa8\xabIc\xa8\xf7)\x8f\xbd\x89v'
+2017-06-17T07:34:37+0000 [SSHChannel None (48) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] failed to connect: Connection refused
+2017-06-17T07:34:37+0000 [SSHChannel None (48) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1808,91.195.103.201] sending close 48
+2017-06-17T07:34:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1823,134.19.187.75] got channel 'direct-tcpip' request
+2017-06-17T07:34:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1823,134.19.187.75] direct-tcp connection request to 63.250.192.45:25 from localhost:5556
+2017-06-17T07:34:58+0000 [HoneyPotSSHTransport,1941,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T07:34:58+0000 [HoneyPotSSHTransport,1941,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T07:34:58+0000 [HoneyPotSSHTransport,1941,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T07:34:58+0000 [HoneyPotSSHTransport,1941,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T07:34:58+0000 [HoneyPotSSHTransport,1942,163.23.103.129] NEW KEYS
+2017-06-17T07:34:58+0000 [HoneyPotSSHTransport,1942,163.23.103.129] starting service 'ssh-userauth'
+2017-06-17T07:34:58+0000 [HoneyPotSSHTransport,1942,163.23.103.129] connection lost
+2017-06-17T07:34:58+0000 [HoneyPotSSHTransport,1942,163.23.103.129] Connection lost after 22 seconds
+2017-06-17T07:34:59+0000 [SSHChannel None (45) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1823,134.19.187.75] remote eof
+2017-06-17T07:34:59+0000 [SSHChannel None (45) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1823,134.19.187.75] remote close
+2017-06-17T07:34:59+0000 [SSHChannel None (45) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1823,134.19.187.75] sending close 45
+2017-06-17T07:35:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1823,134.19.187.75] got channel 'direct-tcpip' request
+2017-06-17T07:35:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1823,134.19.187.75] direct-tcp connection request to 63.250.192.45:25 from localhost:5556
