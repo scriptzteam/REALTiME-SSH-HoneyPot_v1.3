@@ -1569,3 +1569,23 @@
 2017-06-17T05:11:59+0000 [SSHChannel None (64) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1379,91.230.47.81] direct-tcp forward to 146.0.234.123:28111 with data 'GET /ak/checkIp?geo=true HTTP/1.1\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nUser-Agent: Java/1.8.0_66\r\nHost: 146.0.234.123:28111\r\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n\r\n'
 2017-06-17T05:11:59+0000 [SSHChannel None (64) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1379,91.230.47.81] failed to connect: Connection refused
 2017-06-17T05:11:59+0000 [SSHChannel None (64) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1379,91.230.47.81] sending close 64
+2017-06-17T05:12:18+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:56062 (10.8.41.81:2222) [session: 52cf82da]
+2017-06-17T05:12:19+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] got channel 'direct-tcpip' request
+2017-06-17T05:12:19+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] direct-tcp connection request to 216.32.181.42:25 from localhost:5556
+2017-06-17T05:12:19+0000 [HoneyPotSSHTransport,1577,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T05:12:19+0000 [HoneyPotSSHTransport,1577,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T05:12:19+0000 [HoneyPotSSHTransport,1577,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T05:12:19+0000 [HoneyPotSSHTransport,1577,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T05:12:20+0000 [HoneyPotSSHTransport,1577,113.195.145.52] NEW KEYS
+2017-06-17T05:12:22+0000 [HoneyPotSSHTransport,1577,113.195.145.52] starting service 'ssh-userauth'
+2017-06-17T05:12:23+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1577,113.195.145.52] 'root' trying auth 'none'
+2017-06-17T05:12:25+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1577,113.195.145.52] 'root' authenticated with 'none'
+2017-06-17T05:12:25+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1577,113.195.145.52] starting service 'ssh-connection'
+2017-06-17T05:12:25+0000 [HoneyPotSSHTransport,1577,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T05:12:25+0000 [HoneyPotSSHTransport,1577,113.195.145.52] avatar root logging out
+2017-06-17T05:12:25+0000 [HoneyPotSSHTransport,1577,113.195.145.52] connection lost
+2017-06-17T05:12:25+0000 [HoneyPotSSHTransport,1577,113.195.145.52] Connection lost after 6 seconds
+2017-06-17T05:12:27+0000 [SSHChannel None (68) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] remote eof
+2017-06-17T05:12:28+0000 [SSHChannel None (68) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] remote close
+2017-06-17T05:12:28+0000 [SSHChannel None (68) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1274,91.195.103.199] sending close 68
