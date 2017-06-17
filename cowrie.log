@@ -3546,3 +3546,67 @@
 2017-06-17T19:10:58+0000 [-] unauthorized login: 
 2017-06-17T19:11:00+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 216.120.247.147:55969 (10.8.41.81:2223) [session: TT3297]
 2017-06-17T19:11:00+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 216.120.247.147:43886 (10.8.41.81:2223) [session: TT3298]
+2017-06-17T19:11:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4381,221.229.166.44] 'test' trying auth 'password'
+2017-06-17T19:11:02+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4381,221.229.166.44] login attempt: 568
+2017-06-17T19:11:02+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4381,221.229.166.44] login return, expect: [root/root123]
+2017-06-17T19:11:04+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4381,221.229.166.44] login attempt [test/qwertyuiop] failed
+2017-06-17T19:11:05+0000 [-] 'test' failed auth 'password'
+2017-06-17T19:11:05+0000 [-] unauthorized login: 
+2017-06-17T19:11:06+0000 [HoneyPotSSHTransport,4381,221.229.166.44] connection lost
+2017-06-17T19:11:06+0000 [HoneyPotSSHTransport,4381,221.229.166.44] Connection lost after 27 seconds
+2017-06-17T19:11:07+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.229.166.44:1478 (10.8.41.81:2222) [session: 7b62ef52]
+2017-06-17T19:11:09+0000 [CowrieTelnetTransport,3296,216.120.247.147] login attempt: 2100
+2017-06-17T19:11:09+0000 [CowrieTelnetTransport,3296,216.120.247.147] login return, expect: [root/888888]
+2017-06-17T19:11:11+0000 [CowrieTelnetTransport,3296,216.120.247.147] login attempt [root/888888] succeeded
+2017-06-17T19:11:13+0000 [CowrieTelnetTransport,3296,216.120.247.147] Opening TTY Log: log/tty/20170617-191113-None-3296i.log
+2017-06-17T19:11:13+0000 [CowrieTelnetTransport,3296,216.120.247.147] Warning: state changed and new state returned
+2017-06-17T19:11:22+0000 [CowrieTelnetTransport,3296,216.120.247.147] CMD: enable
+2017-06-17T19:11:22+0000 [CowrieTelnetTransport,3296,216.120.247.147] Command found: enable 
+2017-06-17T19:11:22+0000 [CowrieTelnetTransport,3296,216.120.247.147] Reading txtcmd from "txtcmds/bin/enable"
+2017-06-17T19:11:22+0000 [CowrieTelnetTransport,3296,216.120.247.147] CMD: shell
+2017-06-17T19:11:22+0000 [CowrieTelnetTransport,3296,216.120.247.147] Command not found: shell
+2017-06-17T19:11:22+0000 [CowrieTelnetTransport,3296,216.120.247.147] CMD: sh
+2017-06-17T19:11:22+0000 [CowrieTelnetTransport,3296,216.120.247.147] Command found: sh 
+2017-06-17T19:11:22+0000 [HoneyPotSSHTransport,4382,221.229.166.44] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-06-17T19:11:22+0000 [HoneyPotSSHTransport,4382,221.229.166.44] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T19:11:22+0000 [HoneyPotSSHTransport,4382,221.229.166.44] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T19:11:22+0000 [HoneyPotSSHTransport,4382,221.229.166.44] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T19:11:24+0000 [CowrieTelnetTransport,3296,216.120.247.147] CMD: /bin/busybox ACHIU
+2017-06-17T19:11:24+0000 [CowrieTelnetTransport,3296,216.120.247.147] Command found: /bin/busybox ACHIU
+2017-06-17T19:11:24+0000 [HoneyPotSSHTransport,4382,221.229.166.44] NEW KEYS
+2017-06-17T19:11:24+0000 [HoneyPotSSHTransport,4382,221.229.166.44] starting service 'ssh-userauth'
+2017-06-17T19:11:25+0000 [CowrieTelnetTransport,3298,216.120.247.147] login attempt: 2101
+2017-06-17T19:11:25+0000 [CowrieTelnetTransport,3298,216.120.247.147] login return, expect: [root/888888]
+2017-06-17T19:11:28+0000 [CowrieTelnetTransport,3298,216.120.247.147] login attempt [root/xc3511] failed
+2017-06-17T19:11:28+0000 [CowrieTelnetTransport,3298,216.120.247.147] Warning: state changed and new state returned
+2017-06-17T19:11:29+0000 [CowrieTelnetTransport,3297,216.120.247.147] login attempt: 2102
+2017-06-17T19:11:29+0000 [CowrieTelnetTransport,3297,216.120.247.147] login return, expect: [root/888888]
+2017-06-17T19:11:32+0000 [CowrieTelnetTransport,3297,216.120.247.147] login attempt [root/root] failed
+2017-06-17T19:11:32+0000 [CowrieTelnetTransport,3297,216.120.247.147] Warning: state changed and new state returned
+2017-06-17T19:11:32+0000 [CowrieTelnetTransport,3296,216.120.247.147] CMD: /bin/busybox ps; /bin/busybox ACHIU
+2017-06-17T19:11:32+0000 [CowrieTelnetTransport,3296,216.120.247.147] Command found: /bin/busybox ps
+2017-06-17T19:11:32+0000 [CowrieTelnetTransport,3296,216.120.247.147] Command found: ps
+2017-06-17T19:11:32+0000 [CowrieTelnetTransport,3296,216.120.247.147] Command found: /bin/busybox ACHIU
+2017-06-17T19:11:32+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4382,221.229.166.44] 'test' trying auth 'password'
+2017-06-17T19:11:32+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4382,221.229.166.44] login attempt: 569
+2017-06-17T19:11:32+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4382,221.229.166.44] login return, expect: [root/root123]
+2017-06-17T19:11:35+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4382,221.229.166.44] login attempt [test/7890] failed
+2017-06-17T19:11:41+0000 [-] 'test' failed auth 'password'
+2017-06-17T19:11:41+0000 [-] unauthorized login: 
+2017-06-17T19:11:41+0000 [CowrieTelnetTransport,3298,216.120.247.147] login attempt: 2103
+2017-06-17T19:11:41+0000 [CowrieTelnetTransport,3298,216.120.247.147] login return, expect: [root/888888]
+2017-06-17T19:11:44+0000 [CowrieTelnetTransport,3298,216.120.247.147] login attempt [enable/shell] failed
+2017-06-17T19:11:44+0000 [CowrieTelnetTransport,3298,216.120.247.147] Warning: state changed and new state returned
+2017-06-17T19:11:45+0000 [CowrieTelnetTransport,3297,216.120.247.147] login attempt: 2104
+2017-06-17T19:11:45+0000 [CowrieTelnetTransport,3297,216.120.247.147] login return, expect: [root/888888]
+2017-06-17T19:11:47+0000 [CowrieTelnetTransport,3297,216.120.247.147] login attempt [enable/shell] failed
+2017-06-17T19:11:47+0000 [CowrieTelnetTransport,3297,216.120.247.147] Warning: state changed and new state returned
+2017-06-17T19:11:55+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 59.63.161.252:41938 (10.8.41.81:2222) [session: c9d5484e]
+2017-06-17T19:11:55+0000 [CowrieTelnetTransport,3296,216.120.247.147] CMD: /bin/busybox cat /proc/mounts; /bin/busybox ACHIU
+2017-06-17T19:11:55+0000 [CowrieTelnetTransport,3296,216.120.247.147] Command found: /bin/busybox cat /proc/mounts
+2017-06-17T19:11:55+0000 [CowrieTelnetTransport,3296,216.120.247.147] Command found: cat /proc/mounts
+2017-06-17T19:11:55+0000 [CowrieTelnetTransport,3296,216.120.247.147] Command found: /bin/busybox ACHIU
+2017-06-17T19:11:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4382,221.229.166.44] 'test' trying auth 'password'
+2017-06-17T19:11:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4382,221.229.166.44] login attempt: 570
+2017-06-17T19:11:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4382,221.229.166.44] login return, expect: [root/root123]
+2017-06-17T19:11:58+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4382,221.229.166.44] login attempt [test/cisco] failed
