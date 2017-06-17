@@ -7243,3 +7243,126 @@
 2017-06-17T12:06:00+0000 [SSHChannel None (86) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] sending close 86
 2017-06-17T12:06:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] got channel 'direct-tcpip' request
 2017-06-17T12:06:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] direct-tcp connection request to 63.250.192.46:25 from localhost:5556
+2017-06-17T12:06:01+0000 [-] 'ubnt' failed auth 'password'
+2017-06-17T12:06:01+0000 [-] unauthorized login: 
+2017-06-17T12:06:02+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2788,221.229.204.177] 'ubnt' trying auth 'password'
+2017-06-17T12:06:02+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2788,221.229.204.177] login attempt: 714
+2017-06-17T12:06:02+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2788,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:06:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2788,221.229.204.177] login attempt [ubnt/caonimade] failed
+2017-06-17T12:06:05+0000 [SSHChannel None (87) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] remote eof
+2017-06-17T12:06:05+0000 [SSHChannel None (87) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] remote close
+2017-06-17T12:06:05+0000 [SSHChannel None (87) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2471,91.195.103.216] sending close 87
+2017-06-17T12:06:06+0000 [-] 'ubnt' failed auth 'password'
+2017-06-17T12:06:06+0000 [-] unauthorized login: 
+2017-06-17T12:06:06+0000 [HoneyPotSSHTransport,2788,221.229.204.177] connection lost
+2017-06-17T12:06:06+0000 [HoneyPotSSHTransport,2788,221.229.204.177] Connection lost after 26 seconds
+2017-06-17T12:06:07+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.229.204.177:2429 (10.8.41.81:2222) [session: 094c1c37]
+2017-06-17T12:06:07+0000 [HoneyPotSSHTransport,2789,221.229.204.177] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-06-17T12:06:07+0000 [HoneyPotSSHTransport,2789,221.229.204.177] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T12:06:07+0000 [HoneyPotSSHTransport,2789,221.229.204.177] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:06:07+0000 [HoneyPotSSHTransport,2789,221.229.204.177] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:06:09+0000 [HoneyPotSSHTransport,2789,221.229.204.177] NEW KEYS
+2017-06-17T12:06:09+0000 [HoneyPotSSHTransport,2789,221.229.204.177] starting service 'ssh-userauth'
+2017-06-17T12:06:10+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] 'ubnt' trying auth 'password'
+2017-06-17T12:06:10+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login attempt: 715
+2017-06-17T12:06:10+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:06:13+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login attempt [ubnt/123.com] failed
+2017-06-17T12:06:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2497,91.195.103.183] got channel 'direct-tcpip' request
+2017-06-17T12:06:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2497,91.195.103.183] direct-tcp connection request to 94.136.40.62:25 from localhost:5556
+2017-06-17T12:06:14+0000 [-] 'ubnt' failed auth 'password'
+2017-06-17T12:06:14+0000 [-] unauthorized login: 
+2017-06-17T12:06:14+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] 'ubnt' trying auth 'password'
+2017-06-17T12:06:15+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login attempt: 716
+2017-06-17T12:06:15+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:06:18+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login attempt [ubnt/huawei] failed
+2017-06-17T12:06:18+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:17592 (10.8.41.81:2222) [session: c9871c29]
+2017-06-17T12:06:18+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2497,91.195.103.183] got channel 'direct-tcpip' request
+2017-06-17T12:06:18+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2497,91.195.103.183] direct-tcp connection request to 192.64.147.150:25 from localhost:5556
+2017-06-17T12:06:18+0000 [HoneyPotSSHTransport,2790,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T12:06:18+0000 [HoneyPotSSHTransport,2790,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T12:06:18+0000 [HoneyPotSSHTransport,2790,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:06:18+0000 [HoneyPotSSHTransport,2790,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:06:19+0000 [-] 'ubnt' failed auth 'password'
+2017-06-17T12:06:19+0000 [-] unauthorized login: 
+2017-06-17T12:06:19+0000 [HoneyPotSSHTransport,2790,113.195.145.52] NEW KEYS
+2017-06-17T12:06:19+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] 'ubnt' trying auth 'password'
+2017-06-17T12:06:20+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login attempt: 717
+2017-06-17T12:06:20+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:06:22+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login attempt [ubnt/testpass] failed
+2017-06-17T12:06:22+0000 [HoneyPotSSHTransport,2790,113.195.145.52] starting service 'ssh-userauth'
+2017-06-17T12:06:23+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2790,113.195.145.52] 'root' trying auth 'none'
+2017-06-17T12:06:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2790,113.195.145.52] 'root' authenticated with 'none'
+2017-06-17T12:06:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2790,113.195.145.52] starting service 'ssh-connection'
+2017-06-17T12:06:24+0000 [-] 'ubnt' failed auth 'password'
+2017-06-17T12:06:24+0000 [-] unauthorized login: 
+2017-06-17T12:06:25+0000 [HoneyPotSSHTransport,2790,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T12:06:25+0000 [HoneyPotSSHTransport,2790,113.195.145.52] avatar root logging out
+2017-06-17T12:06:25+0000 [HoneyPotSSHTransport,2790,113.195.145.52] connection lost
+2017-06-17T12:06:25+0000 [HoneyPotSSHTransport,2790,113.195.145.52] Connection lost after 6 seconds
+2017-06-17T12:06:25+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] 'ubnt' trying auth 'password'
+2017-06-17T12:06:26+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login attempt: 718
+2017-06-17T12:06:26+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:06:28+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login attempt [ubnt/#654298#] failed
+2017-06-17T12:06:29+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2497,91.195.103.183] got channel 'direct-tcpip' request
+2017-06-17T12:06:29+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2497,91.195.103.183] direct-tcp connection request to 62.149.178.10:25 from localhost:5556
+2017-06-17T12:06:29+0000 [-] 'ubnt' failed auth 'password'
+2017-06-17T12:06:29+0000 [-] unauthorized login: 
+2017-06-17T12:06:31+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] 'ubnt' trying auth 'password'
+2017-06-17T12:06:31+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login attempt: 719
+2017-06-17T12:06:31+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:06:34+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2789,221.229.204.177] login attempt [ubnt/!qaz@wsx#edc] failed
+2017-06-17T12:06:35+0000 [-] 'ubnt' failed auth 'password'
+2017-06-17T12:06:35+0000 [-] unauthorized login: 
+2017-06-17T12:06:35+0000 [HoneyPotSSHTransport,2789,221.229.204.177] connection lost
+2017-06-17T12:06:35+0000 [HoneyPotSSHTransport,2789,221.229.204.177] Connection lost after 28 seconds
+2017-06-17T12:06:36+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.229.204.177:1733 (10.8.41.81:2222) [session: 108062a4]
+2017-06-17T12:06:36+0000 [HoneyPotSSHTransport,2791,221.229.204.177] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-06-17T12:06:36+0000 [HoneyPotSSHTransport,2791,221.229.204.177] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T12:06:36+0000 [HoneyPotSSHTransport,2791,221.229.204.177] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:06:36+0000 [HoneyPotSSHTransport,2791,221.229.204.177] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:06:37+0000 [HoneyPotSSHTransport,2791,221.229.204.177] NEW KEYS
+2017-06-17T12:06:38+0000 [HoneyPotSSHTransport,2791,221.229.204.177] starting service 'ssh-userauth'
+2017-06-17T12:06:38+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] 'ubnt' trying auth 'password'
+2017-06-17T12:06:38+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login attempt: 720
+2017-06-17T12:06:38+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:06:41+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login attempt [ubnt/!@#123] failed
+2017-06-17T12:06:42+0000 [-] 'ubnt' failed auth 'password'
+2017-06-17T12:06:42+0000 [-] unauthorized login: 
+2017-06-17T12:06:42+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] 'ubnt' trying auth 'password'
+2017-06-17T12:06:43+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login attempt: 721
+2017-06-17T12:06:43+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:06:46+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login attempt [ubnt/admins] failed
+2017-06-17T12:06:46+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 113.195.145.52:31336 (10.8.41.81:2222) [session: b7f98624]
+2017-06-17T12:06:46+0000 [HoneyPotSSHTransport,2792,113.195.145.52] Remote SSH version: SSH-2.0-PUTTY
+2017-06-17T12:06:46+0000 [HoneyPotSSHTransport,2792,113.195.145.52] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-06-17T12:06:46+0000 [HoneyPotSSHTransport,2792,113.195.145.52] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:06:46+0000 [HoneyPotSSHTransport,2792,113.195.145.52] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-06-17T12:06:47+0000 [-] 'ubnt' failed auth 'password'
+2017-06-17T12:06:47+0000 [-] unauthorized login: 
+2017-06-17T12:06:47+0000 [HoneyPotSSHTransport,2792,113.195.145.52] NEW KEYS
+2017-06-17T12:06:48+0000 [HoneyPotSSHTransport,2792,113.195.145.52] starting service 'ssh-userauth'
+2017-06-17T12:06:48+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] 'ubnt' trying auth 'password'
+2017-06-17T12:06:49+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login attempt: 722
+2017-06-17T12:06:49+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:06:51+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login attempt [ubnt/monitor] failed
+2017-06-17T12:06:51+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2792,113.195.145.52] 'root' trying auth 'none'
+2017-06-17T12:06:53+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2792,113.195.145.52] 'root' authenticated with 'none'
+2017-06-17T12:06:53+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2792,113.195.145.52] starting service 'ssh-connection'
+2017-06-17T12:06:53+0000 [-] 'ubnt' failed auth 'password'
+2017-06-17T12:06:53+0000 [-] unauthorized login: 
+2017-06-17T12:06:53+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] 'ubnt' trying auth 'password'
+2017-06-17T12:06:54+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login attempt: 723
+2017-06-17T12:06:54+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:06:56+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login attempt [ubnt/welcome] failed
+2017-06-17T12:06:56+0000 [HoneyPotSSHTransport,2792,113.195.145.52] Got remote error, code 11
+	reason: 
+2017-06-17T12:06:56+0000 [HoneyPotSSHTransport,2792,113.195.145.52] avatar root logging out
+2017-06-17T12:06:56+0000 [HoneyPotSSHTransport,2792,113.195.145.52] connection lost
+2017-06-17T12:06:56+0000 [HoneyPotSSHTransport,2792,113.195.145.52] Connection lost after 10 seconds
+2017-06-17T12:06:57+0000 [-] 'ubnt' failed auth 'password'
+2017-06-17T12:06:57+0000 [-] unauthorized login: 
+2017-06-17T12:06:58+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] 'ubnt' trying auth 'password'
+2017-06-17T12:06:59+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login attempt: 724
+2017-06-17T12:06:59+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login return, expect: [root/root123]
+2017-06-17T12:07:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2791,221.229.204.177] login attempt [ubnt/system] failed
